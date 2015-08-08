@@ -103,6 +103,12 @@ if &t_Co >= 256 || has("gui_running")
     hi markdownAutomaticLink ctermbg=0 ctermfg=9 cterm=underline guibg=#080808 guifg=#b27b78 gui=underline
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=0 ctermfg=10 cterm=NONE guibg=#080808 guifg=#9dae71 gui=NONE
+    hi airline_warning ctermbg=9 ctermfg=0 cterm=NONE guibg=#b27b78 guifg=#080808 gui=NONE
+    hi airline_warning_bold ctermbg=9 ctermfg=0 cterm=BOLD guibg=#b27b78 guifg=#080808 gui=BOLD
+    hi airline_warning_red ctermbg=9 ctermfg=1 cterm=BOLD guibg=#b27b78 guifg=#401f1f gui=BOLD
+    hi link airline_warning_inactive airline_warning
+    hi link airline_warning_inactive_bold airline_warning_bold
+    hi link airline_warning_inactive_red airline_warning_red
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=black ctermfg=gray cterm=NONE
@@ -176,6 +182,12 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi markdownAutomaticLink ctermbg=black ctermfg=red cterm=underline
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=black ctermfg=green cterm=NONE
+    hi airline_warning ctermbg=red ctermfg=black cterm=NONE
+    hi airline_warning_bold ctermbg=red ctermfg=black cterm=BOLD
+    hi airline_warning_red ctermbg=red ctermfg=darkred cterm=BOLD
+    hi link airline_warning_inactive airline_warning
+    hi link airline_warning_inactive_bold airline_warning_bold
+    hi link airline_warning_inactive_red airline_warning_red
 endif
 
 
