@@ -75,9 +75,26 @@ Next, restart or open Gnome Terminal. Right click on the terminal and select pro
 
 
 ## Customization
-You can customize all of the theme's colors by adding some lines to your .*vimrc. Here's a few examples:
+You can customize all of the theme's colors by adding some lines to your .*vimrc. Here's an example that changes the color of the line numbers:
 
 ```VimL
 " Changes the Line Number colors
-au ColorScheme * hi LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
+autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
+```
+
+"LineNR" is the highlight group for vim's linenumbers. If you'd like to change the colors of anything else you need to figure out the highlight group.
+
+I've found that the easiest way to do that is a vim mapping I found which tells you the highlight group of whatever's under your cursor. Just add these 2 lines to your .*vimrc and reopen. Then  press f10.
+
+```VimL
+" Shows the highlight group of whatever's under the cursor
+map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
+```
+
+The autocommands must be added before the colorscheme line in your vimrc otherwise they won't work.
+
+```VimL
+	colorscheme = crayon
 ```
