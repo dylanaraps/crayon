@@ -38,7 +38,7 @@ let s:IA = [ s:IN1[1] , s:IN2[1] , s:IN1[3] , s:IN2[3] , '' ]
 let g:airline#themes#crayon#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 
 " Warnings
-let s:WI = [ '#401f1f', '#a3a69a', 1, 7, 'bold' ]
+let s:WI = [ '#401f1f', '#dfe7d7', 1, 15, 'bold' ]
 let g:airline#themes#crayon#palette.normal.airline_warning = s:WI
 let g:airline#themes#crayon#palette.insert.airline_warning = s:WI
 let g:airline#themes#crayon#palette.visual.airline_warning = s:WI
