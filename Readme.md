@@ -7,10 +7,13 @@ A dark colorscheme for Vim, Gvim and Nvim.
 
 ## Screenshots
 
+Coffeescript
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/coffeescript.png)
 
+HTML
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/html.png)
 
+SCSS
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/scss.png)
 
 ## Installation
