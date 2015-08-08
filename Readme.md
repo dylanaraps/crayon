@@ -2,9 +2,6 @@
 
 ![](https://github.com/dylanaraps/crayon-theme/)
 
-Plugin support: vim-airline
-
-
 ## Installation
 
 ### *Vim
@@ -24,13 +21,64 @@ Then, put this in your '~/.*vimrc'
 	colorscheme crayon
 ```
 
-If you're using vim-airline also add this line to your .*vimrc:
+### Plugin Support
+Crayon currently supports these vim plugins:
+	* Vim-Airline
+
+Feel free to request support for your favourite plugins and I'll happily add them to the list!
+
+
+#### Vim-Airline
+Add this line to your .*vimrc:
 
 ```VimL
 	let g:airline_theme = 'crayon'
 ```
 
-### Terminal
+### Customization
+You can customize all of the theme's colors by adding some lines to your .*vimrc. Here's an example that changes the color of the line numbers:
+
+```VimL
+" Changes the Line Number colors
+autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
+```
+
+guibg/guifg change the background and foreground in neovim with true colors enabled and gvim. These values must be a hex code. e.g #FFFFFF
+
+ctermbg/ctermfg change the background and foreground in vim/neovim They must be a number between 0 and 255. [More Info](http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim).
+
+"LineNR" is the highlight group for vim's linenumbers. If you'd like to change the colors of anything else you need to figure out the highlight group.
+
+I've found that the easiest way to do that is a vim mapping I found which tells you the highlight group of whatever's under your cursor. Just add these 2 lines to your .*vimrc and reopen. Then  press f10.
+
+```VimL
+" Shows the highlight group of whatever's under the cursor
+map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
+```
+
+The autocommands must be added before the colorscheme line in your vimrc otherwise they won't work. Here's an example.
+
+```VimL
+	" This autocmd changes the background to #000000
+ 	autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
+
+	colorscheme = crayon
+```
+
+#### Protip
+If you have multiple autocmds it's good to group them, you can do so like this:
+
+```VimL
+augroup ColorOverride
+ 	au!
+ 	autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
+	autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
+augroup END
+```
+
+### Terminal Installation
 
 Crayon support for various terminals, if the terminal you're using isn't listed here create an issue or a pull request and I'll be happy to add/merge support for it.
 
@@ -73,45 +121,3 @@ source /terminal/Gnome\ Terminal/crayon-theme.sh
 
 Next, restart or open Gnome Terminal. Right click on the terminal and select profiles the menu that pops-up. The scheme you just sourced should be available for selection.
 
-
-## Customization
-You can customize all of the theme's colors by adding some lines to your .*vimrc. Here's an example that changes the color of the line numbers:
-
-```VimL
-" Changes the Line Number colors
-autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
-```
-
-guibg/guifg change the background and foreground in neovim with true colors enabled and gvim. These values must be a hex code. e.g #FFFFFF
-
-ctermbg/ctermfg change the background and foreground in vim/neovim They must be a number between 0 and 255. [More Info](http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim).
-
-"LineNR" is the highlight group for vim's linenumbers. If you'd like to change the colors of anything else you need to figure out the highlight group.
-
-I've found that the easiest way to do that is a vim mapping I found which tells you the highlight group of whatever's under your cursor. Just add these 2 lines to your .*vimrc and reopen. Then  press f10.
-
-```VimL
-" Shows the highlight group of whatever's under the cursor
-map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
-\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
-\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
-```
-
-The autocommands must be added before the colorscheme line in your vimrc otherwise they won't work. Here's an example.
-
-```VimL
-	" This autocmd changes the background to #000000
- 	autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
-
-	colorscheme = crayon
-```
-
-If you have multiple autocmds it's good to group them, you can do so like this:
-
-```VimL
-augroup ColorOverride
- 	au!
- 	autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
-	autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
-augroup END
-```
