@@ -33,32 +33,32 @@ let s:IN2 = [ '#a3a69a' , '#080808' , 7 , 0 ]
 let s:IA = [ s:IN1[1] , s:IN2[1] , s:IN1[3] , s:IN2[3] , '' ]
 let g:airline#themes#crayon#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 
-let s:WI = airline#themes#get_highlight2(['WarningMsg', 'bg'], ['WarningMsg', 'fg'], 'bold')
-    let g:airline#themes#crayon#palette.normal.airline_warning = [
-         \ s:WI[0], s:WI[1], s:WI[2], s:WI[3]
-         \ ]
+" Warning Message
+let s:WI = [ '#b27b78' , '#080808' , 9  , 0 ]
 
-    let g:airline#themes#crayon#palette.normal_modified.airline_warning =
-        \ g:airline#themes#crayon#palette.normal.airline_warning
+let g:airline#themes#crayon#palette.normal.airline_warning = airline#themes#generate_color_map(s:WI)
 
+let g:airline#themes#crayon#palette.normal_modified.airline_warning =
+	\ g:airline#themes#crayon#palette.normal.airline_warning
 
-    let g:airline#themes#crayon#palette.insert.airline_warning =
-        \ g:airline#themes#crayon#palette.normal.airline_warning
+let g:airline#themes#crayon#palette.insert.airline_warning =
+	\ g:airline#themes#crayon#palette.normal.airline_warning
 
-    let g:airline#themes#crayon#palette.insert_modified.airline_warning =
-        \ g:airline#themes#crayon#palette.normal.airline_warning
+let g:airline#themes#crayon#palette.insert_modified.airline_warning =
+	\ g:airline#themes#crayon#palette.normal.airline_warning
 
-    let g:airline#themes#crayon#palette.visual.airline_warning =
-        \ g:airline#themes#crayon#palette.normal.airline_warning
+let g:airline#themes#crayon#palette.visual.airline_warning =
+	\ g:airline#themes#crayon#palette.normal.airline_warning
 
-    let g:airline#themes#crayon#palette.visual_modified.airline_warning =
-        \ g:airline#themes#crayon#palette.normal.airline_warning
+let g:airline#themes#crayon#palette.visual_modified.airline_warning =
+	\ g:airline#themes#crayon#palette.normal.airline_warning
 
-    let g:airline#themes#crayon#palette.replace.airline_warning =
-        \ g:airline#themes#crayon#palette.normal.airline_warning
+let g:airline#themes#crayon#palette.replace.airline_warning =
+	\ g:airline#themes#crayon#palette.normal.airline_warning
 
-    let g:airline#themes#crayon#palette.replace_modified.airline_warning =
-        \ g:airline#themes#crayon#palette.normal.airline_warning
+let g:airline#themes#crayon#palette.replace_modified.airline_warning =
+	\ g:airline#themes#crayon#palette.normal.airline_warning
+
 " Tabline
 let g:airline#themes#crayon#palette.tabline = {
       \ 'airline_tab':     [ '#080808' , '#6f8e9a' ,  8 , 12  , 'bold' ],
