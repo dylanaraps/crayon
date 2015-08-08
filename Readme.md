@@ -1,10 +1,6 @@
 # Crayon: A dark  16 color theme for *Vim/Terminal
 
-![](https://github.com/dylanaraps/crayon-theme/screenshots/crayon.png)
-
-## Screenshots
-
-![]()
+![screenshot](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/crayon.png)
 
 ## Installation
 
