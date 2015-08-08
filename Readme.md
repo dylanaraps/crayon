@@ -11,14 +11,14 @@ Place 'crayon.vim' file into 'colors' folder within your Vim directory, e.g. '~/
 Or use a plugin manager like [Plug](https://github.com/junegunn/vim-plug).
 
 ```VimL
-	Plug 'dylanaraps/crayon-theme'
+Plug 'dylanaraps/crayon-theme'
 ```
 
 Then, put this in your '~/.*vimrc'
 
 ```VimL
-	set background=dark
-	colorscheme crayon
+set background=dark
+colorscheme crayon
 ```
 
 ### Plugin Support
@@ -33,7 +33,7 @@ Feel free to request support for your favourite plugins and I'll happily add the
 Add this line to your .*vimrc:
 
 ```VimL
-	let g:airline_theme = 'crayon'
+let g:airline_theme = 'crayon'
 ```
 
 ### Customization
@@ -73,8 +73,8 @@ If you have multiple autocmds it's good to group them, you can do so like this:
 
 ```VimL
 augroup ColorOverride
- 	au!
- 	autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
+	au!
+	autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
 	autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
 augroup END
 ```
