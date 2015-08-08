@@ -1,6 +1,10 @@
 # Crayon: A dark  16 color theme for *Vim/Terminal
 
-![](https://github.com/dylanaraps/crayon-theme/)
+![](https://github.com/dylanaraps/crayon-theme/screenshots/crayon.png)
+
+## Screenshots
+
+![]()
 
 ## Installation
 
@@ -62,10 +66,10 @@ map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans
 The autocommands must be added before the colorscheme line in your vimrc otherwise they won't work. Here's an example.
 
 ```VimL
-	" This autocmd changes the background to #000000
- 	autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
+" This autocmd changes the background to #000000
+autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
 
-	colorscheme = crayon
+colorscheme = crayon
 ```
 
 #### Protip
@@ -73,9 +77,9 @@ If you have multiple autocmds it's good to group them, you can do so like this:
 
 ```VimL
 augroup ColorOverride
-	au!
-	autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
-	autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
+au!
+autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
+autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
 augroup END
 ```
 
