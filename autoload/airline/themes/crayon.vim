@@ -33,9 +33,9 @@ let g:airline#themes#crayon#palette.inactive = airline#themes#generate_color_map
 
 " Tabline
 let g:airline#themes#crayon#palette.tabline = {
-      \ 'airline_tab':     [ '#080808' , '#6f8e9a' ,  0 , 12  , 'bold' ],
-      \ 'airline_tabsel':  [ '#080808' , '#6f8e9a' ,  0 , 12  , 'bold' ],
-      \ 'airline_tabtype': [ '#080808' , '#6f8e9a' ,  0 , 12  , 'bold' ],
+      \ 'airline_tab':     [ '#080808' , '#6f8e9a' ,  8 , 12  , 'bold' ],
+      \ 'airline_tabsel':  [ '#080808' , '#6f8e9a' ,  8 , 12  , 'bold' ],
+      \ 'airline_tabtype': [ '#080808' , '#6f8e9a' ,  8 , 12  , 'bold' ],
       \ 'airline_tabfill': [ '#a3a69a' , '#080808' ,  7 ,  0  , 'bold' ],
-      \ 'airline_tabmod':  [ '#080808' , '#9dae71' ,  0 , 10  , 'bold' ]
+      \ 'airline_tabmod':  [ '#080808' , '#9dae71' ,  8 , 10  , 'bold' ]
 \ }
