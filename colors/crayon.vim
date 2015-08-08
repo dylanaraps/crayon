@@ -93,12 +93,17 @@ if &t_Co >= 256 || has("gui_running")
     hi Cursor ctermbg=0 ctermfg=8 cterm=NONE guibg=#080808 guifg=#1f1f1f gui=NONE
     hi Structure ctermbg=0 ctermfg=13 cterm=NONE guibg=#080808 guifg=#b59cd8 gui=NONE
     hi CursorColumn ctermbg=8 ctermfg=15 cterm=NONE guibg=#1f1f1f guifg=#dfe7d7 gui=NONE
+    hi EndOfBuffer ctermbg=0 ctermfg=0 cterm=NONE guibg=#080808 guifg=#080808 gui=NONE
     hi htmlLink ctermbg=0 ctermfg=7 cterm=underline guibg=#080808 guifg=#a3a69a gui=underline
     hi cssMultiColumnAttr ctermbg=0 ctermfg=10 cterm=NONE guibg=#080808 guifg=#9dae71 gui=NONE
     hi link cssFontAttr cssMultiColumnAttr
     hi link cssFlexibleBoxAttr cssMultiColumnAttr
     hi cssBraces ctermbg=0 ctermfg=7 cterm=NONE guibg=#080808 guifg=#a3a69a gui=NONE
     hi link cssAttrComma cssBraces
+    hi Float ctermbg=0 ctermfg=9 cterm=underline guibg=#080808 guifg=#b27b78 gui=underline
+    hi link markdownUrl Float
+    hi link markdownAutomaticLink Float
+    hi markdownCodeDelimiter ctermbg=0 ctermfg=10 cterm=NONE guibg=#080808 guifg=#9dae71 gui=NONE
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=black ctermfg=gray cterm=NONE
@@ -162,12 +167,17 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Cursor ctermbg=black ctermfg=darkgray cterm=NONE
     hi Structure ctermbg=black ctermfg=magenta cterm=NONE
     hi CursorColumn ctermbg=darkgray ctermfg=white cterm=NONE
+    hi EndOfBuffer ctermbg=black ctermfg=black cterm=NONE
     hi htmlLink ctermbg=black ctermfg=gray cterm=underline
     hi cssMultiColumnAttr ctermbg=black ctermfg=green cterm=NONE
     hi link cssFontAttr cssMultiColumnAttr
     hi link cssFlexibleBoxAttr cssMultiColumnAttr
     hi cssBraces ctermbg=black ctermfg=gray cterm=NONE
     hi link cssAttrComma cssBraces
+    hi Float ctermbg=black ctermfg=red cterm=underline
+    hi link markdownUrl Float
+    hi link markdownAutomaticLink Float
+    hi markdownCodeDelimiter ctermbg=black ctermfg=green cterm=NONE
 endif
 
 
