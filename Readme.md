@@ -1,4 +1,7 @@
-# Crayon: A dark  16 color theme for *Vim/Terminal
+# Crayon
+
+A dark colorscheme for Vim, Gvim and Nvim.
+
 
 ![screenshot](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/crayon.png)
 
