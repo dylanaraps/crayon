@@ -82,6 +82,10 @@ You can customize all of the theme's colors by adding some lines to your .*vimrc
 autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
 ```
 
+guibg/guifg change the background and foreground in neovim with true colors enabled and gvim. These values must be a hex code. e.g #FFFFFF
+
+ctermbg/ctermfg change the background and foreground in vim/neovim They must be a number between 0 and 255. [More Info](http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim).
+
 "LineNR" is the highlight group for vim's linenumbers. If you'd like to change the colors of anything else you need to figure out the highlight group.
 
 I've found that the easiest way to do that is a vim mapping I found which tells you the highlight group of whatever's under your cursor. Just add these 2 lines to your .*vimrc and reopen. Then  press f10.
@@ -93,8 +97,11 @@ map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans
 \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
 ```
 
-The autocommands must be added before the colorscheme line in your vimrc otherwise they won't work.
+The autocommands must be added before the colorscheme line in your vimrc otherwise they won't work. Here's an example.
 
 ```VimL
+	" This autocmd changes the background to #000000
+ 	autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
+
 	colorscheme = crayon
 ```
