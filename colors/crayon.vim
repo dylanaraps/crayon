@@ -89,7 +89,7 @@ if &t_Co >= 256 || has("gui_running")
     hi ModeMsg ctermbg=0 ctermfg=10 cterm=NONE guibg=#080808 guifg=#9dae71 gui=NONE
     hi MoreMsg ctermbg=0 ctermfg=10 cterm=NONE guibg=#080808 guifg=#9dae71 gui=NONE
     hi Question ctermbg=0 ctermfg=12 cterm=NONE guibg=#080808 guifg=#6f8e9a gui=NONE
-    hi WarningMsg ctermbg=0 ctermfg=9 cterm=NONE guibg=#080808 guifg=#b27b78 gui=NONE
+    hi WarningMsg ctermbg=9 ctermfg=0 cterm=NONE guibg=#b27b78 guifg=#080808 gui=NONE
     hi Cursor ctermbg=0 ctermfg=8 cterm=NONE guibg=#080808 guifg=#1f1f1f gui=NONE
     hi Structure ctermbg=0 ctermfg=13 cterm=NONE guibg=#080808 guifg=#b59cd8 gui=NONE
     hi CursorColumn ctermbg=8 ctermfg=15 cterm=NONE guibg=#1f1f1f guifg=#dfe7d7 gui=NONE
@@ -162,7 +162,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi ModeMsg ctermbg=black ctermfg=green cterm=NONE
     hi MoreMsg ctermbg=black ctermfg=green cterm=NONE
     hi Question ctermbg=black ctermfg=blue cterm=NONE
-    hi WarningMsg ctermbg=black ctermfg=red cterm=NONE
+    hi WarningMsg ctermbg=red ctermfg=black cterm=NONE
     hi Cursor ctermbg=black ctermfg=darkgray cterm=NONE
     hi Structure ctermbg=black ctermfg=magenta cterm=NONE
     hi CursorColumn ctermbg=darkgray ctermfg=white cterm=NONE
