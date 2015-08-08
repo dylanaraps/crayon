@@ -24,7 +24,7 @@ Then, put this in your '~/.*vimrc'
 ### Plugin Support
 Crayon currently supports these vim plugins:
 
-	* Vim-Airline
+* Vim-Airline
 
 Feel free to request support for your favourite plugins and I'll happily add them to the list!
 
