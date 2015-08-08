@@ -100,9 +100,8 @@ if &t_Co >= 256 || has("gui_running")
     hi link cssFlexibleBoxAttr cssMultiColumnAttr
     hi cssBraces ctermbg=0 ctermfg=7 cterm=NONE guibg=#080808 guifg=#a3a69a gui=NONE
     hi link cssAttrComma cssBraces
-    hi Float ctermbg=0 ctermfg=9 cterm=underline guibg=#080808 guifg=#b27b78 gui=underline
-    hi link markdownUrl Float
-    hi link markdownAutomaticLink Float
+    hi markdownAutomaticLink ctermbg=0 ctermfg=9 cterm=underline guibg=#080808 guifg=#b27b78 gui=underline
+    hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=0 ctermfg=10 cterm=NONE guibg=#080808 guifg=#9dae71 gui=NONE
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
@@ -174,9 +173,8 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi link cssFlexibleBoxAttr cssMultiColumnAttr
     hi cssBraces ctermbg=black ctermfg=gray cterm=NONE
     hi link cssAttrComma cssBraces
-    hi Float ctermbg=black ctermfg=red cterm=underline
-    hi link markdownUrl Float
-    hi link markdownAutomaticLink Float
+    hi markdownAutomaticLink ctermbg=black ctermfg=red cterm=underline
+    hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=black ctermfg=green cterm=NONE
 endif
 
