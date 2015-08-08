@@ -81,6 +81,16 @@ autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
 colorscheme = crayon
 ```
 
+### Changing the Background Color
+If you don't like the default background color you can easily change it without having to edit the theme! You just need to add a single line to your .*vimrc before the colorscheme line above.
+
+```VimL
+	" This line changes the background color
+ 	au ColorScheme * hi Normal guibg=#181818 ctermbg=7
+
+	colorscheme = crayon
+```
+
 #### Protip
 If you have multiple autocmds it's good to group them, you can do so like this:
 
