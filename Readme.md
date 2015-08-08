@@ -5,6 +5,8 @@ Plugin support: vim-airline
 
 ## Installation
 
+### *Vim
+
 Place 'crayon.vim' file into 'colors' folder within your Vim directory, e.g. "~/.*vim/colors/"
 
 Or use a plugin manager like [Plug](https://github.com/junegunn/vim-plug).
@@ -16,10 +18,8 @@ Or use a plugin manager like [Plug](https://github.com/junegunn/vim-plug).
 Then, put this in your `~/.*vimrc`
 
 ```VimL
-
 	set background=dark
 	colorscheme crayon
-
 ```
 
 If you're using vim-airline also add this line to your .*vimrc:
@@ -30,3 +30,6 @@ If you're using vim-airline also add this line to your .*vimrc:
 
 ```
 
+### Terminal
+
+.Xresources for xterm, Urxvt and most other terminals.

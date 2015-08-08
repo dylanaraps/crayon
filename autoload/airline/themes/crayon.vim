@@ -1,22 +1,22 @@
 " Normal mode
-let s:N1 = [ '#080808' , '#6f8e9a' , 15 , 55  ]
-let s:N2 = [ '#080808' , '#2d4963' , 15 , 98  ]
-let s:N3 = [ '#a3a69a' , '#080808' , 15 , 233 ]
+let s:N1 = [ '#080808' , '#6f8e9a' , 0 , 12 ]
+let s:N2 = [ '#080808' , '#2d4963' , 0 ,  4 ]
+let s:N3 = [ '#a3a69a' , '#080808' , 7 ,  0 ]
 
 " Insert mode
-let s:I1 = [ '#080808' , '#9dae71' , 15 , 33  ]
-let s:I2 = [ '#080808' , '#3b4a35' , 15 , 39  ]
-let s:I3 = [ '#a3a69a' , '#080808' , 15 , 233 ]
+let s:I1 = [ '#080808' , '#9dae71' , 0 , 10 ]
+let s:I2 = [ '#080808' , '#3b4a35' , 0 ,  2 ]
+let s:I3 = [ '#a3a69a' , '#080808' , 7 ,  0 ]
 
 " Visual mode
-let s:V1 = [ '#080808' , '#d8c27a' , 233 , 202 ]
-let s:V2 = [ '#080808' , '#4d3c2e' , 233 , 214 ]
-let s:V3 = [ '#a3a69a' , '#121212' , 15  , 233 ]
+let s:V1 = [ '#080808' , '#d8c27a' , 0 , 11 ]
+let s:V2 = [ '#080808' , '#4d3c2e' , 0 ,  3 ]
+let s:V3 = [ '#a3a69a' , '#080808' , 7 ,  0 ]
 
 " Replace mode
-let s:R1 = [ '#080808' , '#b59cd8' , 15 , 196 ]
-let s:R2 = [ '#080808' , '#564059' , 15 , 203 ]
-let s:R3 = [ '#a3a69a' , '#080808' , 15 , 233 ]
+let s:R1 = [ '#080808' , '#b59cd8' , 0 , 13 ]
+let s:R2 = [ '#080808' , '#564059' , 0 ,  5 ]
+let s:R3 = [ '#a3a69a' , '#080808' , 7 ,  0 ]
 
 let g:airline#themes#crayon#palette = {}
 let g:airline#themes#crayon#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
@@ -25,17 +25,17 @@ let g:airline#themes#crayon#palette.visual = airline#themes#generate_color_map(s
 let g:airline#themes#crayon#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 
 " Inactive mode
-let s:IN1 = [ '#a3a69a' , '#191919' , 247 , 241 ]
-let s:IN2 = [ '#a3a69a' , '#080808' , 15  , 233 ]
+let s:IN1 = [ '#a3a69a' , '#1f1f1f' , 7 , 8 ]
+let s:IN2 = [ '#a3a69a' , '#080808' , 7 , 0 ]
 
 let s:IA = [ s:IN1[1] , s:IN2[1] , s:IN1[3] , s:IN2[3] , '' ]
 let g:airline#themes#crayon#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 
 " Tabline
 let g:airline#themes#crayon#palette.tabline = {
-      \ 'airline_tab':     [ '#080808' , '#6f8e9a' ,  15 , 55  , 'bold' ],
-      \ 'airline_tabsel':  [ '#080808' , '#6f8e9a' ,  15 , 98  , 'bold' ],
-      \ 'airline_tabtype': [ '#080808' , '#6f8e9a' ,  15 , 98  , 'bold' ],
-      \ 'airline_tabfill': [ '#a3a69a' , '#080808' ,  15 , 233 , 'bold' ],
-      \ 'airline_tabmod':  [ '#080808' , '#9dae71' ,  15 , 33  , 'bold' ]
+      \ 'airline_tab':     [ '#080808' , '#6f8e9a' ,  0 , 12  , 'bold' ],
+      \ 'airline_tabsel':  [ '#080808' , '#6f8e9a' ,  0 , 12  , 'bold' ],
+      \ 'airline_tabtype': [ '#080808' , '#6f8e9a' ,  0 , 12  , 'bold' ],
+      \ 'airline_tabfill': [ '#a3a69a' , '#080808' ,  7 ,  0  , 'bold' ],
+      \ 'airline_tabmod':  [ '#080808' , '#9dae71' ,  0 , 10  , 'bold' ]
 \ }
