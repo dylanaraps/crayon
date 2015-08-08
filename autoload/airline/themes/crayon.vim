@@ -27,7 +27,7 @@ let g:airline#themes#crayon#palette.visual = airline#themes#generate_color_map(s
 let g:airline#themes#crayon#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 
 let g:airline#themes#crayon#palette.accents = {
-      \ 'red': [ '#080808' , '#b27b78' , 0 , '9' , '' ]
+      \ 'red': [ '#080808' , '#b27b78' , 0 , 9 , '' ]
       \ }
 
 " Inactive mode
@@ -36,6 +36,17 @@ let s:IN2 = [ '#a3a69a' , '#080808' , 7 , 0 ]
 
 let s:IA = [ s:IN1[1] , s:IN2[1] , s:IN1[3] , s:IN2[3] , '' ]
 let g:airline#themes#crayon#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
+
+" Warnings
+let s:WI = [ '#080808', '#b27b78', 0, 9 ]
+let g:airline#themes#crayon#palette.normal.airline_warning = s:WI
+let g:airline#themes#crayon#palette.normal_modified.airline_warning = s:WI
+let g:airline#themes#crayon#palette.insert.airline_warning = s:WI
+let g:airline#themes#crayon#palette.insert_modified.airline_warning = s:WI
+let g:airline#themes#crayon#palette.visual.airline_warning = s:WI
+let g:airline#themes#crayon#palette.visual_modified.airline_warning = s:WI
+let g:airline#themes#crayon#palette.replace.airline_warning = s:WI
+let g:airline#themes#crayon#palette.replace_modified.airline_warning = s:WI
 
 " Tabline
 let g:airline#themes#crayon#palette.tabline = {
