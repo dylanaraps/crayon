@@ -1,4 +1,4 @@
-" Crayon Vim Airline
+" Crayon Airline
 
 " Normal mode
 let s:N1 = [ '#080808' , '#6f8e9a' , 8 , 12 ]
