@@ -84,6 +84,8 @@ colorscheme = crayon
 ### Changing the Background Color
 If you don't like the default background color you can easily change it without having to edit the theme! You just need to add a single line to your .*vimrc before the colorscheme line above.
 
+This currently only works with dark background colors as the theme doesn't have a light varient yet.
+
 ```VimL
 	" This line changes the background color
  	au ColorScheme * hi Normal guibg=#181818 ctermbg=7
