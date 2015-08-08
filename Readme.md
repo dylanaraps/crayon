@@ -72,3 +72,12 @@ source /terminal/Gnome\ Terminal/crayon-theme.sh
 ```
 
 Next, restart or open Gnome Terminal. Right click on the terminal and select profiles the menu that pops-up. The scheme you just sourced should be available for selection.
+
+
+## Customization
+You can customize all of the theme's colors by adding some lines to your .*vimrc. Here's a few examples:
+
+```VimL
+" Changes the Line Number colors
+au ColorScheme * hi LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
+```
