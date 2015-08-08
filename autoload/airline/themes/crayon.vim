@@ -26,6 +26,10 @@ let g:airline#themes#crayon#palette.insert = airline#themes#generate_color_map(s
 let g:airline#themes#crayon#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 let g:airline#themes#crayon#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 
+let g:airline#themes#crayon#palette.accents = {
+      \ 'red': [ '#080808' , '#b27b78' , 0 , '9' , '' ]
+      \ }
+
 " Inactive mode
 let s:IN1 = [ '#a3a69a' , '#1f1f1f' , 7 , 8 ]
 let s:IN2 = [ '#a3a69a' , '#080808' , 7 , 0 ]
