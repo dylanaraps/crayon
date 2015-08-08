@@ -105,3 +105,13 @@ The autocommands must be added before the colorscheme line in your vimrc otherwi
 
 	colorscheme = crayon
 ```
+
+If you have multiple autocmds it's good to group them, you can do so like this:
+
+```VimL
+augroup ColorOverride
+ 	au!
+ 	autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
+	autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
+augroup END
+```
