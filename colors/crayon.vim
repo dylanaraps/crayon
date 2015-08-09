@@ -168,6 +168,8 @@ if &t_Co >= 256 || has("gui_running")
     hi phpMemberSelector ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi phpComparison ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi phpParent ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi cOperator ctermbg=NONE ctermfg=14 cterm=NONE guibg=NONE guifg=#81c9c2 gui=NONE
+    hi cPreCondit ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi SignifySignAdd ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
     hi SignifySignChange ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi SignifySignDelete ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
@@ -309,6 +311,8 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi phpMemberSelector ctermbg=NONE ctermfg=white cterm=NONE
     hi phpComparison ctermbg=NONE ctermfg=white cterm=NONE
     hi phpParent ctermbg=NONE ctermfg=white cterm=NONE
+    hi cOperator ctermbg=NONE ctermfg=cyan cterm=NONE
+    hi cPreCondit ctermbg=NONE ctermfg=magenta cterm=NONE
     hi SignifySignAdd ctermbg=NONE ctermfg=green cterm=NONE
     hi SignifySignChange ctermbg=NONE ctermfg=blue cterm=NONE
     hi SignifySignDelete ctermbg=NONE ctermfg=red cterm=NONE
