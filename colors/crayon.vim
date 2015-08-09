@@ -95,6 +95,9 @@ if &t_Co >= 256 || has("gui_running")
     hi Cursor ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
     hi Structure ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi CursorColumn ctermbg=8 ctermfg=15 cterm=NONE guibg=#282c33 guifg=#c9d4d8 gui=NONE
+    hi Boolean ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
+    hi Character ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
+    hi Conditional ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi htmlLink ctermbg=NONE ctermfg=15 cterm=underline guibg=NONE guifg=#c9d4d8 gui=underline
     hi htmlH1 ctermbg=NONE ctermfg=15 cterm=BOLD guibg=NONE guifg=#c9d4d8 gui=BOLD
     hi link htmlH2 htmlH1
@@ -187,6 +190,9 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Cursor ctermbg=NONE ctermfg=darkgray cterm=NONE
     hi Structure ctermbg=NONE ctermfg=magenta cterm=NONE
     hi CursorColumn ctermbg=darkgray ctermfg=white cterm=NONE
+    hi Boolean ctermbg=NONE ctermfg=darkyellow cterm=NONE
+    hi Character ctermbg=NONE ctermfg=red cterm=NONE
+    hi Conditional ctermbg=NONE ctermfg=magenta cterm=NONE
     hi htmlLink ctermbg=NONE ctermfg=white cterm=underline
     hi htmlH1 ctermbg=NONE ctermfg=white cterm=BOLD
     hi link htmlH2 htmlH1
