@@ -1,4 +1,5 @@
 # Crayon
+[Colors](#Colors) | [Features](#Features) | [Installation](#Installation) | [Customization](#Customization)
 
 A dark 16 color colorscheme for Vim, Gvim, and Nvim
 
@@ -24,9 +25,9 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 
 <!-- }}} -->
 
-<!--- Hex Colors {{{ -->
+<!--- Colors {{{ -->
 
-### Hex Colors
+### Colors
 
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/palette.png)
 
