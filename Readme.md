@@ -129,9 +129,9 @@ If you have multiple autocmds it's good to group them, you can do so like this:
 
 ```VimL
 augroup ColorOverride
-au!
-autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
-autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
+	au!
+	autocmd ColorScheme * highlight Normal guibg=#000000 ctermbg=0
+	autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
 augroup END
 ```
 
@@ -151,4 +151,4 @@ Support for other terminals is coming once I've finalized the schemes colors. In
 #### Credits
 
 * [RNB, a Vim colorscheme template(https://gist.github.com/romainl/5cd2f4ec222805f49eca)
-* Used to create the colorscheme
+	* Used to create the colorscheme
