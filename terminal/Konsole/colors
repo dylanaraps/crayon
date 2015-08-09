@@ -1,10 +1,10 @@
 # --- special colors ---
 
 [Background]
-Color=17,17,17
+Color=16,17,18
 
 [BackgroundIntense]
-Color=17,17,17
+Color=16,17,18
 
 [Foreground]
 Color=163,166,154
@@ -16,7 +16,7 @@ Bold=true
 # --- standard colors ---
 
 [Color0]
-Color=17,17,17
+Color=16,17,18
 
 [Color0Intense]
 Color=34,34,34

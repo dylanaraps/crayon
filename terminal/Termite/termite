@@ -4,10 +4,10 @@
 foreground      = #a3a69a
 foreground_bold = #a3a69a
 cursor          = #a3a69a
-background      = #111111
+background      = #101112
 
 # black
-color0  = #111111
+color0  = #101112
 color8  = #222222
 
 # red
