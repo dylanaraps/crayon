@@ -160,6 +160,8 @@ if &t_Co >= 256 || has("gui_running")
     hi SignifySignAdd ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
     hi SignifySignChange ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi SignifySignDelete ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
+    hi NERDTreeDirSlash ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
+    hi NERDTreeExecFile ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=black ctermfg=white cterm=NONE
@@ -288,6 +290,8 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi SignifySignAdd ctermbg=NONE ctermfg=green cterm=NONE
     hi SignifySignChange ctermbg=NONE ctermfg=blue cterm=NONE
     hi SignifySignDelete ctermbg=NONE ctermfg=red cterm=NONE
+    hi NERDTreeDirSlash ctermbg=NONE ctermfg=blue cterm=NONE
+    hi NERDTreeExecFile ctermbg=NONE ctermfg=white cterm=NONE
 endif
 
 
