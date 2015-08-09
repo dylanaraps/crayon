@@ -11,7 +11,7 @@
 
 	# Colors
 	# Note: These also appear below, if you change the hex values it's better to do so with a find and replace.
-    black       = ["#111111", 0, "black"]
+    black       = ["#101112", 0, "black"]
     darkred     = ["#401f1f", 1, "darkred"]
     darkgreen   = ["#3b4a35", 2, "darkgreen"]
     darkyellow  = ["#4d3c2e", 3, "darkyellow"]
@@ -135,7 +135,10 @@
 		# Markdown
 		[ "markdownAutomaticLink", "NONE", red, "underline" ],
 		[ "markdownUrl", "markdownAutomaticLink" ],
-		[ "markdownCodeDelimiter", "NONE", green, "NONE" ]
+		[ "markdownCodeDelimiter", "NONE", green, "NONE" ],
+
+		# Xdefaults
+		[ "xdefaultsValue", "NONE", gray, "NONE" ]
     ]
 
 	# }}}
@@ -161,7 +164,7 @@ if exists("syntax_on")
 endif
 
 " Neovim Terminal Mode Colors
-let g:terminal_color_0 = "#080808"
+let g:terminal_color_0 = "#101112"
 let g:terminal_color_1 = "#401f1f"
 let g:terminal_color_2 = "#3b4a35"
 let g:terminal_color_3 = "#4d3c2e"
@@ -169,7 +172,7 @@ let g:terminal_color_4 = "#2d4963"
 let g:terminal_color_5 = "#564059"
 let g:terminal_color_6 = "#2e3c40"
 let g:terminal_color_7 = "#a3a69a"
-let g:terminal_color_8 = "#1f1f1f"
+let g:terminal_color_8 = "#222222"
 let g:terminal_color_9 = "#b27b78"
 let g:terminal_color_10 = "#9dae71"
 let g:terminal_color_11 = "#d8c27a"
