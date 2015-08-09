@@ -4,17 +4,17 @@ A dark 16 color colorscheme for Vim, Gvim, and Nvim
 
 NOTE: This is still a heavy WIP and everything is subject to change. Once I'm happy with the colors I'll add support for more terminal emulators. Until then crayon only officially supports terminals that use the .Xresources/.Xdefaults file(s).
 
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/vimrc.png)
+![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/ruby.png)
 
 <!--- Screenshots {{{ -->
 
 ## Screenshots
 
-#### Xresources
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/xresources.png)
-
 #### Markdown with Goyo.vim
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/markdown.png)
+
+#### Vimrc
+![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/vimrc.png)
 
 <!-- }}} -->
 
