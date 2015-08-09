@@ -1,6 +1,8 @@
 # Crayon
 
-A dark colorscheme for Vim, Gvim and Nvim.
+A dark 16 color colorscheme for Vim, Gvim, Nvim and Terminals.
+
+Crayon is
 
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/vimrc.png)
 
@@ -14,6 +16,18 @@ A dark colorscheme for Vim, Gvim and Nvim.
 
 #### SCSS
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/scss.png)
+
+## Features
+
+* Supports Vim, Gvim and Neovim
+	* Supports Neovim with true color enabled
+	* Supports Neovim's built in terminal mode
+
+	* Plugin Support
+		* Support Vim-Airline
+
+* Supports A wide range of Terminal Emulators
+
 
 ## Installation
 
@@ -88,7 +102,7 @@ This currently only works with dark background colors as the theme doesn't have 
 
 ```VimL
 	" This line changes the background color
- 	au ColorScheme * hi Normal guibg=#181818 ctermbg=7
+ 	au ColorScheme * hi Normal guibg=#181818 ctermbg=8
 
 	colorscheme = crayon
 ```
@@ -146,4 +160,13 @@ source /terminal/Gnome\ Terminal/crayon-theme.sh
 ```
 
 Next, restart or open Gnome Terminal. Right click on the terminal and select profiles the menu that pops-up. The scheme you just sourced should be available for selection.
+
+#### Credits
+
+* [RNB, a Vim colorscheme template](https://gist.github.com/romainl/5cd2f4ec222805f49eca)
+	* Used to create the colorscheme
+
+* [Terminal.sexy](http://terminal.sexy/)
+	* Used to generate all of the terminal colorscheme files.
+
 
