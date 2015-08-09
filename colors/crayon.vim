@@ -32,7 +32,7 @@ let colors_name = "crayon"
 " highlight groups {{{
 
 if &t_Co >= 256 || has("gui_running")
-    hi Normal ctermbg=black ctermfg=7 cterm=NONE guibg=black guifg=#a3a69a gui=NONE
+    hi Normal ctermbg=0 ctermfg=7 cterm=NONE guibg=#101112 guifg=#a3a69a gui=NONE
     set background=dark
     hi NonText ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#101112 gui=NONE
     hi Comment ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
