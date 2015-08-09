@@ -6,6 +6,24 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/ruby.png)
 
+<!--- Screenshots {{{ -->
+
+## Screenshots
+
+#### Markdown
+![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/markdown.png)
+
+#### Viml
+![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/viml.png)
+
+#### Html
+![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/html.png)
+
+#### Scss
+![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/scss.png)
+
+<!-- }}} -->
+
 <!--- Hex Colors {{{ -->
 
 ### Hex Colors
@@ -30,18 +48,6 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 	`#c9d4d8` white/foreground
 
 <!--- }}} -->
-
-<!--- Screenshots {{{ -->
-
-## Screenshots
-
-#### Markdown with Goyo.vim
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/markdown.png)
-
-#### Vimrc
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/vimrc.png)
-
-<!-- }}} -->
 
 <!--- Features {{{ -->
 
