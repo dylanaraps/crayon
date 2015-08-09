@@ -13,7 +13,6 @@ require 'net/ftp'
 require 'uri'
 require 'date'
 
-
 def create_directory(dirname)
   unless Dir.exists?(dirname)
     Dir.mkdir(dirname)
