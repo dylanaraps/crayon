@@ -1,7 +1,7 @@
 # 🌸 Crayon
 #### A dark 16 color colorscheme for Vim, Gvim, and Nvim
 
-[Colors](https://github.com/dylanaraps/crayon-theme#Colors) | [Features](https://github.com/dylanaraps/crayon-theme#Features) | [Installation](https://github.com/dylanaraps/crayon-theme#Installation) | [Customization](https://github.com/dylanaraps/crayon-theme#Customization)
+[Colors](#colors) | [Features](#features) | [Installation](#installation) | [Customization](#customization)
 
 NOTE: This is still a heavy WIP and everything is subject to change. Once I'm happy with the colors I'll add support for more terminal emulators. Until then crayon only officially supports terminals that use the .Xresources/.Xdefaults file(s).
 
