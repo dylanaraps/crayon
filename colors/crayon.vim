@@ -109,7 +109,7 @@ if &t_Co >= 256 || has("gui_running")
     hi SpecialChar ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#ba6d30 gui=NONE
     hi Tag ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi Typedef ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
-    hi htmlLink ctermbg=NONE ctermfg=1 cterm=underline guibg=NONE guifg=#7f3838 gui=underline
+    hi htmlLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#b27b78 gui=underline
     hi htmlBold ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi htmlItalic ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi htmlEndTag ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
@@ -250,7 +250,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi SpecialChar ctermbg=NONE ctermfg=darkyellow cterm=NONE
     hi Tag ctermbg=NONE ctermfg=yellow cterm=NONE
     hi Typedef ctermbg=NONE ctermfg=yellow cterm=NONE
-    hi htmlLink ctermbg=NONE ctermfg=darkred cterm=underline
+    hi htmlLink ctermbg=NONE ctermfg=red cterm=underline
     hi htmlBold ctermbg=NONE ctermfg=yellow cterm=NONE
     hi htmlItalic ctermbg=NONE ctermfg=magenta cterm=NONE
     hi htmlEndTag ctermbg=NONE ctermfg=white cterm=NONE
