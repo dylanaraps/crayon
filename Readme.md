@@ -57,7 +57,6 @@ Place 'crayon.vim' file into 'colors' folder within your Vim directory, e.g. '~/
 Once you've installed the theme, put this in your '~/.*vimrc' and you should be all set.
 
 ```VimL
-set background=dark
 colorscheme crayon
 ```
 
