@@ -114,7 +114,7 @@ if &t_Co >= 256 || has("gui_running")
     hi htmlItalic ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi htmlEndTag ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi htmlTag ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
-    hi htmlTagName ctermbg=NONE ctermfg=9 cterm=BOLD guibg=NONE guifg=#b27b78 gui=BOLD
+    hi htmlTagName ctermbg=NONE ctermfg=1 cterm=BOLD guibg=NONE guifg=#7f3838 gui=BOLD
     hi htmlH1 ctermbg=NONE ctermfg=15 cterm=BOLD guibg=NONE guifg=#c9d4d8 gui=BOLD
     hi link htmlH2 htmlH1
     hi link htmlH3 htmlH1
@@ -255,7 +255,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi htmlItalic ctermbg=NONE ctermfg=magenta cterm=NONE
     hi htmlEndTag ctermbg=NONE ctermfg=white cterm=NONE
     hi htmlTag ctermbg=NONE ctermfg=white cterm=NONE
-    hi htmlTagName ctermbg=NONE ctermfg=red cterm=BOLD
+    hi htmlTagName ctermbg=NONE ctermfg=darkred cterm=BOLD
     hi htmlH1 ctermbg=NONE ctermfg=white cterm=BOLD
     hi link htmlH2 htmlH1
     hi link htmlH3 htmlH1
