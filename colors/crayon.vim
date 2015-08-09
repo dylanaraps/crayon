@@ -68,7 +68,7 @@ if &t_Co >= 256 || has("gui_running")
     hi PmenuSel ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#a3a69a gui=NONE
     hi PmenuThumb ctermbg=7 ctermfg=7 cterm=NONE guibg=#a3a69a guifg=#a3a69a gui=NONE
     hi FoldColumn ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#a3a69a gui=NONE
-    hi Folded ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
+    hi Folded ctermbg=NONE ctermfg=8 cterm=bold guibg=NONE guifg=#282c33 gui=bold
     hi WildMenu ctermbg=10 ctermfg=0 cterm=NONE guibg=#9dae71 guifg=#101112 gui=NONE
     hi SpecialKey ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
     hi DiffAdd ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
@@ -148,7 +148,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi PmenuSel ctermbg=NONE ctermfg=gray cterm=NONE
     hi PmenuThumb ctermbg=gray ctermfg=gray cterm=NONE
     hi FoldColumn ctermbg=NONE ctermfg=gray cterm=NONE
-    hi Folded ctermbg=NONE ctermfg=darkgray cterm=NONE
+    hi Folded ctermbg=NONE ctermfg=darkgray cterm=bold
     hi WildMenu ctermbg=green ctermfg=black cterm=NONE
     hi SpecialKey ctermbg=NONE ctermfg=darkgray cterm=NONE
     hi DiffAdd ctermbg=NONE ctermfg=green cterm=NONE
