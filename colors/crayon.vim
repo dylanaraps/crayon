@@ -34,10 +34,10 @@ let colors_name = "crayon"
 " highlight groups {{{
 
 if &t_Co >= 256 || has("gui_running")
-    hi Normal ctermbg=0 ctermfg=7 cterm=NONE guibg=#101112 guifg=#6a6f7a gui=NONE
+    hi Normal ctermbg=0 ctermfg=15 cterm=NONE guibg=#101112 guifg=#c9d4d8 gui=NONE
     set background=dark
     hi NonText ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#101112 gui=NONE
-    hi Comment ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
+    hi Comment ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
     hi Constant ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi Error ctermbg=1 ctermfg=15 cterm=NONE guibg=#4d2525 guifg=#c9d4d8 gui=NONE
     hi Identifier ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
@@ -61,15 +61,15 @@ if &t_Co >= 256 || has("gui_running")
     hi CursorLine ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
     hi LineNr ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
     hi CursorLineNr ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
-    hi helpLeadBlank ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
-    hi helpNormal ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
+    hi helpLeadBlank ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi helpNormal ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi Visual ctermbg=8 ctermfg=7 cterm=NONE guibg=#282c33 guifg=#6a6f7a gui=NONE
     hi VisualNOS ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#4d2525 gui=NONE
     hi Pmenu ctermbg=8 ctermfg=7 cterm=NONE guibg=#282c33 guifg=#6a6f7a gui=NONE
     hi PmenuSbar ctermbg=6 ctermfg=15 cterm=NONE guibg=#263a40 guifg=#c9d4d8 gui=NONE
     hi PmenuSel ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
     hi PmenuThumb ctermbg=7 ctermfg=7 cterm=NONE guibg=#6a6f7a guifg=#6a6f7a gui=NONE
-    hi FoldColumn ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
+    hi FoldColumn ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi Folded ctermbg=NONE ctermfg=8 cterm=bold guibg=NONE guifg=#282c33 gui=bold
     hi WildMenu ctermbg=10 ctermfg=0 cterm=NONE guibg=#9dae71 guifg=#101112 gui=NONE
     hi SpecialKey ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
@@ -95,8 +95,8 @@ if &t_Co >= 256 || has("gui_running")
     hi Cursor ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
     hi Structure ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi CursorColumn ctermbg=8 ctermfg=15 cterm=NONE guibg=#282c33 guifg=#c9d4d8 gui=NONE
-    hi htmlLink ctermbg=NONE ctermfg=7 cterm=underline guibg=NONE guifg=#6a6f7a gui=underline
-    hi htmlH1 ctermbg=NONE ctermfg=7 cterm=BOLD guibg=NONE guifg=#6a6f7a gui=BOLD
+    hi htmlLink ctermbg=NONE ctermfg=15 cterm=underline guibg=NONE guifg=#c9d4d8 gui=underline
+    hi htmlH1 ctermbg=NONE ctermfg=15 cterm=BOLD guibg=NONE guifg=#c9d4d8 gui=BOLD
     hi link htmlH2 htmlH1
     hi link htmlH3 htmlH1
     hi link htmlH4 htmlH1
@@ -105,19 +105,19 @@ if &t_Co >= 256 || has("gui_running")
     hi cssMultiColumnAttr ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
     hi link cssFontAttr cssMultiColumnAttr
     hi link cssFlexibleBoxAttr cssMultiColumnAttr
-    hi cssBraces ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
+    hi cssBraces ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi link cssAttrComma cssBraces
-    hi scssSelectorChar ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
+    hi scssSelectorChar ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi markdownAutomaticLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#b27b78 gui=underline
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
-    hi xdefaultsValue ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
+    hi xdefaultsValue ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
-    hi Normal ctermbg=black ctermfg=gray cterm=NONE
+    hi Normal ctermbg=black ctermfg=white cterm=NONE
     set background=dark
     hi NonText ctermbg=NONE ctermfg=black cterm=NONE
-    hi Comment ctermbg=NONE ctermfg=darkgray cterm=NONE
+    hi Comment ctermbg=NONE ctermfg=gray cterm=NONE
     hi Constant ctermbg=NONE ctermfg=yellow cterm=NONE
     hi Error ctermbg=darkred ctermfg=white cterm=NONE
     hi Identifier ctermbg=NONE ctermfg=red cterm=NONE
@@ -141,15 +141,15 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi CursorLine ctermbg=NONE ctermfg=darkgray cterm=NONE
     hi LineNr ctermbg=NONE ctermfg=darkgray cterm=NONE
     hi CursorLineNr ctermbg=NONE ctermfg=darkgray cterm=NONE
-    hi helpLeadBlank ctermbg=NONE ctermfg=gray cterm=NONE
-    hi helpNormal ctermbg=NONE ctermfg=gray cterm=NONE
+    hi helpLeadBlank ctermbg=NONE ctermfg=white cterm=NONE
+    hi helpNormal ctermbg=NONE ctermfg=white cterm=NONE
     hi Visual ctermbg=darkgray ctermfg=gray cterm=NONE
     hi VisualNOS ctermbg=NONE ctermfg=darkred cterm=NONE
     hi Pmenu ctermbg=darkgray ctermfg=gray cterm=NONE
     hi PmenuSbar ctermbg=darkcyan ctermfg=white cterm=NONE
     hi PmenuSel ctermbg=NONE ctermfg=gray cterm=NONE
     hi PmenuThumb ctermbg=gray ctermfg=gray cterm=NONE
-    hi FoldColumn ctermbg=NONE ctermfg=gray cterm=NONE
+    hi FoldColumn ctermbg=NONE ctermfg=white cterm=NONE
     hi Folded ctermbg=NONE ctermfg=darkgray cterm=bold
     hi WildMenu ctermbg=green ctermfg=black cterm=NONE
     hi SpecialKey ctermbg=NONE ctermfg=darkgray cterm=NONE
@@ -175,8 +175,8 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Cursor ctermbg=NONE ctermfg=darkgray cterm=NONE
     hi Structure ctermbg=NONE ctermfg=magenta cterm=NONE
     hi CursorColumn ctermbg=darkgray ctermfg=white cterm=NONE
-    hi htmlLink ctermbg=NONE ctermfg=gray cterm=underline
-    hi htmlH1 ctermbg=NONE ctermfg=gray cterm=BOLD
+    hi htmlLink ctermbg=NONE ctermfg=white cterm=underline
+    hi htmlH1 ctermbg=NONE ctermfg=white cterm=BOLD
     hi link htmlH2 htmlH1
     hi link htmlH3 htmlH1
     hi link htmlH4 htmlH1
@@ -185,13 +185,13 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi cssMultiColumnAttr ctermbg=NONE ctermfg=green cterm=NONE
     hi link cssFontAttr cssMultiColumnAttr
     hi link cssFlexibleBoxAttr cssMultiColumnAttr
-    hi cssBraces ctermbg=NONE ctermfg=gray cterm=NONE
+    hi cssBraces ctermbg=NONE ctermfg=white cterm=NONE
     hi link cssAttrComma cssBraces
-    hi scssSelectorChar ctermbg=NONE ctermfg=gray cterm=NONE
+    hi scssSelectorChar ctermbg=NONE ctermfg=white cterm=NONE
     hi markdownAutomaticLink ctermbg=NONE ctermfg=red cterm=underline
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=NONE ctermfg=green cterm=NONE
-    hi xdefaultsValue ctermbg=NONE ctermfg=gray cterm=NONE
+    hi xdefaultsValue ctermbg=NONE ctermfg=white cterm=NONE
 endif
 
 
