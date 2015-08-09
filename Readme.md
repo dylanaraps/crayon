@@ -133,7 +133,7 @@ Support for other terminals is coming once I've finalized the schemes colors. In
 
 Codes are the color codes for terminal vim that are used for highlight groups.
 
-| Color       | Hex     | Codes |
+| *Name*      | *Hex*   |*Codes*|
 |-------------|---------|-------|
 | black		  | #101112 |   0   |
 | darkred	  | #4d2525 |   1   |
