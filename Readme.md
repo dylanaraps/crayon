@@ -7,7 +7,7 @@ A dark 16 color colorscheme for Vim, Gvim, Nvim and Terminals.
 ## Screenshots
 
 #### Coffeescript
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/coffeescript.png)
+![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/xresources.png)
 
 #### HTML
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/html.png)
