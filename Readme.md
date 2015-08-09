@@ -129,6 +129,29 @@ Add the contents of the .Xresources file to your own .Xresources.
 
 Support for other terminals is coming once I've finalized the schemes colors. In the meantime you can go to [Terminal.sexy](http://terminal.sexy/), import the contents of the .Xresources file from the repo and then export it to the terminal format of your choice.
 
+#### Hex Colors
+
+[1] are the color codes for terminal vim that are used for highlight groups.
+
+| Color       | Hex     | [1] |
+|-------------|---------|-----|
+| black		  | #101112 |  0  |
+| darkred	  | #4d2525 |  1  |
+| darkgreen	  | #3b4a35 |  2  |
+| darkyellow  | #784231 |  3  |
+| darkblue	  | #2d4963 |  4  |
+| darkmagenta | #3d2e4f |  5  |
+| darkcyan	  | #263a40 |  6  |
+| gray		  | #6a6f7a |  7  |
+| darkgray	  | #282c33 |  8  |
+| red		  | #b27b78 |  9  |
+| green		  | #9dae71 | 10  |
+| yellow	  | #d8c27a | 11  |
+| blue		  | #7495b6 | 12  |
+| magenta	  | #b59cd8 | 13  |
+| cyan		  | #81c9c2 | 14  |
+| white		  | #c9d4d8 | 15  |
+
 #### Credits
 
 * [RNB, a Vim colorscheme template](https://gist.github.com/romainl/5cd2f4ec222805f49eca)
