@@ -46,7 +46,7 @@ if &t_Co >= 256 || has("gui_running")
     hi Special ctermbg=NONE ctermfg=14 cterm=NONE guibg=NONE guifg=#81c9c2 gui=NONE
     hi Statement ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
     hi String ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
-    hi Number ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
+    hi Number ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
     hi Todo ctermbg=8 ctermfg=11 cterm=NONE guibg=#282c33 guifg=#d8c27a gui=NONE
     hi Type ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi Underlined ctermbg=NONE ctermfg=1 cterm=underline guibg=NONE guifg=#4d2525 gui=underline
@@ -121,14 +121,19 @@ if &t_Co >= 256 || has("gui_running")
     hi link cssFlexibleBoxAttr cssMultiColumnAttr
     hi cssBraces ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi link cssAttrComma cssBraces
-    hi scssSelectorChar ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi cssValueLength ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
-    hi scssAttribute ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi cssUnitDecorators ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi cssValueNumber ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi link cssValueLength cssValueNumber
-    hi scssDefinition ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
-    hi link cssNoise scssDefinition
+    hi cssNoise ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
+    hi scssSelectorChar ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi scssAttribute ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi link scssDefinition cssNoise
+    hi sassidChar ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
+    hi sassClassChar ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
+    hi sassInclude ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
+    hi sassMixing ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
+    hi sassMixinName ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi markdownAutomaticLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#b27b78 gui=underline
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
@@ -136,8 +141,17 @@ if &t_Co >= 256 || has("gui_running")
     hi rubyInclude ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi rubyDefine ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi rubyFunction ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
-    hi rubyStringDelimiter ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi rubyStringDelimiter ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
     hi rubyInteger ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
+    hi rubyAttribute ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
+    hi rubyConstant ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
+    hi rubyInterpolation ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
+    hi rubyInterpolationDelimiter ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
+    hi rubyRegexp ctermbg=NONE ctermfg=14 cterm=NONE guibg=NONE guifg=#81c9c2 gui=NONE
+    hi rubySymbol ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
+    hi pythonOperator ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
+    hi pythonFunction ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
+    hi pythonRepeat ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi SignifySignAdd ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
     hi SignifySignChange ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi SignifySignDelete ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
@@ -155,7 +169,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Special ctermbg=NONE ctermfg=cyan cterm=NONE
     hi Statement ctermbg=NONE ctermfg=red cterm=NONE
     hi String ctermbg=NONE ctermfg=green cterm=NONE
-    hi Number ctermbg=NONE ctermfg=gray cterm=NONE
+    hi Number ctermbg=NONE ctermfg=darkyellow cterm=NONE
     hi Todo ctermbg=darkgray ctermfg=yellow cterm=NONE
     hi Type ctermbg=NONE ctermfg=yellow cterm=NONE
     hi Underlined ctermbg=NONE ctermfg=darkred cterm=underline
@@ -230,14 +244,19 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi link cssFlexibleBoxAttr cssMultiColumnAttr
     hi cssBraces ctermbg=NONE ctermfg=white cterm=NONE
     hi link cssAttrComma cssBraces
-    hi scssSelectorChar ctermbg=NONE ctermfg=white cterm=NONE
     hi cssValueLength ctermbg=NONE ctermfg=white cterm=NONE
-    hi scssAttribute ctermbg=NONE ctermfg=white cterm=NONE
     hi cssUnitDecorators ctermbg=NONE ctermfg=white cterm=NONE
     hi cssValueNumber ctermbg=NONE ctermfg=white cterm=NONE
     hi link cssValueLength cssValueNumber
-    hi scssDefinition ctermbg=NONE ctermfg=gray cterm=NONE
-    hi link cssNoise scssDefinition
+    hi cssNoise ctermbg=NONE ctermfg=gray cterm=NONE
+    hi scssSelectorChar ctermbg=NONE ctermfg=white cterm=NONE
+    hi scssAttribute ctermbg=NONE ctermfg=white cterm=NONE
+    hi link scssDefinition cssNoise
+    hi sassidChar ctermbg=NONE ctermfg=red cterm=NONE
+    hi sassClassChar ctermbg=NONE ctermfg=darkyellow cterm=NONE
+    hi sassInclude ctermbg=NONE ctermfg=magenta cterm=NONE
+    hi sassMixing ctermbg=NONE ctermfg=magenta cterm=NONE
+    hi sassMixinName ctermbg=NONE ctermfg=blue cterm=NONE
     hi markdownAutomaticLink ctermbg=NONE ctermfg=red cterm=underline
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=NONE ctermfg=green cterm=NONE
@@ -245,8 +264,17 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi rubyInclude ctermbg=NONE ctermfg=blue cterm=NONE
     hi rubyDefine ctermbg=NONE ctermfg=magenta cterm=NONE
     hi rubyFunction ctermbg=NONE ctermfg=blue cterm=NONE
-    hi rubyStringDelimiter ctermbg=NONE ctermfg=white cterm=NONE
+    hi rubyStringDelimiter ctermbg=NONE ctermfg=green cterm=NONE
     hi rubyInteger ctermbg=NONE ctermfg=darkyellow cterm=NONE
+    hi rubyAttribute ctermbg=NONE ctermfg=blue cterm=NONE
+    hi rubyConstant ctermbg=NONE ctermfg=yellow cterm=NONE
+    hi rubyInterpolation ctermbg=NONE ctermfg=green cterm=NONE
+    hi rubyInterpolationDelimiter ctermbg=NONE ctermfg=darkyellow cterm=NONE
+    hi rubyRegexp ctermbg=NONE ctermfg=cyan cterm=NONE
+    hi rubySymbol ctermbg=NONE ctermfg=green cterm=NONE
+    hi pythonOperator ctermbg=NONE ctermfg=magenta cterm=NONE
+    hi pythonFunction ctermbg=NONE ctermfg=blue cterm=NONE
+    hi pythonRepeat ctermbg=NONE ctermfg=magenta cterm=NONE
     hi SignifySignAdd ctermbg=NONE ctermfg=green cterm=NONE
     hi SignifySignChange ctermbg=NONE ctermfg=blue cterm=NONE
     hi SignifySignDelete ctermbg=NONE ctermfg=red cterm=NONE

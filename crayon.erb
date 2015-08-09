@@ -66,7 +66,7 @@
         [ "Special", "NONE", cyan, "NONE" ],
         [ "Statement", "NONE", red, "NONE" ],
         [ "String", "NONE", green, "NONE" ],
-        [ "Number", "NONE", gray, "NONE" ],
+        [ "Number", "NONE", darkyellow, "NONE" ],
         [ "Todo", darkgray, yellow, "NONE" ],
         [ "Type", "NONE", yellow, "NONE" ],
         [ "Underlined", "NONE", darkred, "underline" ],
@@ -148,20 +148,27 @@
 		[ "htmlH5", "htmlH1" ],
 		[ "htmlH6", "htmlH1" ],
 
-		# CSS/SCSS
+		# Css
 		[ "cssMultiColumnAttr", "NONE", green, "NONE" ],
 		[ "cssFontAttr", "cssMultiColumnAttr" ],
 		[ "cssFlexibleBoxAttr", "cssMultiColumnAttr" ],
 		[ "cssBraces", "NONE", white, "NONE" ],
 		[ "cssAttrComma", "cssBraces" ],
-		[ "scssSelectorChar", "NONE", white, "NONE"],
 		[ "cssValueLength", "NONE", white, "NONE"],
-		[ "scssAttribute", "NONE", white, "NONE"],
 		[ "cssUnitDecorators", "NONE", white, "NONE"],
 		[ "cssValueNumber", "NONE", white, "NONE"],
 		[ "cssValueLength", "cssValueNumber" ],
-		[ "scssDefinition", "NONE", gray, "NONE" ],
-		[ "cssNoise", "scssDefinition" ],
+		[ "cssNoise", "NONE", gray, "NONE" ],
+
+		# Sass/Scss
+		[ "scssSelectorChar", "NONE", white, "NONE"],
+		[ "scssAttribute", "NONE", white, "NONE"],
+		[ "scssDefinition", "cssNoise" ],
+		[ "sassidChar", "NONE", red, "NONE"],
+		[ "sassClassChar", "NONE", darkyellow, "NONE"],
+		[ "sassInclude", "NONE", magenta, "NONE"],
+		[ "sassMixing", "NONE", magenta, "NONE"],
+		[ "sassMixinName", "NONE", blue, "NONE"],
 
 		# Markdown
 		[ "markdownAutomaticLink", "NONE", red, "underline" ],
@@ -175,8 +182,19 @@
 		[ "rubyInclude", "NONE", blue, "NONE" ],
 		[ "rubyDefine", "NONE", magenta, "NONE" ],
 		[ "rubyFunction", "NONE", blue, "NONE" ],
-		[ "rubyStringDelimiter", "NONE", white, "NONE" ],
+		[ "rubyStringDelimiter", "NONE", green, "NONE" ],
 		[ "rubyInteger", "NONE", darkyellow, "NONE" ],
+		[ "rubyAttribute", "NONE", blue, "NONE" ],
+		[ "rubyConstant", "NONE", yellow, "NONE" ],
+		[ "rubyInterpolation", "NONE", green, "NONE" ],
+		[ "rubyInterpolationDelimiter", "NONE", darkyellow, "NONE" ],
+		[ "rubyRegexp", "NONE", cyan, "NONE" ],
+		[ "rubySymbol", "NONE", green, "NONE" ],
+
+		# Python
+		[ "pythonOperator", "NONE", magenta, "NONE" ],
+		[ "pythonFunction", "NONE", blue, "NONE" ],
+		[ "pythonRepeat", "NONE", magenta, "NONE" ],
 
 		# Plugin Specific
 
