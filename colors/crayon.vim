@@ -14,7 +14,7 @@ endif
 " Neovim Terminal Mode Colors
 let g:terminal_color_0 = "#101112"
 let g:terminal_color_1 = "#7f3838"
-let g:terminal_color_2 = "#3b4a35"
+let g:terminal_color_2 = "#324a28"
 let g:terminal_color_3 = "#ba6d30"
 let g:terminal_color_4 = "#2d4963"
 let g:terminal_color_5 = "#3d2e4f"

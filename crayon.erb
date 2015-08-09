@@ -13,7 +13,7 @@
 	# Note: These also appear below, if you change the hex values it's better to do so with a find and replace.
     black       = ["#101112", 0, "black"]
     darkred     = ["#7f3838", 1, "darkred"]
-    darkgreen   = ["#3b4a35", 2, "darkgreen"]
+    darkgreen   = ["#324a28", 2, "darkgreen"]
     darkyellow  = ["#ba6d30", 3, "darkyellow"]
     darkblue    = ["#2d4963", 4, "darkblue"]
     darkmagenta = ["#3d2e4f", 5, "darkmagenta"]
@@ -29,32 +29,11 @@
     white       = ["#c9d4d8", 15, "white"]
 
 	# Step 3: highlights {{{
-    #
-    # You can define highlight groups like this:
-    #   [ = Normal= ,       name of the highlight group
-    #     white,          the color used for background color, or use "NONE", "fg" or "bg"
-    #     darkgray,       the color used for foreground color, or use "NONE", "fg" or "bg"
-    #     "NONE"          style, can be "bold", "underline", "reverse", "italic",
-    #                     "standout", "NONE" or "undercurl"
-    #   ]
-    #
-    # or link an highlight group to another:
-    #   [ "Title", "Normal" ]
-    #
-    # In GUI Vim, there is an additional color for the undercurl used to
-    # highlighting spelling mistakes:
-    #   [ "SpellBad",     name of the highlight group
-    #     "NONE",         the color used for background color, or use "NONE", "fg" or "bg"
-    #     red,            the color used for foreground color, or use "NONE", "fg" or "bg"
-    #     "undercurl",    style
-    #     red             color used for the undercurl
-    #   ]
-    #
-    # The highlight groups below are fairly standard and should give you a
-    # working colorscheme. Some syntax scripts and plugins may define their own, though,
-    # so feel free to add them to this array as needed.
 
     highlights = [
+
+	# Default highlight Groups {{{
+
         [ "Normal", black, white, "NONE" ],
         [ "NonText", "NONE", black, "NONE" ],
         [ "Comment", "NONE", gray, "NONE" ],
@@ -71,12 +50,10 @@
         [ "Type", "NONE", yellow, "NONE" ],
         [ "Underlined", "NONE", darkred, "underline" ],
         [ "StatusLine", "NONE", darkgray, "NONE" ],
-
         [ "StatusLineNC", "NONE", darkblue, "bold" ],
         [ "TabLine", "NONE", gray, "NONE" ],
         [ "TabLineFill", "NONE", darkgray, "NONE" ],
         [ "TabLineSel", "NONE", darkgray, "NONE" ],
-
 		[ "TermCursorNC", yellow, black, "NONE" ],
         [ "VertSplit", "NONE", black, "NONE" ],
         [ "Title", "NONE", blue, "NONE" ],
@@ -137,7 +114,9 @@
 		[ "Tag", "NONE", yellow, "NONE" ],
 		[ "Typedef", "NONE", yellow, "NONE" ],
 
-		# Filetype Specific
+		# }}}
+
+		# Filetype Specific {{{
 
 		# HTML
 		[ "htmlLink", "NONE", red, "underline" ],
@@ -222,7 +201,9 @@
 		[ "cOperator", "NONE", cyan, "NONE" ],
 		[ "cPreCondit", "NONE", magenta, "NONE" ],
 
-		# Plugin Specific
+		# }}}
+
+		# Plugin Specific {{{
 
 		# Airline
 		# All airline highlighting is in a seperate file, which is in the autoload/vim-airline/themes/ folder.
@@ -235,6 +216,9 @@
 		# Nerd Tree
 		[ "NERDTreeDirSlash", "NONE", blue, "NONE" ],
 		[ "NERDTreeExecFile", "NONE", white, "NONE" ]
+
+		# }}}
+
     ]
 
 	# }}}
@@ -264,7 +248,7 @@ endif
 " Neovim Terminal Mode Colors
 let g:terminal_color_0 = "#101112"
 let g:terminal_color_1 = "#7f3838"
-let g:terminal_color_2 = "#3b4a35"
+let g:terminal_color_2 = "#324a28"
 let g:terminal_color_3 = "#ba6d30"
 let g:terminal_color_4 = "#2d4963"
 let g:terminal_color_5 = "#3d2e4f"
