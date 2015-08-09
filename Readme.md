@@ -2,8 +2,6 @@
 
 A dark 16 color colorscheme for Vim, Gvim, Nvim and Terminals.
 
-Crayon is
-
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/vimrc.png)
 
 ## Screenshots
@@ -24,7 +22,7 @@ Crayon is
 	* Supports Neovim's built in terminal mode
 
 	* Plugin Support
-		* Support Vim-Airline
+		* Supports Vim-Airline
 
 * Supports A wide range of Terminal Emulators
 
