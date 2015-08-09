@@ -2,6 +2,8 @@
 
 A dark 16 color colorscheme for Vim, Gvim, Nvim and Terminals.
 
+NOTE: This is still a heavy WIP and everything is subject to change.
+
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/vimrc.png)
 
 ## Screenshots

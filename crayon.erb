@@ -12,21 +12,21 @@
 	# Colors
 	# Note: These also appear below, if you change the hex values it's better to do so with a find and replace.
     black       = ["#101112", 0, "black"]
-    darkred     = ["#401f1f", 1, "darkred"]
+    darkred     = ["#4d2525", 1, "darkred"]
     darkgreen   = ["#3b4a35", 2, "darkgreen"]
-    darkyellow  = ["#4d3c2e", 3, "darkyellow"]
+    darkyellow  = ["#784231", 3, "darkyellow"]
     darkblue    = ["#2d4963", 4, "darkblue"]
-    darkmagenta = ["#564059", 5, "darkmagenta"]
-    darkcyan    = ["#2e3c40", 6, "darkcyan"]
-    gray        = ["#a3a69a", 7, "gray"]
+    darkmagenta = ["#3d2e4f", 5, "darkmagenta"]
+    darkcyan    = ["#263a40", 6, "darkcyan"]
+    gray        = ["#6a6f7a", 7, "gray"]
     darkgray    = ["#282c33", 8, "darkgray"]
     red         = ["#b27b78", 9, "red"]
     green       = ["#9dae71", 10, "green"]
     yellow      = ["#d8c27a", 11, "yellow"]
-    blue        = ["#6f8e9a", 12, "blue"]
+    blue        = ["#7495b6", 12, "blue"]
     magenta     = ["#b59cd8", 13, "magenta"]
-    cyan        = ["#80b2ad", 14, "cyan"]
-    white       = ["#dfe7d7", 15, "white"]
+    cyan        = ["#81c9c2", 14, "cyan"]
+    white       = ["#c9d4d8", 15, "white"]
 
 	# Step 3: highlights {{{
     #
@@ -166,27 +166,29 @@
 
 hi clear
 
+set background=dark
+
 if exists("syntax_on")
   syntax reset
 endif
 
 " Neovim Terminal Mode Colors
 let g:terminal_color_0 = "#101112"
-let g:terminal_color_1 = "#401f1f"
+let g:terminal_color_1 = "#4d2525"
 let g:terminal_color_2 = "#3b4a35"
-let g:terminal_color_3 = "#4d3c2e"
+let g:terminal_color_3 = "#784231"
 let g:terminal_color_4 = "#2d4963"
-let g:terminal_color_5 = "#564059"
-let g:terminal_color_6 = "#2e3c40"
-let g:terminal_color_7 = "#a3a69a"
+let g:terminal_color_5 = "#3d2e4f"
+let g:terminal_color_6 = "#263a40"
+let g:terminal_color_7 = "#6a6f7a"
 let g:terminal_color_8 = "#282c33"
 let g:terminal_color_9 = "#b27b78"
 let g:terminal_color_10 = "#9dae71"
 let g:terminal_color_11 = "#d8c27a"
-let g:terminal_color_12 = "#6f8e9a"
+let g:terminal_color_12 = "#7495b6"
 let g:terminal_color_13 = "#b59cd8"
-let g:terminal_color_14 = "#80b2ad"
-let g:terminal_color_15 = "#dfe7d7"
+let g:terminal_color_14 = "#81c9c2"
+let g:terminal_color_15 = "#c9d4d8"
 
 let colors_name = "<%= information[:name] %>"
 
