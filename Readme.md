@@ -8,14 +8,11 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 
 ## Screenshots
 
-#### Coffeescript
+#### Xresources
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/xresources.png)
 
-#### HTML
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/html.png)
-
-#### SCSS
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/scss.png)
+#### Markdown with Goyo.vim
+![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/markdown.png)
 
 ## Features
 
