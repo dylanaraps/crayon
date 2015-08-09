@@ -100,6 +100,9 @@ Crayon currently supports these vim plugins:
 
 ![](https://github.com/dylanaraps/crayon-theme/raw/master/screenshots/airline.gif)
 
+* Vim-Signify
+* NerdTree
+
 Feel free to request support for your favourite plugins and I'll happily add them to the list!
 
 
