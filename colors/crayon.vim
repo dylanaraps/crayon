@@ -154,6 +154,9 @@ if &t_Co >= 256 || has("gui_running")
     hi pythonRepeat ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi pythonStatement ctermbg=NONE ctermfg=9 cterm=Bold guibg=NONE guifg=#b27b78 gui=Bold
     hi pythonBuiltIn ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
+    hi phpMemberSelector ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi phpComparison ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi phpParent ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi SignifySignAdd ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
     hi SignifySignChange ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi SignifySignDelete ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
@@ -279,6 +282,9 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi pythonRepeat ctermbg=NONE ctermfg=magenta cterm=NONE
     hi pythonStatement ctermbg=NONE ctermfg=red cterm=Bold
     hi pythonBuiltIn ctermbg=NONE ctermfg=blue cterm=NONE
+    hi phpMemberSelector ctermbg=NONE ctermfg=white cterm=NONE
+    hi phpComparison ctermbg=NONE ctermfg=white cterm=NONE
+    hi phpParent ctermbg=NONE ctermfg=white cterm=NONE
     hi SignifySignAdd ctermbg=NONE ctermfg=green cterm=NONE
     hi SignifySignChange ctermbg=NONE ctermfg=blue cterm=NONE
     hi SignifySignDelete ctermbg=NONE ctermfg=red cterm=NONE
