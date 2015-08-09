@@ -111,6 +111,7 @@ if &t_Co >= 256 || has("gui_running")
     hi Typedef ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi vimUserCommand ctermbg=NONE ctermfg=9 cterm=bold guibg=NONE guifg=#b27b78 gui=bold
     hi link vimMap vimUserCommand
+    hi link vimLet vimUserCommand
     hi vimNotation ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi vimBracket ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi htmlLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#b27b78 gui=underline
@@ -260,6 +261,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Typedef ctermbg=NONE ctermfg=yellow cterm=NONE
     hi vimUserCommand ctermbg=NONE ctermfg=red cterm=bold
     hi link vimMap vimUserCommand
+    hi link vimLet vimUserCommand
     hi vimNotation ctermbg=NONE ctermfg=blue cterm=NONE
     hi vimBracket ctermbg=NONE ctermfg=white cterm=NONE
     hi htmlLink ctermbg=NONE ctermfg=red cterm=underline
