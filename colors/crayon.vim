@@ -119,6 +119,7 @@ if &t_Co >= 256 || has("gui_running")
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
     hi xdefaultsValue ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi rubyInclude ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=black ctermfg=white cterm=NONE
@@ -206,6 +207,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=NONE ctermfg=green cterm=NONE
     hi xdefaultsValue ctermbg=NONE ctermfg=white cterm=NONE
+    hi rubyInclude ctermbg=NONE ctermfg=blue cterm=NONE
 endif
 
 
