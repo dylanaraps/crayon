@@ -110,6 +110,10 @@ if &t_Co >= 256 || has("gui_running")
     hi Tag ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi Typedef ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi htmlLink ctermbg=NONE ctermfg=15 cterm=underline guibg=NONE guifg=#c9d4d8 gui=underline
+    hi htmlBold ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
+    hi htmlItalic ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
+    hi htmlEndTag ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi htmlTag ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi htmlH1 ctermbg=NONE ctermfg=15 cterm=BOLD guibg=NONE guifg=#c9d4d8 gui=BOLD
     hi link htmlH2 htmlH1
     hi link htmlH3 htmlH1
@@ -134,9 +138,15 @@ if &t_Co >= 256 || has("gui_running")
     hi sassInclude ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi sassMixing ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi sassMixinName ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
+    hi javaScript ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi javaScriptBraces ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi javaScriptNumber ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
     hi markdownAutomaticLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#b27b78 gui=underline
     hi link markdownUrl markdownAutomaticLink
-    hi markdownCodeDelimiter ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
+    hi markdownError ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi markdownCode ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
+    hi markdownCodeBlock ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
+    hi markdownCodeDelimiter ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi xdefaultsValue ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi rubyInclude ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi rubyDefine ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
@@ -240,6 +250,10 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Tag ctermbg=NONE ctermfg=yellow cterm=NONE
     hi Typedef ctermbg=NONE ctermfg=yellow cterm=NONE
     hi htmlLink ctermbg=NONE ctermfg=white cterm=underline
+    hi htmlBold ctermbg=NONE ctermfg=yellow cterm=NONE
+    hi htmlItalic ctermbg=NONE ctermfg=magenta cterm=NONE
+    hi htmlEndTag ctermbg=NONE ctermfg=white cterm=NONE
+    hi htmlTag ctermbg=NONE ctermfg=white cterm=NONE
     hi htmlH1 ctermbg=NONE ctermfg=white cterm=BOLD
     hi link htmlH2 htmlH1
     hi link htmlH3 htmlH1
@@ -264,9 +278,15 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi sassInclude ctermbg=NONE ctermfg=magenta cterm=NONE
     hi sassMixing ctermbg=NONE ctermfg=magenta cterm=NONE
     hi sassMixinName ctermbg=NONE ctermfg=blue cterm=NONE
+    hi javaScript ctermbg=NONE ctermfg=white cterm=NONE
+    hi javaScriptBraces ctermbg=NONE ctermfg=white cterm=NONE
+    hi javaScriptNumber ctermbg=NONE ctermfg=darkyellow cterm=NONE
     hi markdownAutomaticLink ctermbg=NONE ctermfg=red cterm=underline
     hi link markdownUrl markdownAutomaticLink
-    hi markdownCodeDelimiter ctermbg=NONE ctermfg=green cterm=NONE
+    hi markdownError ctermbg=NONE ctermfg=white cterm=NONE
+    hi markdownCode ctermbg=NONE ctermfg=green cterm=NONE
+    hi markdownCodeBlock ctermbg=NONE ctermfg=green cterm=NONE
+    hi markdownCodeDelimiter ctermbg=NONE ctermfg=blue cterm=NONE
     hi xdefaultsValue ctermbg=NONE ctermfg=white cterm=NONE
     hi rubyInclude ctermbg=NONE ctermfg=blue cterm=NONE
     hi rubyDefine ctermbg=NONE ctermfg=magenta cterm=NONE
