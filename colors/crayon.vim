@@ -94,11 +94,18 @@ if &t_Co >= 256 || has("gui_running")
     hi Structure ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi CursorColumn ctermbg=8 ctermfg=15 cterm=NONE guibg=#222222 guifg=#dfe7d7 gui=NONE
     hi htmlLink ctermbg=NONE ctermfg=7 cterm=underline guibg=NONE guifg=#a3a69a gui=underline
+    hi htmlH1 ctermbg=NONE ctermfg=7 cterm=BOLD guibg=NONE guifg=#a3a69a gui=BOLD
+    hi link htmlH2 htmlH1
+    hi link htmlH3 htmlH1
+    hi link htmlH4 htmlH1
+    hi link htmlH5 htmlH1
+    hi link htmlH6 htmlH1
     hi cssMultiColumnAttr ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
     hi link cssFontAttr cssMultiColumnAttr
     hi link cssFlexibleBoxAttr cssMultiColumnAttr
     hi cssBraces ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#a3a69a gui=NONE
     hi link cssAttrComma cssBraces
+    hi scssSelectorChar ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#a3a69a gui=NONE
     hi markdownAutomaticLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#b27b78 gui=underline
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
@@ -167,11 +174,18 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Structure ctermbg=NONE ctermfg=magenta cterm=NONE
     hi CursorColumn ctermbg=darkgray ctermfg=white cterm=NONE
     hi htmlLink ctermbg=NONE ctermfg=gray cterm=underline
+    hi htmlH1 ctermbg=NONE ctermfg=gray cterm=BOLD
+    hi link htmlH2 htmlH1
+    hi link htmlH3 htmlH1
+    hi link htmlH4 htmlH1
+    hi link htmlH5 htmlH1
+    hi link htmlH6 htmlH1
     hi cssMultiColumnAttr ctermbg=NONE ctermfg=green cterm=NONE
     hi link cssFontAttr cssMultiColumnAttr
     hi link cssFlexibleBoxAttr cssMultiColumnAttr
     hi cssBraces ctermbg=NONE ctermfg=gray cterm=NONE
     hi link cssAttrComma cssBraces
+    hi scssSelectorChar ctermbg=NONE ctermfg=gray cterm=NONE
     hi markdownAutomaticLink ctermbg=NONE ctermfg=red cterm=underline
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=NONE ctermfg=green cterm=NONE
