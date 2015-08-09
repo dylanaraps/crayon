@@ -164,11 +164,11 @@ if &t_Co >= 256 || has("gui_running")
     hi rubyDefine ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi rubyFunction ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi rubyStringDelimiter ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
-    hi rubyInteger ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#c48452 gui=NONE
+    hi rubyInteger ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi rubyAttribute ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi rubyConstant ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi rubyInterpolation ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
-    hi rubyInterpolationDelimiter ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#c48452 gui=NONE
+    hi rubyInterpolationDelimiter ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi rubyRegexp ctermbg=NONE ctermfg=14 cterm=NONE guibg=NONE guifg=#81c9c2 gui=NONE
     hi rubySymbol ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
     hi pythonOperator ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
@@ -318,11 +318,11 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi rubyDefine ctermbg=NONE ctermfg=magenta cterm=NONE
     hi rubyFunction ctermbg=NONE ctermfg=blue cterm=NONE
     hi rubyStringDelimiter ctermbg=NONE ctermfg=green cterm=NONE
-    hi rubyInteger ctermbg=NONE ctermfg=darkyellow cterm=NONE
+    hi rubyInteger ctermbg=NONE ctermfg=yellow cterm=NONE
     hi rubyAttribute ctermbg=NONE ctermfg=blue cterm=NONE
     hi rubyConstant ctermbg=NONE ctermfg=yellow cterm=NONE
     hi rubyInterpolation ctermbg=NONE ctermfg=green cterm=NONE
-    hi rubyInterpolationDelimiter ctermbg=NONE ctermfg=darkyellow cterm=NONE
+    hi rubyInterpolationDelimiter ctermbg=NONE ctermfg=yellow cterm=NONE
     hi rubyRegexp ctermbg=NONE ctermfg=cyan cterm=NONE
     hi rubySymbol ctermbg=NONE ctermfg=green cterm=NONE
     hi pythonOperator ctermbg=NONE ctermfg=magenta cterm=NONE
