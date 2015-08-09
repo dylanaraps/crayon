@@ -27,7 +27,8 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 	* Supports Neovim's built in terminal mode
 
 * Plugin Support
-	* Supports Vim-Airline
+	* Vim-Airline
+	* Vim-Signify
 
 <!-- }}} -->
 
