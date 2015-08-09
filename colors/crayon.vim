@@ -132,6 +132,7 @@ if &t_Co >= 256 || has("gui_running")
     hi link cssValueLength cssValueNumber
     hi cssNoise ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
     hi cssTagName ctermbg=NONE ctermfg=9 cterm=bold guibg=NONE guifg=#b27b78 gui=bold
+    hi cssFunctionName ctermbg=NONE ctermfg=12 cterm=bold guibg=NONE guifg=#7495b6 gui=bold
     hi scssSelectorChar ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi scssAttribute ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi link scssDefinition cssNoise
@@ -276,6 +277,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi link cssValueLength cssValueNumber
     hi cssNoise ctermbg=NONE ctermfg=gray cterm=NONE
     hi cssTagName ctermbg=NONE ctermfg=red cterm=bold
+    hi cssFunctionName ctermbg=NONE ctermfg=blue cterm=bold
     hi scssSelectorChar ctermbg=NONE ctermfg=white cterm=NONE
     hi scssAttribute ctermbg=NONE ctermfg=white cterm=NONE
     hi link scssDefinition cssNoise
