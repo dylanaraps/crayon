@@ -1,3 +1,5 @@
+! Crayon Theme {{{
+
 ! special
 *.foreground:   #c9d4d8
 *.background:   #101112
@@ -13,10 +15,10 @@
 
 ! green
 *.color2:       #3b4a35
-*.color10:      #9dae71
+*.color10:      #99ae63
 
 ! yellow
-*.color3:       #784231
+*.color3:       #9d6539
 *.color11:      #d8c27a
 
 ! blue
@@ -34,3 +36,5 @@
 ! white
 *.color7:       #6a6f7a
 *.color15:      #c9d4d8
+
+! }}}

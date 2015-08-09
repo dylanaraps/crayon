@@ -15,14 +15,14 @@ endif
 let g:terminal_color_0 = "#101112"
 let g:terminal_color_1 = "#4d2525"
 let g:terminal_color_2 = "#3b4a35"
-let g:terminal_color_3 = "#784231"
+let g:terminal_color_3 = "#9d6539"
 let g:terminal_color_4 = "#2d4963"
 let g:terminal_color_5 = "#3d2e4f"
 let g:terminal_color_6 = "#263a40"
 let g:terminal_color_7 = "#6a6f7a"
 let g:terminal_color_8 = "#282c33"
 let g:terminal_color_9 = "#b27b78"
-let g:terminal_color_10 = "#9dae71"
+let g:terminal_color_10 = "#99ae63"
 let g:terminal_color_11 = "#d8c27a"
 let g:terminal_color_12 = "#7495b6"
 let g:terminal_color_13 = "#b59cd8"
@@ -45,7 +45,7 @@ if &t_Co >= 256 || has("gui_running")
     hi PreProc ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi Special ctermbg=NONE ctermfg=14 cterm=NONE guibg=NONE guifg=#81c9c2 gui=NONE
     hi Statement ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
-    hi String ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
+    hi String ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
     hi Number ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
     hi Todo ctermbg=8 ctermfg=11 cterm=NONE guibg=#282c33 guifg=#d8c27a gui=NONE
     hi Type ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
@@ -71,9 +71,9 @@ if &t_Co >= 256 || has("gui_running")
     hi PmenuThumb ctermbg=7 ctermfg=7 cterm=NONE guibg=#6a6f7a guifg=#6a6f7a gui=NONE
     hi FoldColumn ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi Folded ctermbg=NONE ctermfg=8 cterm=bold guibg=NONE guifg=#282c33 gui=bold
-    hi WildMenu ctermbg=10 ctermfg=0 cterm=NONE guibg=#9dae71 guifg=#101112 gui=NONE
+    hi WildMenu ctermbg=10 ctermfg=0 cterm=NONE guibg=#99ae63 guifg=#101112 gui=NONE
     hi SpecialKey ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
-    hi DiffAdd ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
+    hi DiffAdd ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
     hi DiffChange ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
     hi DiffDelete ctermbg=NONE ctermfg=9 cterm=bold guibg=NONE guifg=#b27b78 gui=bold
     hi DiffText ctermbg=NONE ctermfg=12 cterm=bold guibg=NONE guifg=#7495b6 gui=bold
@@ -88,8 +88,8 @@ if &t_Co >= 256 || has("gui_running")
     hi ColorColumn ctermbg=8 ctermfg=8 cterm=NONE guibg=#282c33 guifg=#282c33 gui=NONE
     hi signColumn ctermbg=NONE ctermfg=12 cterm=bold guibg=NONE guifg=#7495b6 gui=bold
     hi ErrorMsg ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
-    hi ModeMsg ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
-    hi MoreMsg ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
+    hi ModeMsg ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
+    hi MoreMsg ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
     hi Question ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi WarningMsg ctermbg=9 ctermfg=0 cterm=NONE guibg=#b27b78 guifg=#101112 gui=NONE
     hi Cursor ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
@@ -102,7 +102,7 @@ if &t_Co >= 256 || has("gui_running")
     hi link htmlH4 htmlH1
     hi link htmlH5 htmlH1
     hi link htmlH6 htmlH1
-    hi cssMultiColumnAttr ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
+    hi cssMultiColumnAttr ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
     hi link cssFontAttr cssMultiColumnAttr
     hi link cssFlexibleBoxAttr cssMultiColumnAttr
     hi cssBraces ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
@@ -117,13 +117,13 @@ if &t_Co >= 256 || has("gui_running")
     hi link cssNoise scssDefinition
     hi markdownAutomaticLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#b27b78 gui=underline
     hi link markdownUrl markdownAutomaticLink
-    hi markdownCodeDelimiter ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
+    hi markdownCodeDelimiter ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
     hi xdefaultsValue ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi rubyInclude ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi rubyDefine ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi rubyFunction ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi rubyStringDelimiter ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
-    hi rubyInteger ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#784231 gui=NONE
+    hi rubyInteger ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=black ctermfg=white cterm=NONE
