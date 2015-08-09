@@ -60,6 +60,7 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 * Plugin Support
 	* Vim-Airline
 	* Vim-Signify
+	* NerdTree
 
 <!-- }}} -->
 
