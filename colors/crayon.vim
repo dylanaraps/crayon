@@ -32,7 +32,7 @@ let colors_name = "crayon"
 " highlight groups {{{
 
 if &t_Co >= 256 || has("gui_running")
-    hi Normal ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#a3a69a gui=NONE
+    hi Normal ctermbg=black ctermfg=7 cterm=NONE guibg=black guifg=#a3a69a gui=NONE
     set background=dark
     hi NonText ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#101112 gui=NONE
     hi Comment ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
@@ -112,7 +112,7 @@ if &t_Co >= 256 || has("gui_running")
     hi xdefaultsValue ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#a3a69a gui=NONE
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
-    hi Normal ctermbg=NONE ctermfg=gray cterm=NONE
+    hi Normal ctermbg=black ctermfg=gray cterm=NONE
     set background=dark
     hi NonText ctermbg=NONE ctermfg=black cterm=NONE
     hi Comment ctermbg=NONE ctermfg=darkgray cterm=NONE
