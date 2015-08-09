@@ -1,8 +1,8 @@
 # Crayon
 
-A dark 16 color colorscheme for Vim, Gvim, Nvim and Terminals.
+A dark 16 color colorscheme for Vim, Gvim, and Nvim
 
-NOTE: This is still a heavy WIP and everything is subject to change.
+NOTE: This is still a heavy WIP and everything is subject to change. Once I'm happy with the colors I'll add support for more terminal emulators. Until then crayon only officially supports terminals that use the .Xresources/.Xdefaults file(s).
 
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/vimrc.png)
 
@@ -26,22 +26,29 @@ NOTE: This is still a heavy WIP and everything is subject to change.
 	* Plugin Support
 		* Supports Vim-Airline
 
-* Supports A wide range of Terminal Emulators
-
 
 ## Installation
 
 ### *Vim
 
-Place 'crayon.vim' file into 'colors' folder within your Vim directory, e.g. '~/.*vim/colors/'
-
-Or use a plugin manager like [Plug](https://github.com/junegunn/vim-plug).
+#### 1.1: Preferred Method
+Use a plugin manager like [Plug](https://github.com/junegunn/vim-plug).
 
 ```VimL
 Plug 'dylanaraps/crayon-theme'
 ```
 
-Then, put this in your '~/.*vimrc'
+Using plug you can easily update the plugin with
+
+```VimL
+:PlugUpdate
+```
+
+#### 1.2: Manual Install
+Place 'crayon.vim' file into 'colors' folder within your Vim directory, e.g. '~/.*vim/colors/'
+
+#### 2: Now What?
+Once you've installed the theme, put this in your '~/.*vimrc' and you should be all set.
 
 ```VimL
 set background=dark
@@ -120,53 +127,12 @@ augroup END
 
 ### Terminal Installation
 
-Crayon support for various terminals, if the terminal you're using isn't listed here create an issue or a pull request and I'll be happy to add/merge support for it.
-
-I've only tested the colorscheme file in urxvt, if there's any issues with other terminal emulators let me know.
-
-#### xterm, Urxvt and most other terminals.
+#### xterm, Urxvt and terminals that use the .Xresources/.Xdefaults file.
 Add the contents of the .Xresources file to your own .Xresources.
 
-#### xfce4-terminal.
-Add the contents of the file to your terminalrc or overight your current config.
-
-The terminalrc is usually located in ~/.config/xfce4/terminal/
-
-#### termite
-Add the contents of the file to ~/.config/termite/config
-
-#### terminator
-Add/Copy the contents of the file to ~/.config/terminator/
-
-#### Terminal.app (OSX)
-OS X 10.7 Lion: Double click to install or import into Terminal.app preferences.
-
-OS X 10.8 Mountain Lion: Import into Terminal.app preferences.
-
-#### simple terminal (st)
-Add the contents of the file to your config.h
-
-#### Konsole
-Add the contents of the file to ~/.kde4/share/config/konsolerc
-
-#### iTerm2
-Open iTerm 2, open Preferences, click on the "Profiles" (formerly Addresses, formerly Bookmarks) icon in the preferences toolbar, then select the "colors" tab. Click on the "load presets" and select "import...". Select the theme file and you should be good to go.
-
-#### Gnome Terminal
-Firstly source the theme.
-
-```Bash
-source /terminal/Gnome\ Terminal/crayon-theme.sh
-```
-
-Next, restart or open Gnome Terminal. Right click on the terminal and select profiles the menu that pops-up. The scheme you just sourced should be available for selection.
+Support for other terminals is coming once I've finalized the schemes colors. In the meantime you can go to [Terminal.sexy](http://terminal.sexy/), import the contents of the .Xresources file from the repo and then export it to the terminal format of your choice.
 
 #### Credits
 
 * [RNB, a Vim colorscheme template](https://gist.github.com/romainl/5cd2f4ec222805f49eca)
 	* Used to create the colorscheme
-
-* [Terminal.sexy](http://terminal.sexy/)
-	* Used to generate all of the terminal colorscheme files.
-
-
