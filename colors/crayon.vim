@@ -81,10 +81,6 @@ if &t_Co >= 256 || has("gui_running")
     hi Search ctermbg=11 ctermfg=0 cterm=NONE guibg=#d8c27a guifg=#101112 gui=NONE
     hi Directory ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi MatchParen ctermbg=8 ctermfg=0 cterm=NONE guibg=#282c33 guifg=#101112 gui=NONE
-    hi SpellBad ctermbg=NONE ctermfg=1 cterm=underline guibg=NONE guifg=#4d2525 gui=underline guisp=#4d2525
-    hi SpellCap ctermbg=NONE ctermfg=4 cterm=underline guibg=NONE guifg=#2d4963 gui=underline guisp=#2d4963
-    hi SpellLocal ctermbg=NONE ctermfg=5 cterm=underline guibg=NONE guifg=#3d2e4f gui=underline guisp=#3d2e4f
-    hi SpellRare ctermbg=NONE ctermfg=6 cterm=underline guibg=NONE guifg=#263a40 gui=underline guisp=#263a40
     hi ColorColumn ctermbg=8 ctermfg=8 cterm=NONE guibg=#282c33 guifg=#282c33 gui=NONE
     hi signColumn ctermbg=NONE ctermfg=12 cterm=bold guibg=NONE guifg=#7495b6 gui=bold
     hi ErrorMsg ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
@@ -95,6 +91,10 @@ if &t_Co >= 256 || has("gui_running")
     hi Cursor ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
     hi Structure ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi CursorColumn ctermbg=8 ctermfg=15 cterm=NONE guibg=#282c33 guifg=#c9d4d8 gui=NONE
+    hi SpellBad ctermbg=NONE ctermfg=1 cterm=underline guibg=NONE guifg=#4d2525 gui=underline guisp=#4d2525
+    hi SpellCap ctermbg=NONE ctermfg=4 cterm=underline guibg=NONE guifg=#2d4963 gui=underline guisp=#2d4963
+    hi SpellLocal ctermbg=NONE ctermfg=5 cterm=underline guibg=NONE guifg=#3d2e4f gui=underline guisp=#3d2e4f
+    hi SpellRare ctermbg=NONE ctermfg=6 cterm=underline guibg=NONE guifg=#263a40 gui=underline guisp=#263a40
     hi Boolean ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
     hi Character ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
     hi Conditional ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
@@ -138,6 +138,9 @@ if &t_Co >= 256 || has("gui_running")
     hi rubyFunction ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi rubyStringDelimiter ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi rubyInteger ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
+    hi SignifySignAdd ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#99ae63 gui=NONE
+    hi SignifySignChange ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
+    hi SignifySignDelete ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=black ctermfg=white cterm=NONE
@@ -187,10 +190,6 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Search ctermbg=yellow ctermfg=black cterm=NONE
     hi Directory ctermbg=NONE ctermfg=blue cterm=NONE
     hi MatchParen ctermbg=darkgray ctermfg=black cterm=NONE
-    hi SpellBad ctermbg=NONE ctermfg=darkred cterm=underline
-    hi SpellCap ctermbg=NONE ctermfg=darkblue cterm=underline
-    hi SpellLocal ctermbg=NONE ctermfg=darkmagenta cterm=underline
-    hi SpellRare ctermbg=NONE ctermfg=darkcyan cterm=underline
     hi ColorColumn ctermbg=darkgray ctermfg=darkgray cterm=NONE
     hi signColumn ctermbg=NONE ctermfg=blue cterm=bold
     hi ErrorMsg ctermbg=NONE ctermfg=darkgray cterm=NONE
@@ -201,6 +200,10 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Cursor ctermbg=NONE ctermfg=darkgray cterm=NONE
     hi Structure ctermbg=NONE ctermfg=magenta cterm=NONE
     hi CursorColumn ctermbg=darkgray ctermfg=white cterm=NONE
+    hi SpellBad ctermbg=NONE ctermfg=darkred cterm=underline
+    hi SpellCap ctermbg=NONE ctermfg=darkblue cterm=underline
+    hi SpellLocal ctermbg=NONE ctermfg=darkmagenta cterm=underline
+    hi SpellRare ctermbg=NONE ctermfg=darkcyan cterm=underline
     hi Boolean ctermbg=NONE ctermfg=darkyellow cterm=NONE
     hi Character ctermbg=NONE ctermfg=red cterm=NONE
     hi Conditional ctermbg=NONE ctermfg=magenta cterm=NONE
@@ -244,6 +247,9 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi rubyFunction ctermbg=NONE ctermfg=blue cterm=NONE
     hi rubyStringDelimiter ctermbg=NONE ctermfg=white cterm=NONE
     hi rubyInteger ctermbg=NONE ctermfg=darkyellow cterm=NONE
+    hi SignifySignAdd ctermbg=NONE ctermfg=green cterm=NONE
+    hi SignifySignChange ctermbg=NONE ctermfg=blue cterm=NONE
+    hi SignifySignDelete ctermbg=NONE ctermfg=red cterm=NONE
 endif
 
 

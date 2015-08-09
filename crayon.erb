@@ -103,10 +103,6 @@
         [ "Search", yellow, black, "NONE" ],
         [ "Directory", "NONE", blue, "NONE" ],
         [ "MatchParen", darkgray, black, "NONE" ],
-        [ "SpellBad", "NONE", darkred, "underline", darkred ],
-        [ "SpellCap", "NONE", darkblue, "underline", darkblue ],
-        [ "SpellLocal", "NONE", darkmagenta, "underline", darkmagenta ],
-        [ "SpellRare", "NONE", darkcyan, "underline", darkcyan ],
         [ "ColorColumn", darkgray, darkgray, "NONE" ],
         [ "signColumn", "NONE", blue, "bold" ],
         [ "ErrorMsg", "NONE", darkgray, "NONE" ],
@@ -118,6 +114,12 @@
         [ "Structure", "NONE", magenta, "NONE" ],
         [ "CursorColumn", darkgray, white, "NONE" ],
 		# [ "EndOfBuffer", "NONE", black, "NONE"],
+
+		# Spelling Highlighting
+        [ "SpellBad", "NONE", darkred, "underline", darkred ],
+        [ "SpellCap", "NONE", darkblue, "underline", darkblue ],
+        [ "SpellLocal", "NONE", darkmagenta, "underline", darkmagenta ],
+        [ "SpellRare", "NONE", darkcyan, "underline", darkcyan ],
 
 		# Standard Syntax Highlighting
 		[ "Boolean", "NONE", darkyellow, "NONE" ],
@@ -134,7 +136,6 @@
 		[ "SpecialChar", "NONE", darkyellow, "NONE" ],
 		[ "Tag", "NONE", yellow, "NONE" ],
 		[ "Typedef", "NONE", yellow, "NONE" ],
-
 
 		# Filetype Specific
 
@@ -175,7 +176,14 @@
 		[ "rubyDefine", "NONE", magenta, "NONE" ],
 		[ "rubyFunction", "NONE", blue, "NONE" ],
 		[ "rubyStringDelimiter", "NONE", white, "NONE" ],
-		[ "rubyInteger", "NONE", darkyellow, "NONE" ]
+		[ "rubyInteger", "NONE", darkyellow, "NONE" ],
+
+		# Plugin Specific
+
+		# Signify
+		[ "SignifySignAdd", "NONE", green, "NONE" ],
+		[ "SignifySignChange", "NONE", blue, "NONE" ],
+		[ "SignifySignDelete", "NONE", red, "NONE" ]
     ]
 
 	# }}}
