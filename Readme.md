@@ -6,6 +6,8 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/vimrc.png)
 
+<!--- Screenshots {{{ -->
+
 ## Screenshots
 
 #### Xresources
@@ -14,15 +16,22 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 #### Markdown with Goyo.vim
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/markdown.png)
 
+<!-- }}} -->
+
+<!--- Features {{{ -->
+
 ## Features
 
 * Supports Vim, Gvim and Neovim
-* Supports Neovim with true color enabled
-* Supports Neovim's built in terminal mode
+	* Supports Neovim with true color enabled
+	* Supports Neovim's built in terminal mode
 
 * Plugin Support
-* Supports Vim-Airline
+	* Supports Vim-Airline
 
+<!-- }}} -->
+
+<!--- Installation {{{ -->
 
 ## Installation
 
@@ -66,6 +75,10 @@ Add this line to your .*vimrc:
 ```VimL
 let g:airline_theme = 'crayon'
 ```
+
+<!--- }}} -->
+
+<!--- Customization {{{ -->
 
 ### Customization
 You can customize all of the theme's colors by adding some lines to your .*vimrc. Here's an example that changes the color of the line numbers:
@@ -122,6 +135,10 @@ autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 cte
 augroup END
 ```
 
+<!--- }}} -->
+
+<!--- Terminal Installation {{{ -->
+
 ### Terminal Installation
 
 #### xterm, Urxvt and terminals that use the .Xresources/.Xdefaults file.
@@ -129,30 +146,9 @@ Add the contents of the .Xresources file to your own .Xresources.
 
 Support for other terminals is coming once I've finalized the schemes colors. In the meantime you can go to [Terminal.sexy](http://terminal.sexy/), import the contents of the .Xresources file from the repo and then export it to the terminal format of your choice.
 
-#### Hex Colors
-
-Codes are the color codes for terminal vim that are used for highlight groups.
-
-| **Name**    | **Hex** | **Codes** |
-|-------------|---------|-----------|
-| black		  | #101112 |     0     |
-| darkred	  | #4d2525 |     1     |
-| darkgreen	  | #3b4a35 |     2     |
-| darkyellow  | #784231 |     3     |
-| darkblue	  | #2d4963 |     4     |
-| darkmagenta | #3d2e4f |     5     |
-| darkcyan	  | #263a40 |     6     |
-| gray		  | #6a6f7a |     7     |
-| darkgray	  | #282c33 |     8     |
-| red		  | #b27b78 |     9     |
-| green		  | #9dae71 |    10     |
-| yellow	  | #d8c27a |    11     |
-| blue		  | #7495b6 |    12     |
-| magenta	  | #b59cd8 |    13     |
-| cyan		  | #81c9c2 |    14     |
-| white		  | #c9d4d8 |    15     |
+<!--- }}} -->
 
 #### Credits
 
-* [RNB, a Vim colorscheme template](https://gist.github.com/romainl/5cd2f4ec222805f49eca)
+* [RNB, a Vim colorscheme template(https://gist.github.com/romainl/5cd2f4ec222805f49eca)
 * Used to create the colorscheme
