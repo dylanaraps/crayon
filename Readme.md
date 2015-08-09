@@ -9,22 +9,25 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 <!--- Hex Colors {{{ -->
 
 ### Hex Colors
-* `#101112` black/background
-* `#7f4040` darkred
-* `#324a28` darkgreen
-* `#c48452` orange
-* `#2d4963` darkblue
-* `#3d2e4f` darkmagenta
-* `#263a40` darkcyan
-* `#6a6f7a` gray
-* `#282c33` darkgray
-* `#b27b78` red
-* `#99ae63` green
-* `#d8c27a` yellow
-* `#7495b6` blue
-* `#b59cd8` magenta
-* `#81c9c2` cyan
-* `#c9d4d8` white/foreground
+
+`#101112` black/background
+`#7f4040` darkred
+`#324a28` darkgreen
+`#c48452` orange
+`#2d4963` darkblue
+`#3d2e4f` darkmagenta
+`#263a40` darkcyan
+`#6a6f7a` gray
+`#282c33` darkgray
+`#b27b78` red
+`#99ae63` green
+`#d8c27a` yellow
+`#7495b6` blue
+`#b59cd8` magenta
+`#81c9c2` cyan
+`#c9d4d8` white/foreground
+
+
 
 <!--- }}} -->
 
