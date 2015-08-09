@@ -134,23 +134,23 @@ Support for other terminals is coming once I've finalized the schemes colors. In
 Codes are the color codes for terminal vim that are used for highlight groups.
 
 | **Name**    | **Hex** | **Codes** |
-|-------------|---------|-------    |
-| black		  | #101112 |   0       |
-| darkred	  | #4d2525 |   1       |
-| darkgreen	  | #3b4a35 |   2       |
-| darkyellow  | #784231 |   3       |
-| darkblue	  | #2d4963 |   4       |
-| darkmagenta | #3d2e4f |   5       |
-| darkcyan	  | #263a40 |   6       |
-| gray		  | #6a6f7a |   7       |
-| darkgray	  | #282c33 |   8       |
-| red		  | #b27b78 |   9       |
-| green		  | #9dae71 |  10       |
-| yellow	  | #d8c27a |  11       |
-| blue		  | #7495b6 |  12       |
-| magenta	  | #b59cd8 |  13       |
-| cyan		  | #81c9c2 |  14       |
-| white		  | #c9d4d8 |  15       |
+|-------------|---------|-----------|
+| black		  | #101112 |     0     |
+| darkred	  | #4d2525 |     1     |
+| darkgreen	  | #3b4a35 |     2     |
+| darkyellow  | #784231 |     3     |
+| darkblue	  | #2d4963 |     4     |
+| darkmagenta | #3d2e4f |     5     |
+| darkcyan	  | #263a40 |     6     |
+| gray		  | #6a6f7a |     7     |
+| darkgray	  | #282c33 |     8     |
+| red		  | #b27b78 |     9     |
+| green		  | #9dae71 |    10     |
+| yellow	  | #d8c27a |    11     |
+| blue		  | #7495b6 |    12     |
+| magenta	  | #b59cd8 |    13     |
+| cyan		  | #81c9c2 |    14     |
+| white		  | #c9d4d8 |    15     |
 
 #### Credits
 
