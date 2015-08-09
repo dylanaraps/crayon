@@ -34,7 +34,7 @@ let colors_name = "crayon"
 if &t_Co >= 256 || has("gui_running")
     hi Normal ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#a3a69a gui=NONE
     set background=dark
-    hi NonText ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
+    hi NonText ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#101112 gui=NONE
     hi Comment ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#222222 gui=NONE
     hi Constant ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi Error ctermbg=1 ctermfg=15 cterm=NONE guibg=#401f1f guifg=#dfe7d7 gui=NONE
@@ -107,7 +107,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=NONE ctermfg=gray cterm=NONE
     set background=dark
-    hi NonText ctermbg=NONE ctermfg=NONE cterm=NONE
+    hi NonText ctermbg=NONE ctermfg=black cterm=NONE
     hi Comment ctermbg=NONE ctermfg=darkgray cterm=NONE
     hi Constant ctermbg=NONE ctermfg=yellow cterm=NONE
     hi Error ctermbg=darkred ctermfg=white cterm=NONE
