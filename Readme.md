@@ -10,6 +10,8 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 
 ### Hex Colors
 
+![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/palette.png)
+
 	`#101112` black/background
 	`#7f4040` darkred
 	`#324a28` darkgreen
@@ -26,8 +28,6 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 	`#b59cd8` magenta
 	`#81c9c2` cyan
 	`#c9d4d8` white/foreground
-
-
 
 <!--- }}} -->
 
