@@ -20,11 +20,11 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 ## Features
 
 * Supports Vim, Gvim and Neovim
-	* Supports Neovim with true color enabled
-	* Supports Neovim's built in terminal mode
+* Supports Neovim with true color enabled
+* Supports Neovim's built in terminal mode
 
-	* Plugin Support
-		* Supports Vim-Airline
+* Plugin Support
+* Supports Vim-Airline
 
 
 ## Installation
@@ -108,10 +108,10 @@ If you don't like the default background color you can easily change it without 
 This currently only works with dark background colors as the theme doesn't have a light varient yet.
 
 ```VimL
-	" This line changes the background color
- 	au ColorScheme * hi Normal guibg=#181818 ctermbg=8
+" This line changes the background color
+au ColorScheme * hi Normal guibg=#181818 ctermbg=8
 
-	colorscheme = crayon
+colorscheme = crayon
 ```
 
 #### Protip
@@ -135,4 +135,4 @@ Support for other terminals is coming once I've finalized the schemes colors. In
 #### Credits
 
 * [RNB, a Vim colorscheme template](https://gist.github.com/romainl/5cd2f4ec222805f49eca)
-	* Used to create the colorscheme
+* Used to create the colorscheme

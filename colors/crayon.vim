@@ -108,6 +108,9 @@ if &t_Co >= 256 || has("gui_running")
     hi cssBraces ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
     hi link cssAttrComma cssBraces
     hi scssSelectorChar ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi cssValueLength ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
+    hi scssAttribute ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
+    hi cssUnitDecorators ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
     hi markdownAutomaticLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#b27b78 gui=underline
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
@@ -188,6 +191,9 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi cssBraces ctermbg=NONE ctermfg=white cterm=NONE
     hi link cssAttrComma cssBraces
     hi scssSelectorChar ctermbg=NONE ctermfg=white cterm=NONE
+    hi cssValueLength ctermbg=NONE ctermfg=gray cterm=NONE
+    hi scssAttribute ctermbg=NONE ctermfg=gray cterm=NONE
+    hi cssUnitDecorators ctermbg=NONE ctermfg=gray cterm=NONE
     hi markdownAutomaticLink ctermbg=NONE ctermfg=red cterm=underline
     hi link markdownUrl markdownAutomaticLink
     hi markdownCodeDelimiter ctermbg=NONE ctermfg=green cterm=NONE
