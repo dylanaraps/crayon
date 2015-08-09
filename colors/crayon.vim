@@ -98,6 +98,17 @@ if &t_Co >= 256 || has("gui_running")
     hi Boolean ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
     hi Character ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
     hi Conditional ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
+    hi Define ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
+    hi Delimiter ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
+    hi Float ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
+    hi Include ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
+    hi Keyword ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
+    hi Label ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
+    hi Operator ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi Repeat ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
+    hi SpecialChar ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#9d6539 gui=NONE
+    hi Tag ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
+    hi Typedef ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi htmlLink ctermbg=NONE ctermfg=15 cterm=underline guibg=NONE guifg=#c9d4d8 gui=underline
     hi htmlH1 ctermbg=NONE ctermfg=15 cterm=BOLD guibg=NONE guifg=#c9d4d8 gui=BOLD
     hi link htmlH2 htmlH1
@@ -193,6 +204,17 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Boolean ctermbg=NONE ctermfg=darkyellow cterm=NONE
     hi Character ctermbg=NONE ctermfg=red cterm=NONE
     hi Conditional ctermbg=NONE ctermfg=magenta cterm=NONE
+    hi Define ctermbg=NONE ctermfg=magenta cterm=NONE
+    hi Delimiter ctermbg=NONE ctermfg=darkyellow cterm=NONE
+    hi Float ctermbg=NONE ctermfg=darkyellow cterm=NONE
+    hi Include ctermbg=NONE ctermfg=blue cterm=NONE
+    hi Keyword ctermbg=NONE ctermfg=magenta cterm=NONE
+    hi Label ctermbg=NONE ctermfg=yellow cterm=NONE
+    hi Operator ctermbg=NONE ctermfg=white cterm=NONE
+    hi Repeat ctermbg=NONE ctermfg=yellow cterm=NONE
+    hi SpecialChar ctermbg=NONE ctermfg=darkyellow cterm=NONE
+    hi Tag ctermbg=NONE ctermfg=yellow cterm=NONE
+    hi Typedef ctermbg=NONE ctermfg=yellow cterm=NONE
     hi htmlLink ctermbg=NONE ctermfg=white cterm=underline
     hi htmlH1 ctermbg=NONE ctermfg=white cterm=BOLD
     hi link htmlH2 htmlH1
