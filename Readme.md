@@ -98,7 +98,7 @@ Crayon currently supports these vim plugins:
 
 * Vim-Airline
 
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/airline.gif)
+![](https://github.com/dylanaraps/crayon-theme/raw/master/screenshots/airline.gif)
 
 Feel free to request support for your favourite plugins and I'll happily add them to the list!
 
