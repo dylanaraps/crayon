@@ -11,7 +11,7 @@
 
 	# Colors
 	# Note: These also appear below, if you change the hex values it's better to do so with a find and replace.
-    # black       = ["#080808", 0, "black"]
+    black       = ["#111111", 0, "black"]
     darkred     = ["#401f1f", 1, "darkred"]
     darkgreen   = ["#3b4a35", 2, "darkgreen"]
     darkyellow  = ["#4d3c2e", 3, "darkyellow"]
@@ -19,7 +19,7 @@
     darkmagenta = ["#564059", 5, "darkmagenta"]
     darkcyan    = ["#2e3c40", 6, "darkcyan"]
     gray        = ["#a3a69a", 7, "gray"]
-    darkgray    = ["#1f1f1f", 8, "darkgray"]
+    darkgray    = ["#222222", 8, "darkgray"]
     red         = ["#b27b78", 9, "red"]
     green       = ["#9dae71", 10, "green"]
     yellow      = ["#d8c27a", 11, "yellow"]
@@ -56,7 +56,7 @@
 
     highlights = [
         [ "Normal", "NONE", gray, "NONE" ],
-        [ "NonText", "NONE", black, "NONE" ],
+        [ "NonText", "Normal" ],
         [ "Comment", "NONE", darkgray, "NONE" ],
 		[ "Constant", "NONE", yellow, "NONE" ],
         [ "Error", darkred, white, "NONE" ],
@@ -118,7 +118,7 @@
         [ "Cursor", "NONE", darkgray, "NONE" ],
         [ "Structure", "NONE", magenta, "NONE" ],
         [ "CursorColumn", darkgray, white, "NONE" ],
-		[ "EndOfBuffer", "NONE", black, "NONE"],
+		# [ "EndOfBuffer", "NONE", black, "NONE"],
 
 		# Filetype Specific
 

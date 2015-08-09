@@ -34,7 +34,7 @@ let colors_name = "crayon"
 if &t_Co >= 256 || has("gui_running")
     hi Normal ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#a3a69a gui=NONE
     set background=dark
-    hi NonText ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#080808 gui=NONE
+    hi link NonText Normal
     hi Comment ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#1f1f1f gui=NONE
     hi Constant ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi Error ctermbg=1 ctermfg=15 cterm=NONE guibg=#401f1f guifg=#dfe7d7 gui=NONE
@@ -93,7 +93,6 @@ if &t_Co >= 256 || has("gui_running")
     hi Cursor ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#1f1f1f gui=NONE
     hi Structure ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi CursorColumn ctermbg=8 ctermfg=15 cterm=NONE guibg=#1f1f1f guifg=#dfe7d7 gui=NONE
-    hi EndOfBuffer ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#080808 gui=NONE
     hi htmlLink ctermbg=NONE ctermfg=7 cterm=underline guibg=NONE guifg=#a3a69a gui=underline
     hi cssMultiColumnAttr ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#9dae71 gui=NONE
     hi link cssFontAttr cssMultiColumnAttr
@@ -107,7 +106,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=NONE ctermfg=gray cterm=NONE
     set background=dark
-    hi NonText ctermbg=NONE ctermfg=black cterm=NONE
+    hi link NonText Normal
     hi Comment ctermbg=NONE ctermfg=darkgray cterm=NONE
     hi Constant ctermbg=NONE ctermfg=yellow cterm=NONE
     hi Error ctermbg=darkred ctermfg=white cterm=NONE
@@ -166,7 +165,6 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Cursor ctermbg=NONE ctermfg=darkgray cterm=NONE
     hi Structure ctermbg=NONE ctermfg=magenta cterm=NONE
     hi CursorColumn ctermbg=darkgray ctermfg=white cterm=NONE
-    hi EndOfBuffer ctermbg=NONE ctermfg=black cterm=NONE
     hi htmlLink ctermbg=NONE ctermfg=gray cterm=underline
     hi cssMultiColumnAttr ctermbg=NONE ctermfg=green cterm=NONE
     hi link cssFontAttr cssMultiColumnAttr
