@@ -63,7 +63,7 @@ endif
 "       \ [ '#c9d4d8' , '#101112' , 7 , 0 , 'bold' ] )
 
 let g:airline#themes#crayon#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
-      \ [ '#101112' , '#282c33' , 0 , 8 , 'bold' ],
-      \ [ '#101112' , '#282c33' , 0 , 8 , 'bold' ],
-      \ [ '#101112' , '#6a6f7a' , 0 , 7 , 'bold' ] )
+      \ [ '#282c33' , '#101112' , 8 , 0 , 'bold' ],
+      \ [ '#282c33' , '#101112' , 8 , 0 , 'bold' ],
+      \ [ '#101112' , '#282c33' , 0 , 8 , 'bold' ] )
 
