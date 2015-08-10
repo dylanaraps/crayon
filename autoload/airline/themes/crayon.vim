@@ -59,6 +59,6 @@ endif
 
 let g:airline#themes#crayon#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
       \ [ '#6a6f7a' , '#101112' , 7 , 0 , 'bold' ],
-      \ [ '#6a6f7a' , '#101112' , 7 , 0 , 'bold' ],
+      \ [ '#FFFFFF' , '#101112' , 7 , 0 , 'bold' ],
       \ [ '#6a6f7a' , '#101112' , 7 , 0 , 'bold' ] )
 
