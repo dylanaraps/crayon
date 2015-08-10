@@ -10,6 +10,7 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 <!--- Screenshots {{{ -->
 
 ## Screenshots
+The terminal font used in the screenshots is [envypn](https://aur.archlinux.org/packages/envypn-font/) by Ypnose.
 
 #### Markdown
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/markdown.png)
