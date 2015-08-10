@@ -189,6 +189,9 @@ if &t_Co >= 256 || has("gui_running")
     hi SignifySignDelete ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#b27b78 gui=NONE
     hi NERDTreeDirSlash ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
     hi NERDTreeExecFile ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
+    hi CtrlPArrow1 ctermbg=12 ctermfg=0 cterm=NONE guibg=#7495b6 guifg=#101112 gui=NONE
+    hi CtrlPArrow2 ctermbg=4 ctermfg=0 cterm=NONE guibg=#2d4963 guifg=#101112 gui=NONE
+    hi CtrlPArrow3 ctermbg=4 ctermfg=0 cterm=NONE guibg=#2d4963 guifg=#101112 gui=NONE
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=black ctermfg=white cterm=NONE
@@ -345,6 +348,9 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi SignifySignDelete ctermbg=NONE ctermfg=red cterm=NONE
     hi NERDTreeDirSlash ctermbg=NONE ctermfg=blue cterm=NONE
     hi NERDTreeExecFile ctermbg=NONE ctermfg=white cterm=NONE
+    hi CtrlPArrow1 ctermbg=blue ctermfg=black cterm=NONE
+    hi CtrlPArrow2 ctermbg=darkblue ctermfg=black cterm=NONE
+    hi CtrlPArrow3 ctermbg=darkblue ctermfg=black cterm=NONE
 endif
 
 
