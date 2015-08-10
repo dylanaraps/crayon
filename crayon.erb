@@ -1,103 +1,103 @@
 <%
-	# Crayon ColorScheme
-    information = {
-        author:      "Dylan Araps",
-        email:       "dyl@tfwno.gf",
-        name:        "crayon",
-        description: "A 16 color theme for vim",
+		# Crayon ColorScheme
+	information = {
+		author:      "Dylan Araps",
+		email:       "dyl@tfwno.gf",
+		name:        "crayon",
+		description: "A 16 color theme for vim",
 		webpage:	 "https://github.com/dylanaraps",
-        background:  "dark",
-    }
+		background:  "dark",
+}
 
 	# Colors
 	# Note: These also appear below, if you change the hex values it's better to do so with a find and replace.
-    black       = ["#101112", 0, "black"]
-    darkred     = ["#7f4040", 1, "darkred"]
-    darkgreen   = ["#324a28", 2, "darkgreen"]
-    darkyellow  = ["#c48452", 3, "darkyellow"]
-    darkblue    = ["#2d4963", 4, "darkblue"]
-    darkmagenta = ["#3d2e4f", 5, "darkmagenta"]
-    darkcyan    = ["#263a40", 6, "darkcyan"]
-    gray        = ["#6a6f7a", 7, "gray"]
-    darkgray    = ["#282c33", 8, "darkgray"]
-    red         = ["#b27b78", 9, "red"]
-    green       = ["#99ae63", 10, "green"]
-    yellow      = ["#d8c27a", 11, "yellow"]
-    blue        = ["#7495b6", 12, "blue"]
-    magenta     = ["#b59cd8", 13, "magenta"]
-    cyan        = ["#81c9c2", 14, "cyan"]
-    white       = ["#c9d4d8", 15, "white"]
+	black       = ["#101112", 0, "black"]
+	darkred     = ["#7f4040", 1, "darkred"]
+	darkgreen   = ["#324a28", 2, "darkgreen"]
+	darkyellow  = ["#c48452", 3, "darkyellow"]
+	darkblue    = ["#2d4963", 4, "darkblue"]
+	darkmagenta = ["#3d2e4f", 5, "darkmagenta"]
+	darkcyan    = ["#263a40", 6, "darkcyan"]
+	gray        = ["#6a6f7a", 7, "gray"]
+	darkgray    = ["#282c33", 8, "darkgray"]
+	red         = ["#b27b78", 9, "red"]
+	green       = ["#99ae63", 10, "green"]
+	yellow      = ["#d8c27a", 11, "yellow"]
+	blue        = ["#7495b6", 12, "blue"]
+	magenta     = ["#b59cd8", 13, "magenta"]
+	cyan        = ["#81c9c2", 14, "cyan"]
+	white       = ["#c9d4d8", 15, "white"]
 
 	# Step 3: highlights {{{
 
-    highlights = [
+	highlights = [
 
-	# Default highlight Groups {{{
+		# Default highlight Groups {{{
 
-        [ "Normal", black, white, "NONE" ],
-        [ "NonText", "NONE", black, "NONE" ],
-        [ "Comment", "NONE", gray, "NONE" ],
+		[ "Normal", black, white, "NONE" ],
+		[ "NonText", "NONE", black, "NONE" ],
+		[ "Comment", "NONE", gray, "NONE" ],
 		[ "Constant", "NONE", yellow, "NONE" ],
-        [ "Error", darkred, white, "NONE" ],
-        [ "Identifier", "NONE", red, "NONE" ],
-        [ "Ignore", gray, black, "NONE" ],
-        [ "PreProc", "NONE", yellow, "NONE" ],
-        [ "Special", "NONE", cyan, "NONE" ],
-        [ "Statement", "NONE", red, "NONE" ],
-        [ "String", "NONE", green, "NONE" ],
-        [ "Number", "NONE", yellow, "NONE" ],
-        [ "Todo", darkgray, yellow, "NONE" ],
-        [ "Type", "NONE", yellow, "NONE" ],
-        [ "Underlined", "NONE", darkred, "underline" ],
-        [ "StatusLine", "NONE", gray, "NONE" ],
-        [ "StatusLineNC", "NONE", darkblue, "bold" ],
-        [ "TabLine", "NONE", gray, "NONE" ],
-        [ "TabLineFill", "NONE", darkgray, "NONE" ],
-        [ "TabLineSel", "NONE", darkgray, "NONE" ],
+		[ "Error", darkred, white, "NONE" ],
+		[ "Identifier", "NONE", red, "NONE" ],
+		[ "Ignore", gray, black, "NONE" ],
+		[ "PreProc", "NONE", yellow, "NONE" ],
+		[ "Special", "NONE", cyan, "NONE" ],
+		[ "Statement", "NONE", red, "NONE" ],
+		[ "String", "NONE", green, "NONE" ],
+		[ "Number", "NONE", yellow, "NONE" ],
+		[ "Todo", darkgray, yellow, "NONE" ],
+		[ "Type", "NONE", yellow, "NONE" ],
+		[ "Underlined", "NONE", darkred, "underline" ],
+		[ "StatusLine", "NONE", gray, "NONE" ],
+		[ "StatusLineNC", "NONE", darkblue, "bold" ],
+		[ "TabLine", "NONE", gray, "NONE" ],
+		[ "TabLineFill", "NONE", darkgray, "NONE" ],
+		[ "TabLineSel", "NONE", darkgray, "NONE" ],
 		[ "TermCursorNC", yellow, black, "NONE" ],
-        [ "VertSplit", "NONE", black, "NONE" ],
-        [ "Title", "NONE", blue, "NONE" ],
-        [ "CursorLine", "NONE", darkgray, "NONE" ],
-        [ "LineNr", "NONE", darkgray, "NONE" ],
-        [ "CursorLineNr", "NONE", darkgray, "NONE" ],
-        [ "helpLeadBlank", "NONE", white, "NONE" ],
-        [ "helpNormal", "NONE", white, "NONE" ],
-        [ "Visual", darkgray, gray, "NONE" ],
-        [ "VisualNOS", "NONE", darkred, "NONE" ],
-        [ "Pmenu", darkgray, gray, "NONE" ],
-        [ "PmenuSbar", darkcyan, white, "NONE" ],
-        [ "PmenuSel", "NONE", gray, "NONE" ],
-        [ "PmenuThumb", gray, gray, "NONE" ],
-        [ "FoldColumn", "NONE", white, "NONE" ],
-        [ "Folded", "NONE", darkgray, "bold" ],
-        [ "WildMenu", green, black, "NONE" ],
-        [ "SpecialKey", "NONE", darkgray, "NONE" ],
-        [ "DiffAdd", "NONE", green, "NONE" ],
-        [ "DiffChange", "NONE", darkgray, "NONE" ],
-        [ "DiffDelete", "NONE", red, "bold" ],
-        [ "DiffText", "NONE", blue, "bold" ],
-        [ "IncSearch", yellow, black, "NONE" ],
-        [ "Search", yellow, black, "NONE" ],
-        [ "Directory", "NONE", blue, "NONE" ],
-        [ "MatchParen", darkgray, black, "NONE" ],
-        [ "ColorColumn", darkgray, darkgray, "NONE" ],
-        [ "signColumn", "NONE", blue, "bold" ],
-        [ "ErrorMsg", "NONE", darkgray, "NONE" ],
-        [ "ModeMsg", "NONE", green, "NONE" ],
-        [ "MoreMsg", "NONE", green, "NONE" ],
-        [ "Question", "NONE", blue, "NONE" ],
-        [ "WarningMsg", red, black, "NONE" ],
-        [ "Cursor", "NONE", darkgray, "NONE" ],
-        [ "Structure", "NONE", magenta, "NONE" ],
-        [ "CursorColumn", darkgray, white, "NONE" ],
+		[ "VertSplit", "NONE", black, "NONE" ],
+		[ "Title", "NONE", blue, "NONE" ],
+		[ "CursorLine", "NONE", darkgray, "NONE" ],
+		[ "LineNr", "NONE", darkgray, "NONE" ],
+		[ "CursorLineNr", "NONE", darkgray, "NONE" ],
+		[ "helpLeadBlank", "NONE", white, "NONE" ],
+		[ "helpNormal", "NONE", white, "NONE" ],
+		[ "Visual", darkgray, gray, "NONE" ],
+		[ "VisualNOS", "NONE", darkred, "NONE" ],
+		[ "Pmenu", darkgray, gray, "NONE" ],
+		[ "PmenuSbar", darkcyan, white, "NONE" ],
+		[ "PmenuSel", "NONE", gray, "NONE" ],
+		[ "PmenuThumb", gray, gray, "NONE" ],
+		[ "FoldColumn", "NONE", white, "NONE" ],
+		[ "Folded", "NONE", darkgray, "bold" ],
+		[ "WildMenu", green, black, "NONE" ],
+		[ "SpecialKey", "NONE", darkgray, "NONE" ],
+		[ "DiffAdd", "NONE", green, "NONE" ],
+		[ "DiffChange", "NONE", darkgray, "NONE" ],
+		[ "DiffDelete", "NONE", red, "bold" ],
+		[ "DiffText", "NONE", blue, "bold" ],
+		[ "IncSearch", yellow, black, "NONE" ],
+		[ "Search", yellow, black, "NONE" ],
+		[ "Directory", "NONE", blue, "NONE" ],
+		[ "MatchParen", darkgray, black, "NONE" ],
+		[ "ColorColumn", darkgray, darkgray, "NONE" ],
+		[ "signColumn", "NONE", blue, "bold" ],
+		[ "ErrorMsg", "NONE", darkgray, "NONE" ],
+		[ "ModeMsg", "NONE", green, "NONE" ],
+		[ "MoreMsg", "NONE", green, "NONE" ],
+		[ "Question", "NONE", blue, "NONE" ],
+		[ "WarningMsg", red, black, "NONE" ],
+		[ "Cursor", "NONE", darkgray, "NONE" ],
+		[ "Structure", "NONE", magenta, "NONE" ],
+		[ "CursorColumn", darkgray, white, "NONE" ],
 		[ "ModeMsg", "NONE", white, "bold" ],
 		# [ "EndOfBuffer", "NONE", black, "NONE"],
 
 		# Spelling Highlighting
-        [ "SpellBad", "NONE", darkred, "underline", darkred ],
-        [ "SpellCap", "NONE", darkblue, "underline", darkblue ],
-        [ "SpellLocal", "NONE", darkmagenta, "underline", darkmagenta ],
-        [ "SpellRare", "NONE", darkcyan, "underline", darkcyan ],
+		[ "SpellBad", "NONE", darkred, "underline", darkred ],
+		[ "SpellCap", "NONE", darkblue, "underline", darkblue ],
+		[ "SpellLocal", "NONE", darkmagenta, "underline", darkmagenta ],
+		[ "SpellRare", "NONE", darkcyan, "underline", darkcyan ],
 
 		# Standard Syntax Highlighting
 		[ "Boolean", "NONE", darkyellow, "NONE" ],
@@ -230,24 +230,19 @@
 		[ "NERDTreeDirSlash", "NONE", blue, "NONE" ],
 		[ "NERDTreeExecFile", "NONE", white, "NONE" ],
 
-		# CtrlP
-		[ "CtrlPArrow1", blue, black, "NONE" ],
-		[ "CtrlPArrow2", darkblue, black, "NONE" ],
-		[ "CtrlPArrow3", darkblue, black, "NONE" ]
-
 		# }}}
 
-    ]
+	]
 
 	# }}}
 
 	# Step 4: generation {{{
-    #
-    # From a separate shell:
-    #     $ erb -T - bar.erb > bar.vim
-    #
-    # From Vim:
-    #     :!erb -T - % > %:r.vim
+	#
+	# From a separate shell:
+	#     $ erb -T - bar.erb > bar.vim
+	#
+	# From Vim:
+	#     :!erb -T - % > %:r.vim
 
 -%>
 
@@ -261,7 +256,7 @@ hi clear
 set background=dark
 
 if exists("syntax_on")
-  syntax reset
+syntax reset
 endif
 
 " Neovim Terminal Mode Colors
@@ -288,26 +283,26 @@ let colors_name = "<%= information[:name] %>"
 
 if &t_Co >= 256 || has("gui_running")
 <% for highlight in highlights -%>
-<% if highlight.length == 2 -%>
-    hi link <%= highlight[0] %> <%= highlight[1] %>
+	<% if highlight.length == 2 -%>
+		hi link <%= highlight[0] %> <%= highlight[1] %>
 <% elsif highlight.length == 4 -%>
-    hi <%= highlight[0] %> ctermbg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][1] %> ctermfg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][1] %> cterm=<%= highlight[3] %> guibg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][0] %> guifg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][0] %> gui=<%= highlight[3] %>
+	hi <%= highlight[0] %> ctermbg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][1] %> ctermfg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][1] %> cterm=<%= highlight[3] %> guibg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][0] %> guifg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][0] %> gui=<%= highlight[3] %>
 <% if highlight[0] == "Normal" -%>
-    set background=<%= information[:background] %>
+	set background=<%= information[:background] %>
 <% end -%>
 <% else -%>
-    hi <%= highlight[0] %> ctermbg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][1] %> ctermfg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][1] %> cterm=<%= highlight[3] %> guibg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][0] %> guifg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][0] %> gui=<%= highlight[3] %> guisp=<%= highlight[4].kind_of?(String) ? highlight[4] : highlight[4][0] %>
+	hi <%= highlight[0] %> ctermbg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][1] %> ctermfg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][1] %> cterm=<%= highlight[3] %> guibg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][0] %> guifg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][0] %> gui=<%= highlight[3] %> guisp=<%= highlight[4].kind_of?(String) ? highlight[4] : highlight[4][0] %>
 <% end -%>
 <% end -%>
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
-    set t_Co=16
+set t_Co=16
 <% for highlight in highlights -%>
-<% if highlight.length == 2 -%>
-    hi link <%= highlight[0] %> <%= highlight[1] %>
+	<% if highlight.length == 2 -%>
+		hi link <%= highlight[0] %> <%= highlight[1] %>
 <% else -%>
-    hi <%= highlight[0] %> ctermbg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][2] %> ctermfg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][2] %> cterm=<%= highlight[3] %>
+	hi <%= highlight[0] %> ctermbg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][2] %> ctermfg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][2] %> cterm=<%= highlight[3] %>
 <% if highlight[0] == "Normal" -%>
-    set background=<%= information[:background] %>
+	set background=<%= information[:background] %>
 <% end -%>
 <% end -%>
 <% end -%>
