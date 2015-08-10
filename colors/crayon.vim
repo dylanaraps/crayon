@@ -50,7 +50,7 @@ if &t_Co >= 256 || has("gui_running")
     hi Todo ctermbg=8 ctermfg=11 cterm=NONE guibg=#282c33 guifg=#d8c27a gui=NONE
     hi Type ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#d8c27a gui=NONE
     hi Underlined ctermbg=NONE ctermfg=1 cterm=underline guibg=NONE guifg=#7f4040 gui=underline
-    hi StatusLine ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
+    hi StatusLine ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
     hi StatusLineNC ctermbg=NONE ctermfg=4 cterm=bold guibg=NONE guifg=#2d4963 gui=bold
     hi TabLine ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
     hi TabLineFill ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
@@ -205,7 +205,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Todo ctermbg=darkgray ctermfg=yellow cterm=NONE
     hi Type ctermbg=NONE ctermfg=yellow cterm=NONE
     hi Underlined ctermbg=NONE ctermfg=darkred cterm=underline
-    hi StatusLine ctermbg=NONE ctermfg=darkgray cterm=NONE
+    hi StatusLine ctermbg=NONE ctermfg=gray cterm=NONE
     hi StatusLineNC ctermbg=NONE ctermfg=darkblue cterm=bold
     hi TabLine ctermbg=NONE ctermfg=gray cterm=NONE
     hi TabLineFill ctermbg=NONE ctermfg=darkgray cterm=NONE
