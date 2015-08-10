@@ -91,6 +91,7 @@ if &t_Co >= 256 || has("gui_running")
     hi Cursor ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#282c33 gui=NONE
     hi Structure ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
     hi CursorColumn ctermbg=8 ctermfg=15 cterm=NONE guibg=#282c33 guifg=#c9d4d8 gui=NONE
+    hi ModeMsg ctermbg=NONE ctermfg=15 cterm=bold guibg=NONE guifg=#c9d4d8 gui=bold
     hi SpellBad ctermbg=NONE ctermfg=1 cterm=underline guibg=NONE guifg=#7f4040 gui=underline guisp=#7f4040
     hi SpellCap ctermbg=NONE ctermfg=4 cterm=underline guibg=NONE guifg=#2d4963 gui=underline guisp=#2d4963
     hi SpellLocal ctermbg=NONE ctermfg=5 cterm=underline guibg=NONE guifg=#3d2e4f gui=underline guisp=#3d2e4f
@@ -246,6 +247,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Cursor ctermbg=NONE ctermfg=darkgray cterm=NONE
     hi Structure ctermbg=NONE ctermfg=magenta cterm=NONE
     hi CursorColumn ctermbg=darkgray ctermfg=white cterm=NONE
+    hi ModeMsg ctermbg=NONE ctermfg=white cterm=bold
     hi SpellBad ctermbg=NONE ctermfg=darkred cterm=underline
     hi SpellCap ctermbg=NONE ctermfg=darkblue cterm=underline
     hi SpellLocal ctermbg=NONE ctermfg=darkmagenta cterm=underline
