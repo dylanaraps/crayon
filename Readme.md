@@ -196,8 +196,6 @@ If you'd like to contribute to Crayon you'll need to edit the .erb file that's i
 
 Just run that command in a terminal in the same directory as the .erb file.
 
-I've started converting the colorscheme to pure vimL and I should be done soon. In the meantime edit the .erb file.
-
 #### Credits
 
 * [RNB, a Vim colorscheme template(https://gist.github.com/romainl/5cd2f4ec222805f49eca)
