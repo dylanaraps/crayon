@@ -58,7 +58,7 @@ if !get(g:, 'loaded_ctrlp', 0)
 endif
 
 let g:airline#themes#crayon#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
-      \ [ '#101112' , '#2d4963' ,  8 ,  4  , 'bold' ],
-      \ [ '#101112' , '#7495b6' ,  8 , 12  , 'bold' ],
-      \ [ '#101112' , '#2d4963' ,  8 ,  4  , 'bold' ] )
+      \ [ '#6a6f7a' , '#101112' , 7 , 0 , 'bold' ],
+      \ [ '#6a6f7a' , '#101112' , 7 , 0 , 'bold' ],
+      \ [ '#6a6f7a' , '#101112' , 7 , 0 , 'bold' ] )
 
