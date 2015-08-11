@@ -70,8 +70,6 @@ The terminal font used in the screenshots is [envypn](https://aur.archlinux.org/
 
 ## Installation
 
-### *Vim
-
 #### 1.1: Preferred Method
 Use a plugin manager like [Plug](https://github.com/junegunn/vim-plug).
 
@@ -86,10 +84,10 @@ Using plug you can easily update the plugin with
 ```
 
 #### 1.2: Manual Install
-Place 'crayon.vim' file into 'colors' folder within your Vim directory, e.g. '~/.*vim/colors/'
+Place 'crayon.vim' file into 'colors' folder within your Vim directory, e.g. '~/.vim/colors/'
 
 #### 2: Now What?
-Once you've installed the theme, put this in your '~/.*vimrc' and you should be all set.
+Once you've installed the theme, put this in your '~/.vimrc' and you should be all set.
 
 ```VimL
 colorscheme crayon
@@ -109,7 +107,7 @@ Feel free to request support for your favourite plugins and I'll happily add the
 
 ![](https://github.com/dylanaraps/crayon-theme/raw/master/screenshots/airline.gif)
 
-Add this line to your .*vimrc:
+Add this line to your .vimrc:
 
 ```VimL
 let g:airline_theme = 'crayon'
@@ -120,7 +118,7 @@ let g:airline_theme = 'crayon'
 <!--- Customization {{{ -->
 
 ### Customization
-You can customize all of the theme's colors by adding some lines to your .*vimrc. Here's an example that changes the color of the line numbers:
+You can customize all of the theme's colors by adding some lines to your .vimrc. Here's an example that changes the color of the line numbers:
 
 ```VimL
 " Changes the Line Number colors
@@ -133,7 +131,7 @@ ctermbg/ctermfg change the background and foreground in vim/neovim They must be 
 
 "LineNR" is the highlight group for vim's linenumbers. If you'd like to change the colors of anything else you need to figure out the highlight group.
 
-I've found that the easiest way to do that is a vim mapping I found which tells you the highlight group of whatever's under your cursor. Just add these 2 lines to your .*vimrc and reopen. Then  press f10.
+I've found that the easiest way to do that is a vim mapping I found which tells you the highlight group of whatever's under your cursor. Just add these 2 lines to your .vimrc and reopen. Then  press f10.
 
 ```VimL
 " Shows the highlight group of whatever's under the cursor
@@ -152,7 +150,7 @@ colorscheme = crayon
 ```
 
 ### Changing the Background Color
-If you don't like the default background color you can easily change it without having to edit the theme! You just need to add a single line to your .*vimrc before the colorscheme line above.
+If you don't like the default background color you can easily change it without having to edit the theme! You just need to add a single line to your .vimrc before the colorscheme line above.
 
 This currently only works with dark background colors as the theme doesn't have a light varient yet.
 
@@ -190,9 +188,9 @@ Support for other terminals is coming once I've finalized the schemes colors. In
 ### Contributing
 If you'd like to contribute to Crayon you'll need to edit the .erb file that's in the root of the project. You can then generate the final .vim file with this:
 
-````bash
+```bash
 	erb -T - crayon.erb > crayon.vim
-````
+```
 
 Just run that command in a terminal in the same directory as the .erb file.
 
