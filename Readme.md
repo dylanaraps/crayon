@@ -198,5 +198,5 @@ Just run that command in a terminal in the same directory as the .erb file.
 
 #### Credits
 
-* [RNB, a Vim colorscheme template(https://gist.github.com/romainl/5cd2f4ec222805f49eca)
+* [RNB, a Vim colorscheme template](https://gist.github.com/romainl/5cd2f4ec222805f49eca)
 	* Used to create the colorscheme
