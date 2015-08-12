@@ -140,6 +140,8 @@ map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans
 \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
 ```
 
+You can also use the command :hi or :highlight to see all of the highlight groups and their current values.
+
 The autocommands must be added before the colorscheme line in your vimrc otherwise they won't work. Here's an example.
 
 ```VimL
