@@ -1,0 +1,176 @@
+/* Shades */
+$black: #101112;
+$gray01: #282C33;
+$gray02: #383E47;
+$gray03: #586270;
+$gray04: #798494;
+$gray05: #BCC5D1;
+$gray06: #D8D8D8;
+$white: #FDFEFF;
+
+/* Colors */
+$red: #B27B78;
+$orange: #C48D62;
+$yellow: #D8C27A;
+$green: #99AE63;
+$cyan: #8DC9C3;
+$blue: #7495B6;
+$magenta: #B59CD8;
+$pink: #CC99B3;
+
+html,
+body,
+ul,
+li,
+h1,
+p {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: $black;
+}
+
+main {
+	width: 80%;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1,
+p {
+	color: $gray05;
+	font-family: Arial;
+	text-align: center;
+}
+
+h1 {
+	margin: 0 0 10px;
+}
+
+p {
+	line-height: 1.2;
+}
+
+ul {
+	list-style: none;
+	margin: 10px 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	margin: 0 5px;
+}
+
+a {
+	color: $blue;
+	text-decoration: none;
+	transition: .2s;
+
+	&:hover {
+		color: $gray03;
+	}
+}
+
+/* Mixin for Shades/Colors */
+@mixin colorblock($color) {
+	background: $color;
+	display: inline-block;
+	height: 32px;
+	margin: 0 5px;
+	width: 32px;
+}
+
+/* Blocks {{{ */
+.shades,
+.colors {
+	display: block;
+	width: 336px;
+}
+
+.shades {
+	margin: 20px auto 5px auto;
+}
+
+.colors {
+	margin: 0 auto;
+}
+
+/* Shades {{{ */
+
+.black {
+	@include colorblock($black);
+}
+
+.gray01 {
+	@include colorblock($gray01);
+}
+
+.gray02 {
+	@include colorblock($gray02);
+}
+
+.gray03 {
+	@include colorblock($gray03);
+}
+
+.gray04 {
+	@include colorblock($gray04);
+}
+
+.gray05 {
+	@include colorblock($gray05);
+}
+
+.gray06 {
+	@include colorblock($gray06);
+}
+
+.white {
+	@include colorblock($white);
+}
+
+/* }}} */
+
+/* Colors {{{ */
+
+.red {
+	@include colorblock($red);
+}
+
+.orange {
+	@include colorblock($orange);
+}
+
+.yellow {
+	@include colorblock($yellow);
+}
+
+.green {
+	@include colorblock($green);
+}
+
+.cyan {
+	@include colorblock($cyan);
+}
+
+.blue {
+	@include colorblock($blue);
+}
+
+.magenta {
+	@include colorblock($magenta);
+}
+
+.pink {
+	@include colorblock($pink);
+}
+
+/* }}} */
+
+/* }}} */
