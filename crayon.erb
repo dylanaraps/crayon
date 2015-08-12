@@ -11,22 +11,23 @@
 
 	# Colors
 	# Note: These also appear below, if you change the hex values it's better to do so with a find and replace.
-	black       = ["#101112", 0, "black"]
-	darkred     = ["#7f4040", 1, "darkred"]
-	darkgreen   = ["#324a28", 2, "darkgreen"]
-	darkyellow  = ["#c48452", 3, "darkyellow"]
-	darkblue    = ["#2d4963", 4, "darkblue"]
-	darkmagenta = ["#3d2e4f", 5, "darkmagenta"]
-	darkcyan    = ["#263a40", 6, "darkcyan"]
-	gray        = ["#6a6f7a", 7, "gray"]
-	darkgray    = ["#282c33", 8, "darkgray"]
-	red         = ["#b27b78", 9, "red"]
-	green       = ["#99ae63", 10, "green"]
-	yellow      = ["#d8c27a", 11, "yellow"]
-	blue        = ["#7495b6", 12, "blue"]
-	magenta     = ["#b59cd8", 13, "magenta"]
-	cyan        = ["#81c9c2", 14, "cyan"]
-	white       = ["#c9d4d8", 15, "white"]
+	black       = ["#101112",  0, "black"]
+	gray01	    = ["#282C33", 10, "green"]
+	gray02	    = ["#383E47", 11, "yellow"]
+	gray03	    = ["#586270",  8, "gray02"]
+	gray04	    = ["#798494", 12, "blue"]
+	gray05	    = ["#BCC5D1",  7, "gray"]
+	gray06	    = ["#D8D8D8", 13, "magenta"]
+	white       = ["#FDFEFF", 15, "white"]
+
+	red			= ["#B27B78", 1, "darkred"]
+	orange      = ["#C48D62", 9, "red"]
+	yellow		= ["#D8C27A", 3, "darkyellow"]
+	green		= ["#99AE63", 2, "darkgreen"]
+	cyan		= ["#8DC9C3", 6, "darkcyan"]
+	blue		= ["#7495B6", 4, "darkblue"]
+	magenta		= ["#B59CD8", 5, "darkmagenta"]
+	pink        = ["#CC99B3", 14, "cyan"]
 
 	# Step 3: highlights {{{
 
@@ -36,82 +37,82 @@
 
 		[ "Normal", black, white, "NONE" ],
 		[ "NonText", "NONE", black, "NONE" ],
-		[ "Comment", "NONE", gray, "NONE" ],
+		[ "Comment", "NONE", gray03, "NONE" ],
 		[ "Constant", "NONE", yellow, "NONE" ],
-		[ "Error", darkred, white, "NONE" ],
+		[ "Error", red, white, "NONE" ],
 		[ "Identifier", "NONE", red, "NONE" ],
-		[ "Ignore", gray, black, "NONE" ],
+		[ "Ignore", gray03, black, "NONE" ],
 		[ "PreProc", "NONE", yellow, "NONE" ],
 		[ "Special", "NONE", cyan, "NONE" ],
 		[ "Statement", "NONE", red, "NONE" ],
 		[ "String", "NONE", green, "NONE" ],
 		[ "Number", "NONE", yellow, "NONE" ],
-		[ "Todo", darkgray, yellow, "NONE" ],
+		[ "Todo", gray02, yellow, "NONE" ],
 		[ "Type", "NONE", yellow, "NONE" ],
-		[ "Underlined", "NONE", darkred, "underline" ],
-		[ "StatusLine", "NONE", gray, "NONE" ],
-		[ "StatusLineNC", "NONE", darkblue, "bold" ],
-		[ "TabLine", "NONE", gray, "NONE" ],
-		[ "TabLineFill", "NONE", darkgray, "NONE" ],
-		[ "TabLineSel", "NONE", darkgray, "NONE" ],
+		[ "Underlined", "NONE", red, "underline" ],
+		[ "StatusLine", "NONE", gray03, "NONE" ],
+		[ "StatusLineNC", "NONE", blue, "bold" ],
+		[ "TabLine", "NONE", gray03, "NONE" ],
+		[ "TabLineFill", "NONE", gray02, "NONE" ],
+		[ "TabLineSel", "NONE", gray02, "NONE" ],
 		[ "TermCursorNC", yellow, black, "NONE" ],
 		[ "VertSplit", "NONE", black, "NONE" ],
 		[ "Title", "NONE", blue, "NONE" ],
-		[ "CursorLine", "NONE", darkgray, "NONE" ],
-		[ "LineNr", "NONE", darkgray, "NONE" ],
-		[ "CursorLineNr", "NONE", darkgray, "NONE" ],
+		[ "CursorLine", "NONE", gray02, "NONE" ],
+		[ "LineNr", "NONE", gray02, "NONE" ],
+		[ "CursorLineNr", "NONE", gray02, "NONE" ],
 		[ "helpLeadBlank", "NONE", white, "NONE" ],
 		[ "helpNormal", "NONE", white, "NONE" ],
-		[ "Visual", darkgray, gray, "NONE" ],
-		[ "VisualNOS", "NONE", darkred, "NONE" ],
-		[ "Pmenu", darkgray, gray, "NONE" ],
-		[ "PmenuSbar", darkcyan, white, "NONE" ],
-		[ "PmenuSel", "NONE", gray, "NONE" ],
-		[ "PmenuThumb", gray, gray, "NONE" ],
+		[ "Visual", gray02, gray03, "NONE" ],
+		[ "VisualNOS", "NONE", red, "NONE" ],
+		[ "Pmenu", gray02, gray03, "NONE" ],
+		[ "PmenuSbar", cyan, white, "NONE" ],
+		[ "PmenuSel", "NONE", gray03, "NONE" ],
+		[ "PmenuThumb", gray03, gray03, "NONE" ],
 		[ "FoldColumn", "NONE", white, "NONE" ],
-		[ "Folded", "NONE", darkgray, "bold" ],
+		[ "Folded", "NONE", gray02, "bold" ],
 		[ "WildMenu", green, black, "NONE" ],
-		[ "SpecialKey", "NONE", darkgray, "NONE" ],
+		[ "SpecialKey", "NONE", gray02, "NONE" ],
 		[ "DiffAdd", "NONE", green, "NONE" ],
-		[ "DiffChange", "NONE", darkgray, "NONE" ],
+		[ "DiffChange", "NONE", gray02, "NONE" ],
 		[ "DiffDelete", "NONE", red, "bold" ],
 		[ "DiffText", "NONE", blue, "bold" ],
 		[ "IncSearch", yellow, black, "NONE" ],
 		[ "Search", yellow, black, "NONE" ],
 		[ "Directory", "NONE", blue, "NONE" ],
-		[ "MatchParen", darkgray, black, "NONE" ],
-		[ "ColorColumn", darkgray, darkgray, "NONE" ],
+		[ "MatchParen", gray02, black, "NONE" ],
+		[ "ColorColumn", gray02, gray02, "NONE" ],
 		[ "signColumn", "NONE", blue, "bold" ],
-		[ "ErrorMsg", "NONE", darkgray, "NONE" ],
+		[ "ErrorMsg", "NONE", gray02, "NONE" ],
 		[ "ModeMsg", "NONE", green, "NONE" ],
 		[ "MoreMsg", "NONE", green, "NONE" ],
 		[ "Question", "NONE", blue, "NONE" ],
 		[ "WarningMsg", red, black, "NONE" ],
-		[ "Cursor", "NONE", darkgray, "NONE" ],
+		[ "Cursor", "NONE", gray02, "NONE" ],
 		[ "Structure", "NONE", magenta, "NONE" ],
-		[ "CursorColumn", darkgray, white, "NONE" ],
+		[ "CursorColumn", gray02, white, "NONE" ],
 		[ "ModeMsg", "NONE", white, "bold" ],
 		# [ "EndOfBuffer", "NONE", black, "NONE"],
 
 		# Spelling Highlighting
-		[ "SpellBad", "NONE", darkred, "underline", darkred ],
-		[ "SpellCap", "NONE", darkblue, "underline", darkblue ],
-		[ "SpellLocal", "NONE", darkmagenta, "underline", darkmagenta ],
-		[ "SpellRare", "NONE", darkcyan, "underline", darkcyan ],
+		[ "SpellBad", "NONE", red, "underline", red ],
+		[ "SpellCap", "NONE", blue, "underline", blue ],
+		[ "SpellLocal", "NONE", magenta, "underline", magenta ],
+		[ "SpellRare", "NONE", cyan, "underline", cyan ],
 
 		# Standard Syntax Highlighting
-		[ "Boolean", "NONE", darkyellow, "NONE" ],
+		[ "Boolean", "NONE", orange, "NONE" ],
 		[ "Character", "NONE", red, "NONE" ],
 		[ "Conditional", "NONE", magenta, "NONE" ],
 		[ "Define", "NONE", magenta, "NONE" ],
-		[ "Delimiter", "NONE", darkyellow, "NONE" ],
-		[ "Float", "NONE", darkyellow, "NONE" ],
+		[ "Delimiter", "NONE", orange, "NONE" ],
+		[ "Float", "NONE", orange, "NONE" ],
 		[ "Include", "NONE", blue, "NONE" ],
 		[ "Keyword", "NONE", magenta, "NONE" ],
 		[ "Label", "NONE", yellow, "NONE" ],
 		[ "Operator", "NONE", white, "NONE" ],
 		[ "Repeat", "NONE", yellow, "NONE" ],
-		[ "SpecialChar", "NONE", darkyellow, "NONE" ],
+		[ "SpecialChar", "NONE", orange, "NONE" ],
 		[ "Tag", "NONE", yellow, "NONE" ],
 		[ "Typedef", "NONE", yellow, "NONE" ],
 
@@ -155,7 +156,7 @@
 		[ "cssUnitDecorators", "NONE", white, "NONE"],
 		[ "cssValueNumber", "NONE", white, "NONE"],
 		[ "cssValueLength", "cssValueNumber" ],
-		[ "cssNoise", "NONE", gray, "NONE" ],
+		[ "cssNoise", "NONE", gray03, "NONE" ],
 		[ "cssTagName", "NONE", red, "bold" ],
 		[ "cssFunctionName", "NONE", blue, "bold" ],
 
@@ -164,7 +165,7 @@
 		[ "scssAttribute", "NONE", white, "NONE"],
 		[ "scssDefinition", "cssNoise" ],
 		[ "sassidChar", "NONE", red, "NONE"],
-		[ "sassClassChar", "NONE", darkyellow, "NONE"],
+		[ "sassClassChar", "NONE", orange, "NONE"],
 		[ "sassInclude", "NONE", magenta, "NONE"],
 		[ "sassMixing", "NONE", magenta, "NONE"],
 		[ "sassMixinName", "NONE", blue, "NONE"],
@@ -172,7 +173,7 @@
 		# Javascript
 		[ "javaScript", "NONE", white, "NONE"],
 		[ "javaScriptBraces", "NONE", white, "NONE"],
-		[ "javaScriptNumber", "NONE", darkyellow, "NONE"],
+		[ "javaScriptNumber", "NONE", orange, "NONE"],
 
 		# Markdown
 		[ "markdownAutomaticLink", "NONE", red, "underline" ],
@@ -180,7 +181,7 @@
 		[ "markdownError", "NONE", white, "NONE" ],
 		[ "markdownCode", "NONE", yellow, "NONE" ],
 		[ "markdownCodeBlock", "NONE", yellow, "NONE" ],
-		[ "markdownCodeDelimiter", "NONE", darkyellow, "NONE" ],
+		[ "markdownCodeDelimiter", "NONE", orange, "NONE" ],
 
 		# Xdefaults
 		[ "xdefaultsValue", "NONE", white, "NONE" ],
