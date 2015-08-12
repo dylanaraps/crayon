@@ -159,9 +159,9 @@ if &t_Co >= 256 || has("gui_running")
 		hi markdownAutomaticLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#b27b78 gui=underline
 			hi link markdownUrl markdownAutomaticLink
 		hi markdownError ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
-		hi markdownCode ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
-		hi markdownCodeBlock ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#6a6f7a gui=NONE
-		hi markdownCodeDelimiter ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
+		hi markdownCode ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
+		hi markdownCodeBlock ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
+		hi markdownCodeDelimiter ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#2d4963 gui=NONE
 		hi xdefaultsValue ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#c9d4d8 gui=NONE
 		hi rubyInclude ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#7495b6 gui=NONE
 		hi rubyDefine ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#b59cd8 gui=NONE
@@ -315,9 +315,9 @@ set t_Co=16
 		hi markdownAutomaticLink ctermbg=NONE ctermfg=red cterm=underline
 			hi link markdownUrl markdownAutomaticLink
 		hi markdownError ctermbg=NONE ctermfg=white cterm=NONE
-		hi markdownCode ctermbg=NONE ctermfg=gray cterm=NONE
-		hi markdownCodeBlock ctermbg=NONE ctermfg=gray cterm=NONE
-		hi markdownCodeDelimiter ctermbg=NONE ctermfg=blue cterm=NONE
+		hi markdownCode ctermbg=NONE ctermfg=blue cterm=NONE
+		hi markdownCodeBlock ctermbg=NONE ctermfg=blue cterm=NONE
+		hi markdownCodeDelimiter ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi xdefaultsValue ctermbg=NONE ctermfg=white cterm=NONE
 		hi rubyInclude ctermbg=NONE ctermfg=blue cterm=NONE
 		hi rubyDefine ctermbg=NONE ctermfg=magenta cterm=NONE
