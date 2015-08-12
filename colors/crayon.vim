@@ -162,7 +162,7 @@ if &t_Co >= 256 || has("gui_running")
 		hi markdownCode ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi markdownCodeBlock ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi markdownCodeDelimiter ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
-		hi xdefaultsValue ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
+		hi xdefaultsValue ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#D8D8D8 gui=NONE
 		hi rubyInclude ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi rubyDefine ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
 		hi rubyFunction ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
@@ -318,7 +318,7 @@ set t_Co=16
 		hi markdownCode ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi markdownCodeBlock ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi markdownCodeDelimiter ctermbg=NONE ctermfg=red cterm=NONE
-		hi xdefaultsValue ctermbg=NONE ctermfg=white cterm=NONE
+		hi xdefaultsValue ctermbg=NONE ctermfg=magenta cterm=NONE
 		hi rubyInclude ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi rubyDefine ctermbg=NONE ctermfg=darkmagenta cterm=NONE
 		hi rubyFunction ctermbg=NONE ctermfg=darkblue cterm=NONE
