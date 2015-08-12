@@ -8,17 +8,17 @@ let s:N3 = [ '#BCC5D1' , '#101112' , 7 ,  0 ]
 
 " Insert mode
 let s:I1 = [ '#101112' , '#99AE63' , 8 , 10 ]
-let s:I2 = [ '#101112' , '#324A28' , 8 ,  2 ]
+let s:I2 = [ '#101112' , '#383E47' , 8 ,  2 ]
 let s:I3 = [ '#BCC5D1' , '#101112' , 7 ,  0 ]
 
 " Visual mode
 let s:V1 = [ '#101112' , '#C48452' , 8 , 11 ]
-let s:V2 = [ '#101112' , '#7F4040' , 8 ,  3 ]
+let s:V2 = [ '#101112' , '#383E47' , 8 ,  3 ]
 let s:V3 = [ '#BCC5D1' , '#101112' , 7 ,  0 ]
 
 " Replace mode
 let s:R1 = [ '#101112' , '#b59cd8' , 8 , 13 ]
-let s:R2 = [ '#101112' , '#3D2E4F' , 8 ,  5 ]
+let s:R2 = [ '#101112' , '#383E47' , 8 ,  5 ]
 let s:R3 = [ '#BCC5D1' , '#101112' , 7 ,  0 ]
 
 let g:airline#themes#crayon#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
