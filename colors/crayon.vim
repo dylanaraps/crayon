@@ -111,7 +111,7 @@ if &t_Co >= 256 || has("gui_running")
 		hi SpecialChar ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
 		hi Tag ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi Typedef ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
-		hi vimUserCommand ctermbg=NONE ctermfg=1 cterm=bold guibg=NONE guifg=#B27B78 gui=bold
+		hi vimUserCommand ctermbg=NONE ctermfg=9 cterm=bold guibg=NONE guifg=#C48D62 gui=bold
 			hi link vimMap vimUserCommand
 			hi link vimLet vimUserCommand
 			hi link vimCommand vimUserCommand
@@ -267,7 +267,7 @@ set t_Co=16
 		hi SpecialChar ctermbg=NONE ctermfg=darkred cterm=NONE
 		hi Tag ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi Typedef ctermbg=NONE ctermfg=darkyellow cterm=NONE
-		hi vimUserCommand ctermbg=NONE ctermfg=red cterm=bold
+		hi vimUserCommand ctermbg=NONE ctermfg=darkred cterm=bold
 			hi link vimMap vimUserCommand
 			hi link vimLet vimUserCommand
 			hi link vimCommand vimUserCommand
