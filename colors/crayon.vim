@@ -194,11 +194,11 @@ set t_Co=16
 		hi Normal ctermbg=black ctermfg=white cterm=NONE
 	set background=dark
 		hi NonText ctermbg=NONE ctermfg=black cterm=NONE
-		hi Comment ctermbg=NONE ctermfg=gray02 cterm=NONE
+		hi Comment ctermbg=NONE ctermfg=darkgray cterm=NONE
 		hi Constant ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi Error ctermbg=red ctermfg=white cterm=NONE
 		hi Identifier ctermbg=NONE ctermfg=red cterm=NONE
-		hi Ignore ctermbg=gray02 ctermfg=black cterm=NONE
+		hi Ignore ctermbg=darkgray ctermfg=black cterm=NONE
 		hi PreProc ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi Special ctermbg=NONE ctermfg=darkcyan cterm=NONE
 		hi Statement ctermbg=NONE ctermfg=red cterm=NONE
@@ -207,9 +207,9 @@ set t_Co=16
 		hi Todo ctermbg=yellow ctermfg=darkyellow cterm=NONE
 		hi Type ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi Underlined ctermbg=NONE ctermfg=red cterm=underline
-		hi StatusLine ctermbg=NONE ctermfg=gray02 cterm=NONE
+		hi StatusLine ctermbg=NONE ctermfg=darkgray cterm=NONE
 		hi StatusLineNC ctermbg=NONE ctermfg=darkblue cterm=bold
-		hi TabLine ctermbg=NONE ctermfg=gray02 cterm=NONE
+		hi TabLine ctermbg=NONE ctermfg=darkgray cterm=NONE
 		hi TabLineFill ctermbg=NONE ctermfg=yellow cterm=NONE
 		hi TabLineSel ctermbg=NONE ctermfg=yellow cterm=NONE
 		hi TermCursorNC ctermbg=darkyellow ctermfg=black cterm=NONE
@@ -220,12 +220,12 @@ set t_Co=16
 		hi CursorLineNr ctermbg=NONE ctermfg=yellow cterm=NONE
 		hi helpLeadBlank ctermbg=NONE ctermfg=white cterm=NONE
 		hi helpNormal ctermbg=NONE ctermfg=white cterm=NONE
-		hi Visual ctermbg=yellow ctermfg=gray02 cterm=NONE
+		hi Visual ctermbg=yellow ctermfg=darkgray cterm=NONE
 		hi VisualNOS ctermbg=NONE ctermfg=red cterm=NONE
-		hi Pmenu ctermbg=yellow ctermfg=gray02 cterm=NONE
+		hi Pmenu ctermbg=yellow ctermfg=darkgray cterm=NONE
 		hi PmenuSbar ctermbg=darkcyan ctermfg=white cterm=NONE
-		hi PmenuSel ctermbg=NONE ctermfg=gray02 cterm=NONE
-		hi PmenuThumb ctermbg=gray02 ctermfg=gray02 cterm=NONE
+		hi PmenuSel ctermbg=NONE ctermfg=darkgray cterm=NONE
+		hi PmenuThumb ctermbg=darkgray ctermfg=darkgray cterm=NONE
 		hi FoldColumn ctermbg=NONE ctermfg=white cterm=NONE
 		hi Folded ctermbg=NONE ctermfg=yellow cterm=bold
 		hi WildMenu ctermbg=darkgreen ctermfg=black cterm=NONE
@@ -298,7 +298,7 @@ set t_Co=16
 		hi cssUnitDecorators ctermbg=NONE ctermfg=white cterm=NONE
 		hi cssValueNumber ctermbg=NONE ctermfg=white cterm=NONE
 			hi link cssValueLength cssValueNumber
-		hi cssNoise ctermbg=NONE ctermfg=gray02 cterm=NONE
+		hi cssNoise ctermbg=NONE ctermfg=darkgray cterm=NONE
 		hi cssTagName ctermbg=NONE ctermfg=red cterm=bold
 		hi cssFunctionName ctermbg=NONE ctermfg=darkblue cterm=bold
 		hi scssSelectorChar ctermbg=NONE ctermfg=white cterm=NONE
