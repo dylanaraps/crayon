@@ -11,23 +11,23 @@
 
 	# Colors
 	# Note: These also appear below, if you change the hex values it's better to do so with a find and replace.
-	col00       = ["#101112",  0, "black"]		# Black
-	col01	    = ["#282C33", 10, "green"]
-	col02	    = ["#383E47", 11, "yellow"]
-	col03	    = ["#586270",  8, "darkgray"]
-	col04	    = ["#798494", 12, "blue"]
-	col05	    = ["#BCC5D1",  7, "gray"]
-	col06	    = ["#D8D8D8", 13, "magenta"]
-	col07       = ["#FDFEFF", 15, "white"]		# White
+	black       = ["#101112",  0, "black"]
+	gray01	    = ["#282C33", 10, "green"]
+	gray02	    = ["#383E47", 11, "yellow"]
+	gray03	    = ["#586270",  8, "darkgray"]
+	gray04	    = ["#798494", 12, "blue"]
+	gray05	    = ["#BCC5D1",  7, "gray"]
+	gray06	    = ["#D8D8D8", 13, "magenta"]
+	white       = ["#FDFEFF", 15, "white"]
 
-	col0A		= ["#B27B78", 1,  "red"]		# Red
-	col0B		= ["#C48D62", 9,  "darkred"]	# Orange
-	col0C		= ["#D8C27A", 3,  "darkyellow"] # Yellow
-	col0D		= ["#99AE63", 2,  "darkgreen"]	# Green
-	col0E		= ["#8DC9C3", 6,  "darkcyan"]	# Cyan
-	col0F		= ["#7495B6", 4,  "darkblue"]	# Blue
-	col0G		= ["#B59CD8", 5,  "darkmagenta"]# Magenta
-	col0H       = ["#CC99B3", 14, "cyan"]		# Pink
+	red			= ["#B27B78", 1,  "red"]
+	orange      = ["#C48D62", 9,  "darkred"]
+	yellow		= ["#D8C27A", 3,  "darkyellow"]
+	green		= ["#99AE63", 2,  "darkgreen"]
+	cyan		= ["#8DC9C3", 6,  "darkcyan"]
+	blue		= ["#7495B6", 4,  "darkblue"]
+	magenta		= ["#B59CD8", 5,  "darkmagenta"]
+	pink        = ["#CC99B3", 14, "cyan"]
 
 	# Step 3: highlights {{{
 
@@ -35,111 +35,111 @@
 
 		# Default highlight Groups {{{
 
-		[ "Normal", col00, col07, "NONE" ],
-		[ "NonText", "NONE", col00, "NONE" ],
-		[ "Comment", "NONE", col03, "NONE" ],
-		[ "Constant", "NONE", col0C, "NONE" ],
-		[ "Error", col0A, col07, "NONE" ],
-		[ "Identifier", "NONE", col0A, "NONE" ],
-		[ "Ignore", col03, col00, "NONE" ],
-		[ "PreProc", "NONE", col0C, "NONE" ],
-		[ "Special", "NONE", col0E, "NONE" ],
-		[ "Statement", "NONE", col0A, "NONE" ],
-		[ "String", "NONE", col0D, "NONE" ],
-		[ "Number", "NONE", col0C, "NONE" ],
-		[ "Todo", col02, col0C, "NONE" ],
-		[ "Type", "NONE", col0C, "NONE" ],
-		[ "Underlined", "NONE", col0A, "underline" ],
-		[ "StatusLine", "NONE", col03, "NONE" ],
-		[ "StatusLineNC", "NONE", col0F, "bold" ],
-		[ "TabLine", "NONE", col03, "NONE" ],
-		[ "TabLineFill", "NONE", col02, "NONE" ],
-		[ "TabLineSel", "NONE", col02, "NONE" ],
-		[ "TermCursorNC", col0C, col00, "NONE" ],
-		[ "VertSplit", "NONE", col00, "NONE" ],
-		[ "Title", "NONE", col0F, "NONE" ],
-		[ "CursorLine", "NONE", col02, "NONE" ],
-		[ "LineNr", "NONE", col02, "NONE" ],
-		[ "CursorLineNr", "NONE", col02, "NONE" ],
-		[ "helpLeadBlank", "NONE", col07, "NONE" ],
-		[ "helpNormal", "NONE", col07, "NONE" ],
-		[ "Visual", col02, col03, "NONE" ],
-		[ "VisualNOS", "NONE", col0A, "NONE" ],
-		[ "Pmenu", col02, col03, "NONE" ],
-		[ "PmenuSbar", col0E, col07, "NONE" ],
-		[ "PmenuSel", "NONE", col03, "NONE" ],
-		[ "PmenuThumb", col03, col03, "NONE" ],
-		[ "FoldColumn", "NONE", col07, "NONE" ],
-		[ "Folded", "NONE", col02, "bold" ],
-		[ "WildMenu", col0D, col00, "NONE" ],
-		[ "SpecialKey", "NONE", col02, "NONE" ],
-		[ "DiffAdd", "NONE", col0D, "NONE" ],
-		[ "DiffChange", "NONE", col02, "NONE" ],
-		[ "DiffDelete", "NONE", col0A, "bold" ],
-		[ "DiffText", "NONE", col0F, "bold" ],
-		[ "IncSearch", col0C, col00, "NONE" ],
-		[ "Search", col0C, col00, "NONE" ],
-		[ "Directory", "NONE", col0F, "NONE" ],
-		[ "MatchParen", col02, col00, "NONE" ],
-		[ "ColorColumn", col02, col02, "NONE" ],
-		[ "signColumn", "NONE", col0F, "bold" ],
-		[ "ErrorMsg", "NONE", col02, "NONE" ],
-		[ "ModeMsg", "NONE", col0D, "NONE" ],
-		[ "MoreMsg", "NONE", col0D, "NONE" ],
-		[ "Question", "NONE", col0F, "NONE" ],
-		[ "WarningMsg", col0A, col00, "NONE" ],
-		[ "Cursor", "NONE", col02, "NONE" ],
-		[ "Structure", "NONE", col0G, "NONE" ],
-		[ "CursorColumn", col02, col07, "NONE" ],
-		[ "ModeMsg", "NONE", col07, "bold" ],
-		# [ "EndOfBuffer", "NONE", col00, "NONE"],
+		[ "Normal", black, white, "NONE" ],
+		[ "NonText", "NONE", black, "NONE" ],
+		[ "Comment", "NONE", gray03, "NONE" ],
+		[ "Constant", "NONE", yellow, "NONE" ],
+		[ "Error", red, white, "NONE" ],
+		[ "Identifier", "NONE", red, "NONE" ],
+		[ "Ignore", gray03, black, "NONE" ],
+		[ "PreProc", "NONE", yellow, "NONE" ],
+		[ "Special", "NONE", cyan, "NONE" ],
+		[ "Statement", "NONE", red, "NONE" ],
+		[ "String", "NONE", green, "NONE" ],
+		[ "Number", "NONE", yellow, "NONE" ],
+		[ "Todo", gray02, yellow, "NONE" ],
+		[ "Type", "NONE", yellow, "NONE" ],
+		[ "Underlined", "NONE", red, "underline" ],
+		[ "StatusLine", "NONE", gray03, "NONE" ],
+		[ "StatusLineNC", "NONE", blue, "bold" ],
+		[ "TabLine", "NONE", gray03, "NONE" ],
+		[ "TabLineFill", "NONE", gray02, "NONE" ],
+		[ "TabLineSel", "NONE", gray02, "NONE" ],
+		[ "TermCursorNC", yellow, black, "NONE" ],
+		[ "VertSplit", "NONE", black, "NONE" ],
+		[ "Title", "NONE", blue, "NONE" ],
+		[ "CursorLine", "NONE", gray02, "NONE" ],
+		[ "LineNr", "NONE", gray02, "NONE" ],
+		[ "CursorLineNr", "NONE", gray02, "NONE" ],
+		[ "helpLeadBlank", "NONE", white, "NONE" ],
+		[ "helpNormal", "NONE", white, "NONE" ],
+		[ "Visual", gray02, gray03, "NONE" ],
+		[ "VisualNOS", "NONE", red, "NONE" ],
+		[ "Pmenu", gray02, gray03, "NONE" ],
+		[ "PmenuSbar", cyan, white, "NONE" ],
+		[ "PmenuSel", "NONE", gray03, "NONE" ],
+		[ "PmenuThumb", gray03, gray03, "NONE" ],
+		[ "FoldColumn", "NONE", white, "NONE" ],
+		[ "Folded", "NONE", gray02, "bold" ],
+		[ "WildMenu", green, black, "NONE" ],
+		[ "SpecialKey", "NONE", gray02, "NONE" ],
+		[ "DiffAdd", "NONE", green, "NONE" ],
+		[ "DiffChange", "NONE", gray02, "NONE" ],
+		[ "DiffDelete", "NONE", red, "bold" ],
+		[ "DiffText", "NONE", blue, "bold" ],
+		[ "IncSearch", yellow, black, "NONE" ],
+		[ "Search", yellow, black, "NONE" ],
+		[ "Directory", "NONE", blue, "NONE" ],
+		[ "MatchParen", gray02, black, "NONE" ],
+		[ "ColorColumn", gray02, gray02, "NONE" ],
+		[ "signColumn", "NONE", blue, "bold" ],
+		[ "ErrorMsg", "NONE", gray02, "NONE" ],
+		[ "ModeMsg", "NONE", green, "NONE" ],
+		[ "MoreMsg", "NONE", green, "NONE" ],
+		[ "Question", "NONE", blue, "NONE" ],
+		[ "WarningMsg", red, black, "NONE" ],
+		[ "Cursor", "NONE", gray02, "NONE" ],
+		[ "Structure", "NONE", magenta, "NONE" ],
+		[ "CursorColumn", gray02, white, "NONE" ],
+		[ "ModeMsg", "NONE", white, "bold" ],
+		# [ "EndOfBuffer", "NONE", black, "NONE"],
 
 		# Spelling Highlighting
-		[ "SpellBad", "NONE", col0A, "underline", col0A ],
-		[ "SpellCap", "NONE", col0F, "underline", col0F ],
-		[ "SpellLocal", "NONE", col0G, "underline", col0G ],
-		[ "SpellRare", "NONE", col0E, "underline", col0E ],
+		[ "SpellBad", "NONE", red, "underline", red ],
+		[ "SpellCap", "NONE", blue, "underline", blue ],
+		[ "SpellLocal", "NONE", magenta, "underline", magenta ],
+		[ "SpellRare", "NONE", cyan, "underline", cyan ],
 
 		# Standard Syntax Highlighting
-		[ "Boolean", "NONE", col0B, "NONE" ],
-		[ "Character", "NONE", col0A, "NONE" ],
-		[ "Conditional", "NONE", col0G, "NONE" ],
-		[ "Define", "NONE", col0G, "NONE" ],
-		[ "Delimiter", "NONE", col0B, "NONE" ],
-		[ "Float", "NONE", col0B, "NONE" ],
-		[ "Include", "NONE", col0F, "NONE" ],
-		[ "Keyword", "NONE", col0G, "NONE" ],
-		[ "Label", "NONE", col0C, "NONE" ],
-		[ "Operator", "NONE", col07, "NONE" ],
-		[ "Repeat", "NONE", col0C, "NONE" ],
-		[ "SpecialChar", "NONE", col0B, "NONE" ],
-		[ "Tag", "NONE", col0C, "NONE" ],
-		[ "Typedef", "NONE", col0C, "NONE" ],
+		[ "Boolean", "NONE", orange, "NONE" ],
+		[ "Character", "NONE", red, "NONE" ],
+		[ "Conditional", "NONE", magenta, "NONE" ],
+		[ "Define", "NONE", magenta, "NONE" ],
+		[ "Delimiter", "NONE", orange, "NONE" ],
+		[ "Float", "NONE", orange, "NONE" ],
+		[ "Include", "NONE", blue, "NONE" ],
+		[ "Keyword", "NONE", magenta, "NONE" ],
+		[ "Label", "NONE", yellow, "NONE" ],
+		[ "Operator", "NONE", white, "NONE" ],
+		[ "Repeat", "NONE", yellow, "NONE" ],
+		[ "SpecialChar", "NONE", orange, "NONE" ],
+		[ "Tag", "NONE", yellow, "NONE" ],
+		[ "Typedef", "NONE", yellow, "NONE" ],
 
 		# }}}
 
 		# Language Specific {{{
 
 		# Viml
-		[ "vimUserCommand", "NONE", col0A, "BOLD" ],
+		[ "vimUserCommand", "NONE", red, "BOLD" ],
 		[ "vimMap", "vimUserCommand" ],
 		[ "vimLet", "vimUserCommand" ],
 		[ "vimCommand", "vimUserCommand" ],
 		[ "vimFTCmd", "vimUserCommand" ],
 		[ "vimAutoCmd", "vimUserCommand" ],
 		[ "vimNotFunc", "vimUserCommand" ],
-		[ "vimNotation", "NONE", col0F, "NONE" ],
-		[ "vimMapModKey", "NONE", col0F, "NONE" ],
-		[ "vimBracket", "NONE", col07, "NONE" ],
+		[ "vimNotation", "NONE", blue, "NONE" ],
+		[ "vimMapModKey", "NONE", blue, "NONE" ],
+		[ "vimBracket", "NONE", white, "NONE" ],
 
 		# HTML
-		[ "htmlLink", "NONE", col0A, "underline" ],
-		[ "htmlBold", "NONE", col0C, "NONE" ],
-		[ "htmlItalic", "NONE", col0G, "NONE" ],
-		[ "htmlEndTag", "NONE", col07, "NONE" ],
-		[ "htmlTag", "NONE", col07, "NONE" ],
-		[ "htmlTagName", "NONE", col0A, "BOLD" ],
-		[ "htmlH1", "NONE", col07, "BOLD" ],
+		[ "htmlLink", "NONE", red, "underline" ],
+		[ "htmlBold", "NONE", yellow, "NONE" ],
+		[ "htmlItalic", "NONE", magenta, "NONE" ],
+		[ "htmlEndTag", "NONE", white, "NONE" ],
+		[ "htmlTag", "NONE", white, "NONE" ],
+		[ "htmlTagName", "NONE", red, "BOLD" ],
+		[ "htmlH1", "NONE", white, "BOLD" ],
 		[ "htmlH2", "htmlH1" ],
 		[ "htmlH3", "htmlH1" ],
 		[ "htmlH4", "htmlH1" ],
@@ -147,73 +147,73 @@
 		[ "htmlH6", "htmlH1" ],
 
 		# Css
-		[ "cssMultiColumnAttr", "NONE", col0D, "NONE" ],
+		[ "cssMultiColumnAttr", "NONE", green, "NONE" ],
 		[ "cssFontAttr", "cssMultiColumnAttr" ],
 		[ "cssFlexibleBoxAttr", "cssMultiColumnAttr" ],
-		[ "cssBraces", "NONE", col07, "NONE" ],
+		[ "cssBraces", "NONE", white, "NONE" ],
 		[ "cssAttrComma", "cssBraces" ],
-		[ "cssValueLength", "NONE", col07, "NONE"],
-		[ "cssUnitDecorators", "NONE", col07, "NONE"],
-		[ "cssValueNumber", "NONE", col07, "NONE"],
+		[ "cssValueLength", "NONE", white, "NONE"],
+		[ "cssUnitDecorators", "NONE", white, "NONE"],
+		[ "cssValueNumber", "NONE", white, "NONE"],
 		[ "cssValueLength", "cssValueNumber" ],
-		[ "cssNoise", "NONE", col03, "NONE" ],
-		[ "cssTagName", "NONE", col0A, "bold" ],
-		[ "cssFunctionName", "NONE", col0F, "bold" ],
+		[ "cssNoise", "NONE", gray03, "NONE" ],
+		[ "cssTagName", "NONE", red, "bold" ],
+		[ "cssFunctionName", "NONE", blue, "bold" ],
 
 		# Sass/Scss
-		[ "scssSelectorChar", "NONE", col07, "NONE"],
-		[ "scssAttribute", "NONE", col07, "NONE"],
+		[ "scssSelectorChar", "NONE", white, "NONE"],
+		[ "scssAttribute", "NONE", white, "NONE"],
 		[ "scssDefinition", "cssNoise" ],
-		[ "sassidChar", "NONE", col0A, "NONE"],
-		[ "sassClassChar", "NONE", col0B, "NONE"],
-		[ "sassInclude", "NONE", col0G, "NONE"],
-		[ "sassMixing", "NONE", col0G, "NONE"],
-		[ "sassMixinName", "NONE", col0F, "NONE"],
+		[ "sassidChar", "NONE", red, "NONE"],
+		[ "sassClassChar", "NONE", orange, "NONE"],
+		[ "sassInclude", "NONE", magenta, "NONE"],
+		[ "sassMixing", "NONE", magenta, "NONE"],
+		[ "sassMixinName", "NONE", blue, "NONE"],
 
 		# Javascript
-		[ "javaScript", "NONE", col07, "NONE"],
-		[ "javaScriptBraces", "NONE", col07, "NONE"],
-		[ "javaScriptNumber", "NONE", col0B, "NONE"],
+		[ "javaScript", "NONE", white, "NONE"],
+		[ "javaScriptBraces", "NONE", white, "NONE"],
+		[ "javaScriptNumber", "NONE", orange, "NONE"],
 
 		# Markdown
-		[ "markdownAutomaticLink", "NONE", col0A, "underline" ],
+		[ "markdownAutomaticLink", "NONE", red, "underline" ],
 		[ "markdownUrl", "markdownAutomaticLink" ],
-		[ "markdownError", "NONE", col07, "NONE" ],
-		[ "markdownCode", "NONE", col0C, "NONE" ],
-		[ "markdownCodeBlock", "NONE", col0C, "NONE" ],
-		[ "markdownCodeDelimiter", "NONE", col0B, "NONE" ],
+		[ "markdownError", "NONE", white, "NONE" ],
+		[ "markdownCode", "NONE", yellow, "NONE" ],
+		[ "markdownCodeBlock", "NONE", yellow, "NONE" ],
+		[ "markdownCodeDelimiter", "NONE", orange, "NONE" ],
 
 		# Xdefaults
-		[ "xdefaultsValue", "NONE", col06, "NONE" ],
+		[ "xdefaultsValue", "NONE", gray06, "NONE" ],
 
 		# Ruby
-		[ "rubyInclude", "NONE", col0F, "NONE" ],
-		[ "rubyDefine", "NONE", col0G, "NONE" ],
-		[ "rubyFunction", "NONE", col0F, "NONE" ],
-		[ "rubyStringDelimiter", "NONE", col0D, "NONE" ],
-		[ "rubyInteger", "NONE", col0C, "NONE" ],
-		[ "rubyAttribute", "NONE", col0F, "NONE" ],
-		[ "rubyConstant", "NONE", col0C, "NONE" ],
-		[ "rubyInterpolation", "NONE", col0D, "NONE" ],
-		[ "rubyInterpolationDelimiter", "NONE", col0C, "NONE" ],
-		[ "rubyRegexp", "NONE", col0E, "NONE" ],
-		[ "rubySymbol", "NONE", col0D, "NONE" ],
+		[ "rubyInclude", "NONE", blue, "NONE" ],
+		[ "rubyDefine", "NONE", magenta, "NONE" ],
+		[ "rubyFunction", "NONE", blue, "NONE" ],
+		[ "rubyStringDelimiter", "NONE", green, "NONE" ],
+		[ "rubyInteger", "NONE", yellow, "NONE" ],
+		[ "rubyAttribute", "NONE", blue, "NONE" ],
+		[ "rubyConstant", "NONE", yellow, "NONE" ],
+		[ "rubyInterpolation", "NONE", green, "NONE" ],
+		[ "rubyInterpolationDelimiter", "NONE", yellow, "NONE" ],
+		[ "rubyRegexp", "NONE", cyan, "NONE" ],
+		[ "rubySymbol", "NONE", green, "NONE" ],
 
 		# Python
-		[ "pythonOperator", "NONE", col0G, "NONE" ],
-		[ "pythonFunction", "NONE", col0F, "NONE" ],
-		[ "pythonRepeat", "NONE", col0G, "NONE" ],
-		[ "pythonStatement", "NONE", col0A, "Bold" ],
-		[ "pythonBuiltIn", "NONE", col0F, "NONE" ],
+		[ "pythonOperator", "NONE", magenta, "NONE" ],
+		[ "pythonFunction", "NONE", blue, "NONE" ],
+		[ "pythonRepeat", "NONE", magenta, "NONE" ],
+		[ "pythonStatement", "NONE", red, "Bold" ],
+		[ "pythonBuiltIn", "NONE", blue, "NONE" ],
 
 		# Php
-		[ "phpMemberSelector", "NONE", col07, "NONE" ],
-		[ "phpComparison", "NONE", col07, "NONE" ],
-		[ "phpParent", "NONE", col07, "NONE" ],
+		[ "phpMemberSelector", "NONE", white, "NONE" ],
+		[ "phpComparison", "NONE", white, "NONE" ],
+		[ "phpParent", "NONE", white, "NONE" ],
 
 		# C
-		[ "cOperator", "NONE", col0E, "NONE" ],
-		[ "cPreCondit", "NONE", col0G, "NONE" ],
+		[ "cOperator", "NONE", cyan, "NONE" ],
+		[ "cPreCondit", "NONE", magenta, "NONE" ],
 
 		# }}}
 
@@ -223,13 +223,13 @@
 		# All airline highlighting is in a seperate file, which is in the autoload/vim-airline/themes/ folder.
 
 		# Signify
-		[ "SignifySignAdd", "NONE", col0D, "NONE" ],
-		[ "SignifySignChange", "NONE", col0F, "NONE" ],
-		[ "SignifySignDelete", "NONE", col0A, "NONE" ],
+		[ "SignifySignAdd", "NONE", green, "NONE" ],
+		[ "SignifySignChange", "NONE", blue, "NONE" ],
+		[ "SignifySignDelete", "NONE", red, "NONE" ],
 
 		# Nerd Tree
-		[ "NERDTreeDirSlash", "NONE", col0F, "NONE" ],
-		[ "NERDTreeExecFile", "NONE", col07, "NONE" ],
+		[ "NERDTreeDirSlash", "NONE", blue, "NONE" ],
+		[ "NERDTreeExecFile", "NONE", white, "NONE" ],
 
 		# }}}
 
