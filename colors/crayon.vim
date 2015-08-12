@@ -40,17 +40,17 @@ if &t_Co >= 256 || has("gui_running")
 		hi NonText ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#101112 gui=NONE
 		hi Comment ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#586270 gui=NONE
 		hi Constant ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
-		hi Error ctermbg=1 ctermfg=15 cterm=NONE guibg=#B27B78 guifg=#FDFEFF gui=NONE
-		hi Identifier ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
+		hi Error ctermbg=9 ctermfg=15 cterm=NONE guibg=#B27B78 guifg=#FDFEFF gui=NONE
+		hi Identifier ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
 		hi Ignore ctermbg=8 ctermfg=0 cterm=NONE guibg=#586270 guifg=#101112 gui=NONE
 		hi PreProc ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi Special ctermbg=NONE ctermfg=6 cterm=NONE guibg=NONE guifg=#8DC9C3 gui=NONE
-		hi Statement ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
+		hi Statement ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
 		hi String ctermbg=NONE ctermfg=2 cterm=NONE guibg=NONE guifg=#99AE63 gui=NONE
 		hi Number ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi Todo ctermbg=11 ctermfg=3 cterm=NONE guibg=#383E47 guifg=#D8C27A gui=NONE
 		hi Type ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
-		hi Underlined ctermbg=NONE ctermfg=1 cterm=underline guibg=NONE guifg=#B27B78 gui=underline
+		hi Underlined ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#B27B78 gui=underline
 		hi StatusLine ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#586270 gui=NONE
 		hi StatusLineNC ctermbg=NONE ctermfg=4 cterm=bold guibg=NONE guifg=#7495B6 gui=bold
 		hi TabLine ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#586270 gui=NONE
@@ -65,7 +65,7 @@ if &t_Co >= 256 || has("gui_running")
 		hi helpLeadBlank ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 		hi helpNormal ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 		hi Visual ctermbg=11 ctermfg=8 cterm=NONE guibg=#383E47 guifg=#586270 gui=NONE
-		hi VisualNOS ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
+		hi VisualNOS ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
 		hi Pmenu ctermbg=11 ctermfg=8 cterm=NONE guibg=#383E47 guifg=#586270 gui=NONE
 		hi PmenuSbar ctermbg=6 ctermfg=15 cterm=NONE guibg=#8DC9C3 guifg=#FDFEFF gui=NONE
 		hi PmenuSel ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#586270 gui=NONE
@@ -76,7 +76,7 @@ if &t_Co >= 256 || has("gui_running")
 		hi SpecialKey ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#383E47 gui=NONE
 		hi DiffAdd ctermbg=NONE ctermfg=2 cterm=NONE guibg=NONE guifg=#99AE63 gui=NONE
 		hi DiffChange ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#383E47 gui=NONE
-		hi DiffDelete ctermbg=NONE ctermfg=1 cterm=bold guibg=NONE guifg=#B27B78 gui=bold
+		hi DiffDelete ctermbg=NONE ctermfg=9 cterm=bold guibg=NONE guifg=#B27B78 gui=bold
 		hi DiffText ctermbg=NONE ctermfg=4 cterm=bold guibg=NONE guifg=#7495B6 gui=bold
 		hi IncSearch ctermbg=3 ctermfg=0 cterm=NONE guibg=#D8C27A guifg=#101112 gui=NONE
 		hi Search ctermbg=3 ctermfg=0 cterm=NONE guibg=#D8C27A guifg=#101112 gui=NONE
@@ -88,30 +88,30 @@ if &t_Co >= 256 || has("gui_running")
 		hi ModeMsg ctermbg=NONE ctermfg=2 cterm=NONE guibg=NONE guifg=#99AE63 gui=NONE
 		hi MoreMsg ctermbg=NONE ctermfg=2 cterm=NONE guibg=NONE guifg=#99AE63 gui=NONE
 		hi Question ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
-		hi WarningMsg ctermbg=1 ctermfg=0 cterm=NONE guibg=#B27B78 guifg=#101112 gui=NONE
+		hi WarningMsg ctermbg=9 ctermfg=0 cterm=NONE guibg=#B27B78 guifg=#101112 gui=NONE
 		hi Cursor ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#383E47 gui=NONE
 		hi Structure ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
 		hi CursorColumn ctermbg=11 ctermfg=15 cterm=NONE guibg=#383E47 guifg=#FDFEFF gui=NONE
 		hi ModeMsg ctermbg=NONE ctermfg=15 cterm=bold guibg=NONE guifg=#FDFEFF gui=bold
-		hi SpellBad ctermbg=NONE ctermfg=1 cterm=underline guibg=NONE guifg=#B27B78 gui=underline guisp=#B27B78
+		hi SpellBad ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#B27B78 gui=underline guisp=#B27B78
 		hi SpellCap ctermbg=NONE ctermfg=4 cterm=underline guibg=NONE guifg=#7495B6 gui=underline guisp=#7495B6
 		hi SpellLocal ctermbg=NONE ctermfg=5 cterm=underline guibg=NONE guifg=#B59CD8 gui=underline guisp=#B59CD8
 		hi SpellRare ctermbg=NONE ctermfg=6 cterm=underline guibg=NONE guifg=#8DC9C3 gui=underline guisp=#8DC9C3
-		hi Boolean ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
-		hi Character ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
+		hi Boolean ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
+		hi Character ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
 		hi Conditional ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
 		hi Define ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
-		hi Delimiter ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
-		hi Float ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
+		hi Delimiter ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
+		hi Float ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
 		hi Include ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi Keyword ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
 		hi Label ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi Operator ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 		hi Repeat ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
-		hi SpecialChar ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
+		hi SpecialChar ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
 		hi Tag ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi Typedef ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
-		hi vimUserCommand ctermbg=NONE ctermfg=1 cterm=BOLD guibg=NONE guifg=#B27B78 gui=BOLD
+		hi vimUserCommand ctermbg=NONE ctermfg=9 cterm=BOLD guibg=NONE guifg=#B27B78 gui=BOLD
 			hi link vimMap vimUserCommand
 			hi link vimLet vimUserCommand
 			hi link vimCommand vimUserCommand
@@ -121,12 +121,12 @@ if &t_Co >= 256 || has("gui_running")
 		hi vimNotation ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi vimMapModKey ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi vimBracket ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
-		hi htmlLink ctermbg=NONE ctermfg=1 cterm=underline guibg=NONE guifg=#B27B78 gui=underline
+		hi htmlLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#B27B78 gui=underline
 		hi htmlBold ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi htmlItalic ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
 		hi htmlEndTag ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 		hi htmlTag ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
-		hi htmlTagName ctermbg=NONE ctermfg=1 cterm=BOLD guibg=NONE guifg=#B27B78 gui=BOLD
+		hi htmlTagName ctermbg=NONE ctermfg=9 cterm=BOLD guibg=NONE guifg=#B27B78 gui=BOLD
 		hi htmlH1 ctermbg=NONE ctermfg=15 cterm=BOLD guibg=NONE guifg=#FDFEFF gui=BOLD
 			hi link htmlH2 htmlH1
 			hi link htmlH3 htmlH1
@@ -143,25 +143,25 @@ if &t_Co >= 256 || has("gui_running")
 		hi cssValueNumber ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 			hi link cssValueLength cssValueNumber
 		hi cssNoise ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#586270 gui=NONE
-		hi cssTagName ctermbg=NONE ctermfg=1 cterm=bold guibg=NONE guifg=#B27B78 gui=bold
+		hi cssTagName ctermbg=NONE ctermfg=9 cterm=bold guibg=NONE guifg=#B27B78 gui=bold
 		hi cssFunctionName ctermbg=NONE ctermfg=4 cterm=bold guibg=NONE guifg=#7495B6 gui=bold
 		hi scssSelectorChar ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 		hi scssAttribute ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 			hi link scssDefinition cssNoise
-		hi sassidChar ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
-		hi sassClassChar ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
+		hi sassidChar ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
+		hi sassClassChar ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
 		hi sassInclude ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
 		hi sassMixing ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
 		hi sassMixinName ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi javaScript ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 		hi javaScriptBraces ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
-		hi javaScriptNumber ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
-		hi markdownAutomaticLink ctermbg=NONE ctermfg=1 cterm=underline guibg=NONE guifg=#B27B78 gui=underline
+		hi javaScriptNumber ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
+		hi markdownAutomaticLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#B27B78 gui=underline
 			hi link markdownUrl markdownAutomaticLink
 		hi markdownError ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 		hi markdownCode ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi markdownCodeBlock ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
-		hi markdownCodeDelimiter ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
+		hi markdownCodeDelimiter ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#C48D62 gui=NONE
 		hi xdefaultsValue ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#D8D8D8 gui=NONE
 		hi rubyInclude ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi rubyDefine ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
@@ -177,7 +177,7 @@ if &t_Co >= 256 || has("gui_running")
 		hi pythonOperator ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
 		hi pythonFunction ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi pythonRepeat ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
-		hi pythonStatement ctermbg=NONE ctermfg=1 cterm=Bold guibg=NONE guifg=#B27B78 gui=Bold
+		hi pythonStatement ctermbg=NONE ctermfg=9 cterm=Bold guibg=NONE guifg=#B27B78 gui=Bold
 		hi pythonBuiltIn ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi phpMemberSelector ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 		hi phpComparison ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
@@ -186,7 +186,7 @@ if &t_Co >= 256 || has("gui_running")
 		hi cPreCondit ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
 		hi SignifySignAdd ctermbg=NONE ctermfg=2 cterm=NONE guibg=NONE guifg=#99AE63 gui=NONE
 		hi SignifySignChange ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
-		hi SignifySignDelete ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
+		hi SignifySignDelete ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
 		hi NERDTreeDirSlash ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi NERDTreeExecFile ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
