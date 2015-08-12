@@ -3,22 +3,22 @@ let g:airline#themes#crayon#palette = {}
 
 " Normal mode
 let s:N1 = [ '#101112' , '#7495B6' , 10 ,  4 ]
-let s:N2 = [ '#101112' , '#383E47' ,  8 , 10 ]
+let s:N2 = [ '#101112' , '#383E47' ,  8 ,  0 ]
 let s:N3 = [ '#BCC5D1' , '#101112' ,  7 ,  0 ]
 
 " Insert mode
 let s:I1 = [ '#101112' , '#99AE63' , 10 ,  2 ]
-let s:I2 = [ '#101112' , '#383E47' ,  8 , 10 ]
+let s:I2 = [ '#101112' , '#383E47' ,  8 ,  0 ]
 let s:I3 = [ '#BCC5D1' , '#101112' ,  7 ,  0 ]
 
 " Visual mode
 let s:V1 = [ '#101112' , '#C48D62' , 10 ,  1 ]
-let s:V2 = [ '#101112' , '#383E47' ,  8 , 10 ]
+let s:V2 = [ '#101112' , '#383E47' ,  8 ,  0 ]
 let s:V3 = [ '#BCC5D1' , '#101112' ,  7 ,  0 ]
 
 " Replace mode
 let s:R1 = [ '#101112' , '#b59cd8' , 10 ,  5 ]
-let s:R2 = [ '#101112' , '#383E47' ,  8 , 10 ]
+let s:R2 = [ '#101112' , '#383E47' ,  8 ,  0 ]
 let s:R3 = [ '#BCC5D1' , '#101112' ,  7 ,  0 ]
 
 let g:airline#themes#crayon#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
