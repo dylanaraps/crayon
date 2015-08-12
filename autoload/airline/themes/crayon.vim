@@ -2,8 +2,8 @@
 let g:airline#themes#crayon#palette = {}
 
 " Normal mode
-let s:N1 = [ '#101112' , '#7495b6' , 8 , 12 ]
-let s:N2 = [ '#101112' , '#2d4963' , 8 ,  4 ]
+let s:N1 = [ '#101112' , '#798494' , 8 , 12 ]
+let s:N2 = [ '#101112' , '#383E47' , 8 ,  4 ]
 let s:N3 = [ '#6A6F7A' , '#101112' , 7 ,  0 ]
 
 " Insert mode
@@ -46,9 +46,9 @@ let g:airline#themes#crayon#palette.replace.airline_warning = s:WI
 
 " Tabline
 let g:airline#themes#crayon#palette.tabline = {
-      \ 'airline_tab':     [ '#101112' , '#7495b6' ,  8 , 12  , 'bold' ],
-      \ 'airline_tabsel':  [ '#101112' , '#7495b6' ,  8 , 12  , 'bold' ],
-      \ 'airline_tabtype': [ '#101112' , '#7495b6' ,  8 , 12  , 'bold' ],
+      \ 'airline_tab':     [ '#101112' , '#798494' ,  8 , 12  , 'bold' ],
+      \ 'airline_tabsel':  [ '#101112' , '#798494' ,  8 , 12  , 'bold' ],
+      \ 'airline_tabtype': [ '#101112' , '#798494' ,  8 , 12  , 'bold' ],
       \ 'airline_tabfill': [ '#6A6F7A' , '#101112' ,  7 ,  0  , 'bold' ],
       \ 'airline_tabmod':  [ '#101112' , '#99AE63' ,  8 , 10  , 'bold' ]
 \ }
