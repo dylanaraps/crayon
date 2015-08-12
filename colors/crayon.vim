@@ -196,17 +196,17 @@ set t_Co=16
 		hi NonText ctermbg=NONE ctermfg=black cterm=NONE
 		hi Comment ctermbg=NONE ctermfg=gray02 cterm=NONE
 		hi Constant ctermbg=NONE ctermfg=darkyellow cterm=NONE
-		hi Error ctermbg=darkred ctermfg=white cterm=NONE
-		hi Identifier ctermbg=NONE ctermfg=darkred cterm=NONE
+		hi Error ctermbg=red ctermfg=white cterm=NONE
+		hi Identifier ctermbg=NONE ctermfg=red cterm=NONE
 		hi Ignore ctermbg=gray02 ctermfg=black cterm=NONE
 		hi PreProc ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi Special ctermbg=NONE ctermfg=darkcyan cterm=NONE
-		hi Statement ctermbg=NONE ctermfg=darkred cterm=NONE
+		hi Statement ctermbg=NONE ctermfg=red cterm=NONE
 		hi String ctermbg=NONE ctermfg=darkgreen cterm=NONE
 		hi Number ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi Todo ctermbg=yellow ctermfg=darkyellow cterm=NONE
 		hi Type ctermbg=NONE ctermfg=darkyellow cterm=NONE
-		hi Underlined ctermbg=NONE ctermfg=darkred cterm=underline
+		hi Underlined ctermbg=NONE ctermfg=red cterm=underline
 		hi StatusLine ctermbg=NONE ctermfg=gray02 cterm=NONE
 		hi StatusLineNC ctermbg=NONE ctermfg=darkblue cterm=bold
 		hi TabLine ctermbg=NONE ctermfg=gray02 cterm=NONE
@@ -221,7 +221,7 @@ set t_Co=16
 		hi helpLeadBlank ctermbg=NONE ctermfg=white cterm=NONE
 		hi helpNormal ctermbg=NONE ctermfg=white cterm=NONE
 		hi Visual ctermbg=yellow ctermfg=gray02 cterm=NONE
-		hi VisualNOS ctermbg=NONE ctermfg=darkred cterm=NONE
+		hi VisualNOS ctermbg=NONE ctermfg=red cterm=NONE
 		hi Pmenu ctermbg=yellow ctermfg=gray02 cterm=NONE
 		hi PmenuSbar ctermbg=darkcyan ctermfg=white cterm=NONE
 		hi PmenuSel ctermbg=NONE ctermfg=gray02 cterm=NONE
@@ -232,7 +232,7 @@ set t_Co=16
 		hi SpecialKey ctermbg=NONE ctermfg=yellow cterm=NONE
 		hi DiffAdd ctermbg=NONE ctermfg=darkgreen cterm=NONE
 		hi DiffChange ctermbg=NONE ctermfg=yellow cterm=NONE
-		hi DiffDelete ctermbg=NONE ctermfg=darkred cterm=bold
+		hi DiffDelete ctermbg=NONE ctermfg=red cterm=bold
 		hi DiffText ctermbg=NONE ctermfg=darkblue cterm=bold
 		hi IncSearch ctermbg=darkyellow ctermfg=black cterm=NONE
 		hi Search ctermbg=darkyellow ctermfg=black cterm=NONE
@@ -244,30 +244,30 @@ set t_Co=16
 		hi ModeMsg ctermbg=NONE ctermfg=darkgreen cterm=NONE
 		hi MoreMsg ctermbg=NONE ctermfg=darkgreen cterm=NONE
 		hi Question ctermbg=NONE ctermfg=darkblue cterm=NONE
-		hi WarningMsg ctermbg=darkred ctermfg=black cterm=NONE
+		hi WarningMsg ctermbg=red ctermfg=black cterm=NONE
 		hi Cursor ctermbg=NONE ctermfg=yellow cterm=NONE
 		hi Structure ctermbg=NONE ctermfg=darkmagenta cterm=NONE
 		hi CursorColumn ctermbg=yellow ctermfg=white cterm=NONE
 		hi ModeMsg ctermbg=NONE ctermfg=white cterm=bold
-		hi SpellBad ctermbg=NONE ctermfg=darkred cterm=underline
+		hi SpellBad ctermbg=NONE ctermfg=red cterm=underline
 		hi SpellCap ctermbg=NONE ctermfg=darkblue cterm=underline
 		hi SpellLocal ctermbg=NONE ctermfg=darkmagenta cterm=underline
 		hi SpellRare ctermbg=NONE ctermfg=darkcyan cterm=underline
-		hi Boolean ctermbg=NONE ctermfg=red cterm=NONE
-		hi Character ctermbg=NONE ctermfg=darkred cterm=NONE
+		hi Boolean ctermbg=NONE ctermfg=darkred cterm=NONE
+		hi Character ctermbg=NONE ctermfg=red cterm=NONE
 		hi Conditional ctermbg=NONE ctermfg=darkmagenta cterm=NONE
 		hi Define ctermbg=NONE ctermfg=darkmagenta cterm=NONE
-		hi Delimiter ctermbg=NONE ctermfg=red cterm=NONE
-		hi Float ctermbg=NONE ctermfg=red cterm=NONE
+		hi Delimiter ctermbg=NONE ctermfg=darkred cterm=NONE
+		hi Float ctermbg=NONE ctermfg=darkred cterm=NONE
 		hi Include ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi Keyword ctermbg=NONE ctermfg=darkmagenta cterm=NONE
 		hi Label ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi Operator ctermbg=NONE ctermfg=white cterm=NONE
 		hi Repeat ctermbg=NONE ctermfg=darkyellow cterm=NONE
-		hi SpecialChar ctermbg=NONE ctermfg=red cterm=NONE
+		hi SpecialChar ctermbg=NONE ctermfg=darkred cterm=NONE
 		hi Tag ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi Typedef ctermbg=NONE ctermfg=darkyellow cterm=NONE
-		hi vimUserCommand ctermbg=NONE ctermfg=darkred cterm=bold
+		hi vimUserCommand ctermbg=NONE ctermfg=red cterm=bold
 			hi link vimMap vimUserCommand
 			hi link vimLet vimUserCommand
 			hi link vimCommand vimUserCommand
@@ -277,12 +277,12 @@ set t_Co=16
 		hi vimNotation ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi vimMapModKey ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi vimBracket ctermbg=NONE ctermfg=white cterm=NONE
-		hi htmlLink ctermbg=NONE ctermfg=darkred cterm=underline
+		hi htmlLink ctermbg=NONE ctermfg=red cterm=underline
 		hi htmlBold ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi htmlItalic ctermbg=NONE ctermfg=darkmagenta cterm=NONE
 		hi htmlEndTag ctermbg=NONE ctermfg=white cterm=NONE
 		hi htmlTag ctermbg=NONE ctermfg=white cterm=NONE
-		hi htmlTagName ctermbg=NONE ctermfg=darkred cterm=BOLD
+		hi htmlTagName ctermbg=NONE ctermfg=red cterm=BOLD
 		hi htmlH1 ctermbg=NONE ctermfg=white cterm=BOLD
 			hi link htmlH2 htmlH1
 			hi link htmlH3 htmlH1
@@ -299,25 +299,25 @@ set t_Co=16
 		hi cssValueNumber ctermbg=NONE ctermfg=white cterm=NONE
 			hi link cssValueLength cssValueNumber
 		hi cssNoise ctermbg=NONE ctermfg=gray02 cterm=NONE
-		hi cssTagName ctermbg=NONE ctermfg=darkred cterm=bold
+		hi cssTagName ctermbg=NONE ctermfg=red cterm=bold
 		hi cssFunctionName ctermbg=NONE ctermfg=darkblue cterm=bold
 		hi scssSelectorChar ctermbg=NONE ctermfg=white cterm=NONE
 		hi scssAttribute ctermbg=NONE ctermfg=white cterm=NONE
 			hi link scssDefinition cssNoise
-		hi sassidChar ctermbg=NONE ctermfg=darkred cterm=NONE
-		hi sassClassChar ctermbg=NONE ctermfg=red cterm=NONE
+		hi sassidChar ctermbg=NONE ctermfg=red cterm=NONE
+		hi sassClassChar ctermbg=NONE ctermfg=darkred cterm=NONE
 		hi sassInclude ctermbg=NONE ctermfg=darkmagenta cterm=NONE
 		hi sassMixing ctermbg=NONE ctermfg=darkmagenta cterm=NONE
 		hi sassMixinName ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi javaScript ctermbg=NONE ctermfg=white cterm=NONE
 		hi javaScriptBraces ctermbg=NONE ctermfg=white cterm=NONE
-		hi javaScriptNumber ctermbg=NONE ctermfg=red cterm=NONE
-		hi markdownAutomaticLink ctermbg=NONE ctermfg=darkred cterm=underline
+		hi javaScriptNumber ctermbg=NONE ctermfg=darkred cterm=NONE
+		hi markdownAutomaticLink ctermbg=NONE ctermfg=red cterm=underline
 			hi link markdownUrl markdownAutomaticLink
 		hi markdownError ctermbg=NONE ctermfg=white cterm=NONE
 		hi markdownCode ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi markdownCodeBlock ctermbg=NONE ctermfg=darkyellow cterm=NONE
-		hi markdownCodeDelimiter ctermbg=NONE ctermfg=red cterm=NONE
+		hi markdownCodeDelimiter ctermbg=NONE ctermfg=darkred cterm=NONE
 		hi xdefaultsValue ctermbg=NONE ctermfg=magenta cterm=NONE
 		hi rubyInclude ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi rubyDefine ctermbg=NONE ctermfg=darkmagenta cterm=NONE
@@ -333,7 +333,7 @@ set t_Co=16
 		hi pythonOperator ctermbg=NONE ctermfg=darkmagenta cterm=NONE
 		hi pythonFunction ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi pythonRepeat ctermbg=NONE ctermfg=darkmagenta cterm=NONE
-		hi pythonStatement ctermbg=NONE ctermfg=darkred cterm=Bold
+		hi pythonStatement ctermbg=NONE ctermfg=red cterm=Bold
 		hi pythonBuiltIn ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi phpMemberSelector ctermbg=NONE ctermfg=white cterm=NONE
 		hi phpComparison ctermbg=NONE ctermfg=white cterm=NONE
@@ -342,7 +342,7 @@ set t_Co=16
 		hi cPreCondit ctermbg=NONE ctermfg=darkmagenta cterm=NONE
 		hi SignifySignAdd ctermbg=NONE ctermfg=darkgreen cterm=NONE
 		hi SignifySignChange ctermbg=NONE ctermfg=darkblue cterm=NONE
-		hi SignifySignDelete ctermbg=NONE ctermfg=darkred cterm=NONE
+		hi SignifySignDelete ctermbg=NONE ctermfg=red cterm=NONE
 		hi NERDTreeDirSlash ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi NERDTreeExecFile ctermbg=NONE ctermfg=white cterm=NONE
 endif
