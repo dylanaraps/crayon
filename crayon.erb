@@ -7,7 +7,7 @@
 		description: "A 16 color theme for vim",
 		webpage:	 "https://github.com/dylanaraps/crayon-theme",
 		background:  "dark",
-}
+	}
 
 	# Colors
 	# Note: These also appear below, if you change the hex values it's better to do so with a find and replace.
@@ -256,27 +256,27 @@ hi clear
 
 set background=dark
 
+" Neovim Terminal Mode Colors
+let g:terminal_color_0 = "#101112"
+let g:terminal_color_1 = "#C48D62"
+let g:terminal_color_2 = "#99AE63"
+let g:terminal_color_3 = "#D8C27A"
+let g:terminal_color_4 = "#7495B6"
+let g:terminal_color_5 = "#B59CD8"
+let g:terminal_color_6 = "#8DC9C3"
+let g:terminal_color_7 = "#BCC5D1"
+let g:terminal_color_8 = "#586270"
+let g:terminal_color_9 = "#B27B78"
+let g:terminal_color_10 = "#282C33"
+let g:terminal_color_11 = "#383E47"
+let g:terminal_color_12 = "#798494"
+let g:terminal_color_13 = "#D8D8D8"
+let g:terminal_color_14 = "#CC99B3"
+let g:terminal_color_15 = "#FDFEFF"
+
 if exists("syntax_on")
 syntax reset
 endif
-
-" Neovim Terminal Mode Colors
-let g:terminal_color_0 = "#101112"
-let g:terminal_color_1 = "#7f4040"
-let g:terminal_color_2 = "#324a28"
-let g:terminal_color_3 = "#c48452"
-let g:terminal_color_4 = "#2d4963"
-let g:terminal_color_5 = "#3d2e4f"
-let g:terminal_color_6 = "#263a40"
-let g:terminal_color_7 = "#6a6f7a"
-let g:terminal_color_8 = "#282c33"
-let g:terminal_color_9 = "#b27b78"
-let g:terminal_color_10 = "#99ae63"
-let g:terminal_color_11 = "#d8c27a"
-let g:terminal_color_12 = "#7495b6"
-let g:terminal_color_13 = "#b59cd8"
-let g:terminal_color_14 = "#81c9c2"
-let g:terminal_color_15 = "#c9d4d8"
 
 let colors_name = "<%= information[:name] %>"
 
