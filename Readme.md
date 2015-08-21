@@ -1,12 +1,12 @@
 # 🌸 Crayon
 #### A dark 16 color colorscheme for Vim, Gvim, and Nvim
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/palette.png)
+![](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/palette.png)
 
 [Features](#features) | [Installation](#installation) | [Customization](#customization) | [Contributing](#contributing)
 
 NOTE: This is still a heavy WIP and everything is subject to change. Once I'm happy with the colors I'll add support for more terminal emulators. Until then crayon only officially supports terminals that use the .Xresources/.Xdefaults file(s).
 
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/ruby.png)
+![](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/ruby.png)
 
 <!--- Screenshots {{{ -->
 
@@ -14,16 +14,16 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 The terminal font used in the screenshots is [envypn](https://aur.archlinux.org/packages/envypn-font/) by Ypnose.
 
 #### Markdown
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/markdown.png)
+![](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/markdown.png)
 
 #### Viml
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/viml.png)
+![](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/viml.png)
 
 #### Html
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/html.png)
+![](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/html.png)
 
 #### Scss
-![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/scss.png)
+![](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/scss.png)
 
 <!-- }}} -->
 
