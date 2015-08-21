@@ -18,6 +18,11 @@ $blue: #7495B6;
 $magenta: #B59CD8;
 $pink: #CC99B3;
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 html,
 body,
 ul,
@@ -34,11 +39,11 @@ body {
 }
 
 main {
-	width: 80%;
-	position: absolute;
-	top: 40%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	margin-top: 50px;
+	position: relative;
+	transform: translate(-50%);
+	width: 100%;
 }
 
 h1,
@@ -75,6 +80,14 @@ a {
 	&:hover {
 		color: $gray03;
 	}
+}
+
+.scrotbg {
+	background: url(../img/bg.png) no-repeat;
+	display: block;
+	height: 740px;
+	margin: 50px auto;
+	width: 563px;
 }
 
 /* Mixin for Shades/Colors */
