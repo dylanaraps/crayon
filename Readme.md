@@ -158,7 +158,53 @@ augroup END
 ### Terminal Installation
 
 #### xterm, Urxvt and terminals that use the .Xresources/.Xdefaults file.
-Add the contents of the .Xresources file to your own .Xresources.
+Add the code below to your .Xresources/.Xdefaults.
+
+```xdefaults
+! Crayon Theme
+
+! Shades
+#define black	#101112
+#define gray01	#282C33
+#define gray02	#383E47
+#define gray03	#586270
+#define gray04	#798494
+#define gray05	#BCC5D1
+#define gray06	#D8D8D8
+#define white	#FDFEFF
+
+! Colors
+#define red		#B27B78
+#define orange	#C48D62
+#define yellow	#D8C27A
+#define green	#99AE63
+#define cyan	#8DC9C3
+#define blue	#7495B6
+#define magenta	#B59CD8
+#define pink 	#CC99B3
+
+*.foreground:   gray06
+*.background:   black
+*.cursorColor:  gray06
+
+*.color0:       black
+*.color1:       orange
+*.color2:       green
+*.color3:       yellow
+*.color4:       blue
+*.color5:       magenta
+*.color6:       cyan
+*.color7:       gray05
+
+*.color8:       gray03
+*.color9:       red
+*.color10:      gray01
+*.color11:      gray02
+*.color12:      gray04
+*.color13:      gray06
+*.color14:      pink
+*.color15:      white
+```
 
 Support for other terminals is coming once I've finalized the schemes colors. In the meantime you can go to [Terminal.sexy](http://terminal.sexy/), import the contents of the .Xresources file from the repo and then export it to the terminal format of your choice.
 
