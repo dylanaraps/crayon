@@ -204,6 +204,7 @@ Add the code below to your .Xresources/.Xdefaults.
 *.color13:      gray06
 *.color14:      pink
 *.color15:      white
+
 ```
 
 Support for other terminals is coming once I've finalized the schemes colors. In the meantime you can go to [Terminal.sexy](http://terminal.sexy/), import the contents of the .Xresources file from the repo and then export it to the terminal format of your choice.
