@@ -1,7 +1,7 @@
 
 " crayon.vim -- Vim color scheme.
 " Author:      Dylan Araps (dyl@tfwno.gf)
-" Webpage:     https://github.com/dylanaraps/crayon-theme
+" Webpage:     https://github.com/dylanaraps/crayone
 " Description: A 16 color theme for vim
 
 hi clear
@@ -66,9 +66,9 @@ if &t_Co >= 256 || has("gui_running")
 		hi helpNormal ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 		hi Visual ctermbg=11 ctermfg=8 cterm=NONE guibg=#383E47 guifg=#586270 gui=NONE
 		hi VisualNOS ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#B27B78 gui=NONE
-		hi Pmenu ctermbg=11 ctermfg=8 cterm=NONE guibg=#383E47 guifg=#586270 gui=NONE
+		hi Pmenu ctermbg=10 ctermfg=7 cterm=NONE guibg=#282C33 guifg=#BCC5D1 gui=NONE
 		hi PmenuSbar ctermbg=6 ctermfg=15 cterm=NONE guibg=#8DC9C3 guifg=#FDFEFF gui=NONE
-		hi PmenuSel ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#586270 gui=NONE
+		hi PmenuSel ctermbg=4 ctermfg=0 cterm=NONE guibg=#7495B6 guifg=#101112 gui=NONE
 		hi PmenuThumb ctermbg=8 ctermfg=8 cterm=NONE guibg=#586270 guifg=#586270 gui=NONE
 		hi FoldColumn ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
 		hi Folded ctermbg=NONE ctermfg=11 cterm=bold guibg=NONE guifg=#383E47 gui=bold
@@ -222,9 +222,9 @@ set t_Co=16
 		hi helpNormal ctermbg=NONE ctermfg=white cterm=NONE
 		hi Visual ctermbg=yellow ctermfg=darkgray cterm=NONE
 		hi VisualNOS ctermbg=NONE ctermfg=red cterm=NONE
-		hi Pmenu ctermbg=yellow ctermfg=darkgray cterm=NONE
+		hi Pmenu ctermbg=green ctermfg=gray cterm=NONE
 		hi PmenuSbar ctermbg=darkcyan ctermfg=white cterm=NONE
-		hi PmenuSel ctermbg=NONE ctermfg=darkgray cterm=NONE
+		hi PmenuSel ctermbg=darkblue ctermfg=black cterm=NONE
 		hi PmenuThumb ctermbg=darkgray ctermfg=darkgray cterm=NONE
 		hi FoldColumn ctermbg=NONE ctermfg=white cterm=NONE
 		hi Folded ctermbg=NONE ctermfg=yellow cterm=bold
