@@ -1,5 +1,6 @@
 # 🌸 Crayon
 #### A dark 16 color colorscheme for Vim, Gvim, and Nvim
+![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/palette.png)
 
 [Features](#features) | [Installation](#installation) | [Customization](#customization) | [Contributing](#contributing)
 
@@ -11,8 +12,6 @@ NOTE: This is still a heavy WIP and everything is subject to change. Once I'm ha
 
 ## Screenshots
 The terminal font used in the screenshots is [envypn](https://aur.archlinux.org/packages/envypn-font/) by Ypnose.
-
-The screenshots aren't up to date with the colorscheme as of 12/8/15. They will be updated soon.
 
 #### Markdown
 ![](https://raw.githubusercontent.com/dylanaraps/crayon-theme/master/screenshots/markdown.png)
@@ -79,15 +78,16 @@ Crayon currently supports these vim plugins:
 
 Feel free to request support for your favourite plugins and I'll happily add them to the list!
 
-
 #### Vim-Airline
-
-![](https://github.com/dylanaraps/crayon-theme/raw/master/screenshots/airline.gif)
 
 Add this line to your .vimrc:
 
 ```VimL
+" Colorful Airline
 let g:airline_theme = 'crayon'
+
+" Minimalistic Airline
+let g:airline_theme = 'crayon2'
 ```
 
 <!--- }}} -->
