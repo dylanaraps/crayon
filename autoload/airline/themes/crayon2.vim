@@ -7,17 +7,17 @@ let s:N2 = [ '#BCC5D1' , 'NONE' ,  7 ,  0 ]
 let s:N3 = [ '#BCC5D1' , 'NONE' ,  7 ,  0 ]
 
 " Insert mode
-let s:I1 = [ '#BCC5D1' , 'NONE' ,  7 ,  0 ]
+let s:I1 = [ '#99AE63' , 'NONE' ,  7 ,  0 ]
 let s:I2 = [ '#BCC5D1' , 'NONE' ,  7 ,  0 ]
 let s:I3 = [ '#BCC5D1' , 'NONE' ,  7 ,  0 ]
 
 " Visual mode
-let s:V1 = [ '#BCC5D1' , 'NONE' ,  7 ,  0 ]
+let s:V1 = [ '#C48D62' , 'NONE' ,  7 ,  0 ]
 let s:V2 = [ '#BCC5D1' , 'NONE' ,  7 ,  0 ]
 let s:V3 = [ '#BCC5D1' , 'NONE' ,  7 ,  0 ]
 
 " Replace mode
-let s:R1 = [ '#BCC5D1' , 'NONE' ,  7 ,  0 ]
+let s:R1 = [ '#B59CD8' , 'NONE' ,  7 ,  0 ]
 let s:R2 = [ '#BCC5D1' , 'NONE' ,  7 ,  0 ]
 let s:R3 = [ '#BCC5D1' , 'NONE' ,  7 ,  0 ]
 
@@ -50,5 +50,5 @@ let g:airline#themes#crayon2#palette.tabline = {
       \ 'airline_tabsel':  [ '#D8D8D8' , '#101113' , 7, 0 , 'bold' ],
       \ 'airline_tabtype': [ '#BCC5D1' , 'NONE'    , 7, 0 , 'NONE' ],
       \ 'airline_tabfill': [ '#BCC5D1' , 'NONE'    , 7, 0 , 'NONE' ],
-      \ 'airline_tabmod':  [ '#BCC5D1' , 'NONE'    , 7, 0 , 'NONE' ]
+      \ 'airline_tabmod':  [ '#99AE63' , 'NONE'    , 7, 0 , 'bold' ]
 \ }
