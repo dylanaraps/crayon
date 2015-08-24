@@ -52,12 +52,12 @@ if &t_Co >= 256 || has("gui_running")
 		hi Type ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi Underlined ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#B27B78 gui=underline
 		hi StatusLine ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#586270 gui=NONE
-		hi StatusLineNC ctermbg=NONE ctermfg=4 cterm=bold guibg=NONE guifg=#7495B6 gui=bold
+		hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
 		hi TabLine ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#586270 gui=NONE
 		hi TabLineFill ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#383E47 gui=NONE
 		hi TabLineSel ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#383E47 gui=NONE
 		hi TermCursorNC ctermbg=3 ctermfg=0 cterm=NONE guibg=#D8C27A guifg=#101112 gui=NONE
-		hi VertSplit ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#101112 gui=NONE
+		hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
 		hi Title ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi CursorLine ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#383E47 gui=NONE
 		hi LineNr ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#383E47 gui=NONE
@@ -121,6 +121,7 @@ if &t_Co >= 256 || has("gui_running")
 		hi vimNotation ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi vimMapModKey ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi vimBracket ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#FDFEFF gui=NONE
+		hi vimCommentString ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#586270 gui=NONE
 		hi htmlLink ctermbg=NONE ctermfg=9 cterm=underline guibg=NONE guifg=#B27B78 gui=underline
 		hi htmlBold ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi htmlItalic ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
@@ -174,6 +175,9 @@ if &t_Co >= 256 || has("gui_running")
 		hi rubyInterpolationDelimiter ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#D8C27A gui=NONE
 		hi rubyRegexp ctermbg=NONE ctermfg=6 cterm=NONE guibg=NONE guifg=#8DC9C3 gui=NONE
 		hi rubySymbol ctermbg=NONE ctermfg=2 cterm=NONE guibg=NONE guifg=#99AE63 gui=NONE
+		hi rubyTodo ctermbg=NONE ctermfg=8 cterm=bold guibg=NONE guifg=#586270 gui=bold
+		hi rubyRegexpAnchor ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#BCC5D1 gui=NONE
+			hi link rubyRegexpQuantifier rubyRegexpAnchor
 		hi pythonOperator ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
 		hi pythonFunction ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#7495B6 gui=NONE
 		hi pythonRepeat ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#B59CD8 gui=NONE
@@ -208,12 +212,12 @@ set t_Co=16
 		hi Type ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi Underlined ctermbg=NONE ctermfg=red cterm=underline
 		hi StatusLine ctermbg=NONE ctermfg=darkgray cterm=NONE
-		hi StatusLineNC ctermbg=NONE ctermfg=darkblue cterm=bold
+		hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=NONE
 		hi TabLine ctermbg=NONE ctermfg=darkgray cterm=NONE
 		hi TabLineFill ctermbg=NONE ctermfg=yellow cterm=NONE
 		hi TabLineSel ctermbg=NONE ctermfg=yellow cterm=NONE
 		hi TermCursorNC ctermbg=darkyellow ctermfg=black cterm=NONE
-		hi VertSplit ctermbg=NONE ctermfg=black cterm=NONE
+		hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE
 		hi Title ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi CursorLine ctermbg=NONE ctermfg=yellow cterm=NONE
 		hi LineNr ctermbg=NONE ctermfg=yellow cterm=NONE
@@ -277,6 +281,7 @@ set t_Co=16
 		hi vimNotation ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi vimMapModKey ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi vimBracket ctermbg=NONE ctermfg=white cterm=NONE
+		hi vimCommentString ctermbg=NONE ctermfg=darkgray cterm=NONE
 		hi htmlLink ctermbg=NONE ctermfg=red cterm=underline
 		hi htmlBold ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi htmlItalic ctermbg=NONE ctermfg=darkmagenta cterm=NONE
@@ -330,6 +335,9 @@ set t_Co=16
 		hi rubyInterpolationDelimiter ctermbg=NONE ctermfg=darkyellow cterm=NONE
 		hi rubyRegexp ctermbg=NONE ctermfg=darkcyan cterm=NONE
 		hi rubySymbol ctermbg=NONE ctermfg=darkgreen cterm=NONE
+		hi rubyTodo ctermbg=NONE ctermfg=darkgray cterm=bold
+		hi rubyRegexpAnchor ctermbg=NONE ctermfg=gray cterm=NONE
+			hi link rubyRegexpQuantifier rubyRegexpAnchor
 		hi pythonOperator ctermbg=NONE ctermfg=darkmagenta cterm=NONE
 		hi pythonFunction ctermbg=NONE ctermfg=darkblue cterm=NONE
 		hi pythonRepeat ctermbg=NONE ctermfg=darkmagenta cterm=NONE
