@@ -50,7 +50,7 @@ The terminal font used in the screenshots is [envypn](https://aur.archlinux.org/
 Use a plugin manager like [Plug](https://github.com/junegunn/vim-plug).
 
 ```VimL
-Plug 'dylanaraps/crayon-theme'
+Plug 'dylanaraps/crayon'
 ```
 
 Using plug you can easily update the plugin with
