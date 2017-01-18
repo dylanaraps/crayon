@@ -4,8 +4,6 @@
 #### A dark 16 color colorscheme for Vim, Gvim, and Nvim
 ![](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/palette.png)
 
-NOTE: This is still a heavy WIP and everything is subject to change. Once I'm happy with the colors I'll add support for more terminal emulators. Until then crayon only officially supports terminals that use the .Xresources/.Xdefaults file(s).
-
 ![](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/ruby.png)
 
 <!--- Screenshots {{{ -->
@@ -215,7 +213,7 @@ Support for other terminals is coming once I've finalized the schemes colors. In
 If you'd like to contribute to Crayon you'll need to edit the .erb file that's in the root of the project. You can then generate the final .vim file with this:
 
 ```bash
-	erb -T - crayon.erb > crayon.vim
+	erb -T - crayon.erb > colors/crayon.vim
 ```
 
 Just run that command in a terminal in the same directory as the .erb file.
