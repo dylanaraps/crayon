@@ -58,10 +58,10 @@ Using plug you can easily update the plugin with
 ```
 
 #### 1.2: Manual Install
-Place 'crayon.vim' file into 'colors' folder within your Vim directory, e.g. '~/.vim/colors/'
+Place 'crayon.vim' file into 'colors' folder within your Vim directory, e.g. `vim/colors/`
 
 #### 2: Now What?
-Once you've installed the theme, put this in your '~/.vimrc' and you should be all set.
+Once you've installed the theme, put this in your `.vimrc`/`init.vim` and you should be all set.
 
 ```VimL
 colorscheme crayon
@@ -78,7 +78,7 @@ Feel free to request support for your favourite plugins and I'll happily add the
 
 #### Vim-Airline
 
-Add this line to your .vimrc:
+Add this line to your `.vimrc`/`init.vim`:
 
 ```VimL
 " Colorful Airline
@@ -93,20 +93,20 @@ let g:airline_theme = 'crayon2'
 <!--- Customization {{{ -->
 
 ### Customization
-You can customize all of the theme's colors by adding some lines to your .vimrc. Here's an example that changes the color of the line numbers:
+You can customize all of the theme's colors by adding some lines to your `.vimrc`/`init.vim`. Here's an example that changes the color of the line numbers:
 
 ```VimL
 " Changes the Line Number colors
 autocmd ColorScheme * highlight LineNr guibg=#FFFFFF guifg=#191919 ctermbg=7 ctermfg=8
 ```
 
-guibg/guifg change the background and foreground in neovim with true colors enabled and gvim. These values must be a hex code. e.g #FFFFFF
+`guibg`/`guifg` change the background and foreground in `neovim` with true colors enabled and `gvim`. These values must be a hex code. eg `#FFFFFF`
 
-ctermbg/ctermfg change the background and foreground in vim/neovim They must be a number between 0 and 255. [More Info](http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim).
+`ctermbg`/`ctermfg` change the background and foreground `.vimrc`/`init.vim` in `vim`/`neovim` They must be a number between 0 and 255. [More Info](http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim).
 
-"LineNR" is the highlight group for vim's linenumbers. If you'd like to change the colors of anything else you need to figure out the highlight group.
+`LineNR` is the highlight group for `vim`'s line-numbers. If you'd like to change the colors of anything else you need to figure out the highlight group.
 
-I've found that the easiest way to do that is a vim mapping I found which tells you the highlight group of whatever's under your cursor. Just add these 2 lines to your .vimrc and reopen. Then  press f10.
+I've found that the easiest way to do that is a vim mapping I found which tells you the highlight group of whatever is under your cursor. Just add these 2 lines to your `.vimrc`/`init.vim` and reopen. Then  press `f10`.
 
 ```VimL
 " Shows the highlight group of whatever's under the cursor
@@ -117,7 +117,7 @@ map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans
 
 You can also use the command :hi or :highlight to see all of the highlight groups and their current values.
 
-The autocommands must be added before the colorscheme line in your vimrc otherwise they won't work. Here's an example.
+The autocommands must be added before the colorscheme line in your `.vimrc`/`init.vim` otherwise they won't work. Here's an example.
 
 ```VimL
 " This autocmd changes the background to #000000
@@ -127,9 +127,9 @@ colorscheme = crayon
 ```
 
 ### Changing the Background Color
-If you don't like the default background color you can easily change it without having to edit the theme! You just need to add a single line to your .vimrc before the colorscheme line above.
+If you don't like the default background color you can easily change it without having to edit the theme! You just need to add a single line to your `.vimrc`/`init.vim` before the colorscheme line above.
 
-This currently only works with dark background colors as the theme doesn't have a light varient yet.
+This currently only works with dark background colors as the theme doesn't have a light variant yet.
 
 ```VimL
 " This line changes the background color
@@ -155,8 +155,8 @@ augroup END
 
 ### Terminal Installation
 
-#### xterm, Urxvt and terminals that use the .Xresources/.Xdefaults file.
-Add the code below to your .Xresources/.Xdefaults.
+#### xterm, Urxvt and terminals that use the `.Xresources`/`.Xdefaults` file.
+Add the code below to your `.Xresources`/`.Xdefaults`.
 
 ```xdefaults
 ! Crayon Theme
@@ -205,7 +205,7 @@ Add the code below to your .Xresources/.Xdefaults.
 
 ```
 
-Support for other terminals is coming once I've finalized the schemes colors. In the meantime you can go to [Terminal.sexy](http://terminal.sexy/), import the contents of the .Xresources file from the repo and then export it to the terminal format of your choice.
+~~Support for other terminals is coming once I've finalized the schemes colors.~~ In the meantime you can go to [Terminal.sexy](http://terminal.sexy/), import the contents of the `.Xresources` file from the repo and then export it to the terminal format of your choice.
 
 <!--- }}} -->
 
@@ -216,7 +216,7 @@ If you'd like to contribute to Crayon you'll need to edit the .erb file that's i
 	erb -T - crayon.erb > colors/crayon.vim
 ```
 
-Just run that command in a terminal in the same directory as the .erb file.
+Just run that command in a terminal in the same directory as the `.erb` file.
 
 #### Credits
 
