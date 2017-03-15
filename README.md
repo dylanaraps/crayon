@@ -1,4 +1,4 @@
-# 🌸 Crayon
+# Crayon
 [Features](#features) | [Installation](#installation) | [Customization](#customization) | [Contributing](#contributing)
 
 #### A dark 16 color colorscheme for Vim, Gvim, and Nvim
